@@ -1,0 +1,1254 @@
+nohup: ignoring input
+10x_cells_v3, snmcseq_gene, 30, 5
+11/30/2020 11:50:01 PM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.py
+11/30/2020 11:50:01 PM Adding ./configs to python path
+11/30/2020 11:50:01 PM * Begin integration
+11/30/2020 11:50:01 PM Metadata snmcseq_gene (9366, 32)
+11/30/2020 11:50:01 PM Metadata 10x_cells_v3 (69727, 8)
+11/30/2020 11:50:24 PM Feature matrix snmcseq_gene (4754, 9366)
+11/30/2020 11:50:36 PM Feature matrix 10x_cells_v3 (4694, 69727)
+11/30/2020 11:50:36 PM Done reading data
+11/30/2020 11:50:36 PM Subsampling 1/5
+11/30/2020 11:50:36 PM snmcseq_gene (7470, 32) (4754, 7470)
+11/30/2020 11:50:42 PM 10x_cells_v3 (55800, 8) (4694, 55800)
+11/30/2020 11:50:42 PM Smoothing within modalities...
+11/30/2020 11:50:48 PM snmcseq_gene: 6.418611764907837
+11/30/2020 11:51:32 PM 10x_cells_v3: 44.18549680709839
+11/30/2020 11:51:32 PM Constructing a joint matrix...
+11/30/2020 11:51:32 PM Imputing into snmcseq_gene space...
+11/30/2020 11:51:32 PM for snmcseq_gene cells...
+11/30/2020 11:51:32 PM for 10x_cells_v3 cells...
+11/30/2020 11:51:37 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/30/2020 11:51:37 PM NumExpr defaulting to 8 threads.
+11/30/2020 11:53:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.0
+11/30/2020 11:53:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.0
+11/30/2020 11:53:00 PM Done integration into a common PC space
+11/30/2020 11:53:00 PM Subsampling 2/5
+11/30/2020 11:53:01 PM snmcseq_gene (7503, 32) (4754, 7503)
+11/30/2020 11:53:07 PM 10x_cells_v3 (55935, 8) (4694, 55935)
+11/30/2020 11:53:07 PM Smoothing within modalities...
+11/30/2020 11:53:13 PM snmcseq_gene: 6.020521879196167
+11/30/2020 11:53:55 PM 10x_cells_v3: 42.07418155670166
+11/30/2020 11:53:55 PM Constructing a joint matrix...
+11/30/2020 11:53:55 PM Imputing into snmcseq_gene space...
+11/30/2020 11:53:55 PM for snmcseq_gene cells...
+11/30/2020 11:53:55 PM for 10x_cells_v3 cells...
+11/30/2020 11:55:28 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.1
+11/30/2020 11:55:28 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.1
+11/30/2020 11:55:29 PM Done integration into a common PC space
+11/30/2020 11:55:29 PM Subsampling 3/5
+11/30/2020 11:55:29 PM snmcseq_gene (7448, 32) (4754, 7448)
+11/30/2020 11:55:35 PM 10x_cells_v3 (55816, 8) (4694, 55816)
+11/30/2020 11:55:35 PM Smoothing within modalities...
+11/30/2020 11:55:41 PM snmcseq_gene: 6.1079559326171875
+11/30/2020 11:56:26 PM 10x_cells_v3: 44.77214169502258
+11/30/2020 11:56:26 PM Constructing a joint matrix...
+11/30/2020 11:56:26 PM Imputing into snmcseq_gene space...
+11/30/2020 11:56:26 PM for snmcseq_gene cells...
+11/30/2020 11:56:26 PM for 10x_cells_v3 cells...
+11/30/2020 11:57:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.2
+11/30/2020 11:57:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.2
+11/30/2020 11:57:52 PM Done integration into a common PC space
+11/30/2020 11:57:52 PM Subsampling 4/5
+11/30/2020 11:57:52 PM snmcseq_gene (7500, 32) (4754, 7500)
+11/30/2020 11:57:59 PM 10x_cells_v3 (55704, 8) (4694, 55704)
+11/30/2020 11:57:59 PM Smoothing within modalities...
+11/30/2020 11:58:05 PM snmcseq_gene: 6.208617687225342
+11/30/2020 11:58:46 PM 10x_cells_v3: 40.79979372024536
+11/30/2020 11:58:46 PM Constructing a joint matrix...
+11/30/2020 11:58:46 PM Imputing into snmcseq_gene space...
+11/30/2020 11:58:46 PM for snmcseq_gene cells...
+11/30/2020 11:58:46 PM for 10x_cells_v3 cells...
+12/01/2020 12:00:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.3
+12/01/2020 12:00:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.3
+12/01/2020 12:00:09 AM Done integration into a common PC space
+12/01/2020 12:00:09 AM Subsampling 5/5
+12/01/2020 12:00:10 AM snmcseq_gene (7521, 32) (4754, 7521)
+12/01/2020 12:00:16 AM 10x_cells_v3 (55790, 8) (4694, 55790)
+12/01/2020 12:00:16 AM Smoothing within modalities...
+12/01/2020 12:00:22 AM snmcseq_gene: 6.058474540710449
+12/01/2020 12:01:03 AM 10x_cells_v3: 41.181599855422974
+12/01/2020 12:01:03 AM Constructing a joint matrix...
+12/01/2020 12:01:03 AM Imputing into snmcseq_gene space...
+12/01/2020 12:01:03 AM for snmcseq_gene cells...
+12/01/2020 12:01:03 AM for 10x_cells_v3 cells...
+12/01/2020 12:02:27 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.4
+12/01/2020 12:02:27 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130.npy.4
+12/01/2020 12:02:27 AM Done integration into a common PC space
+Time used to build kNN map 0.18816471099853516
+Time used to get kNN 0.6690990924835205
+Time used to build kNN map 0.924790620803833
+Time used to get kNN 5.4539406299591064
+Time used to build kNN map 0.18062353134155273
+Time used to get kNN 0.6130084991455078
+Time used to build kNN map 0.9282147884368896
+Time used to get kNN 5.438111782073975
+Time used to build kNN map 0.17606401443481445
+Time used to get kNN 0.6142404079437256
+Time used to build kNN map 0.9283459186553955
+Time used to get kNN 5.583786964416504
+Time used to build kNN map 0.1802687644958496
+Time used to get kNN 0.6207230091094971
+Time used to build kNN map 0.846055269241333
+Time used to get kNN 5.343438148498535
+Time used to build kNN map 0.19048190116882324
+Time used to get kNN 0.6164999008178711
+Time used to build kNN map 0.8605585098266602
+Time used to get kNN 5.385785341262817
+10x_cells_v3, snmcseq_gene, 30, 10
+12/01/2020 12:02:31 AM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.py
+12/01/2020 12:02:31 AM Adding ./configs to python path
+12/01/2020 12:02:31 AM * Begin integration
+12/01/2020 12:02:31 AM Metadata snmcseq_gene (9366, 32)
+12/01/2020 12:02:31 AM Metadata 10x_cells_v3 (69727, 8)
+12/01/2020 12:02:49 AM Feature matrix snmcseq_gene (4754, 9366)
+12/01/2020 12:02:56 AM Feature matrix 10x_cells_v3 (4694, 69727)
+12/01/2020 12:02:56 AM Done reading data
+12/01/2020 12:02:56 AM Subsampling 1/5
+12/01/2020 12:02:56 AM snmcseq_gene (7539, 32) (4754, 7539)
+12/01/2020 12:03:03 AM 10x_cells_v3 (55926, 8) (4694, 55926)
+12/01/2020 12:03:03 AM Smoothing within modalities...
+12/01/2020 12:03:09 AM snmcseq_gene: 6.45699143409729
+12/01/2020 12:03:51 AM 10x_cells_v3: 41.673744916915894
+12/01/2020 12:03:51 AM Constructing a joint matrix...
+12/01/2020 12:03:51 AM Imputing into snmcseq_gene space...
+12/01/2020 12:03:51 AM for snmcseq_gene cells...
+12/01/2020 12:03:51 AM for 10x_cells_v3 cells...
+12/01/2020 12:03:55 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/01/2020 12:03:55 AM NumExpr defaulting to 8 threads.
+12/01/2020 12:05:19 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.0
+12/01/2020 12:05:19 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.0
+12/01/2020 12:05:19 AM Done integration into a common PC space
+12/01/2020 12:05:19 AM Subsampling 2/5
+12/01/2020 12:05:19 AM snmcseq_gene (7537, 32) (4754, 7537)
+12/01/2020 12:05:26 AM 10x_cells_v3 (55748, 8) (4694, 55748)
+12/01/2020 12:05:26 AM Smoothing within modalities...
+12/01/2020 12:05:32 AM snmcseq_gene: 6.181526184082031
+12/01/2020 12:06:13 AM 10x_cells_v3: 40.85339689254761
+12/01/2020 12:06:13 AM Constructing a joint matrix...
+12/01/2020 12:06:13 AM Imputing into snmcseq_gene space...
+12/01/2020 12:06:13 AM for snmcseq_gene cells...
+12/01/2020 12:06:13 AM for 10x_cells_v3 cells...
+12/01/2020 12:07:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.1
+12/01/2020 12:07:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.1
+12/01/2020 12:07:43 AM Done integration into a common PC space
+12/01/2020 12:07:43 AM Subsampling 3/5
+12/01/2020 12:07:43 AM snmcseq_gene (7486, 32) (4754, 7486)
+12/01/2020 12:07:49 AM 10x_cells_v3 (55704, 8) (4694, 55704)
+12/01/2020 12:07:49 AM Smoothing within modalities...
+12/01/2020 12:07:55 AM snmcseq_gene: 6.095663785934448
+12/01/2020 12:08:36 AM 10x_cells_v3: 40.66733431816101
+12/01/2020 12:08:36 AM Constructing a joint matrix...
+12/01/2020 12:08:36 AM Imputing into snmcseq_gene space...
+12/01/2020 12:08:36 AM for snmcseq_gene cells...
+12/01/2020 12:08:36 AM for 10x_cells_v3 cells...
+12/01/2020 12:10:04 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.2
+12/01/2020 12:10:04 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.2
+12/01/2020 12:10:04 AM Done integration into a common PC space
+12/01/2020 12:10:04 AM Subsampling 4/5
+12/01/2020 12:10:05 AM snmcseq_gene (7516, 32) (4754, 7516)
+12/01/2020 12:10:10 AM 10x_cells_v3 (55811, 8) (4694, 55811)
+12/01/2020 12:10:11 AM Smoothing within modalities...
+12/01/2020 12:10:16 AM snmcseq_gene: 5.910650253295898
+12/01/2020 12:10:57 AM 10x_cells_v3: 40.41485571861267
+12/01/2020 12:10:57 AM Constructing a joint matrix...
+12/01/2020 12:10:57 AM Imputing into snmcseq_gene space...
+12/01/2020 12:10:57 AM for snmcseq_gene cells...
+12/01/2020 12:10:57 AM for 10x_cells_v3 cells...
+12/01/2020 12:12:25 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.3
+12/01/2020 12:12:25 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.3
+12/01/2020 12:12:25 AM Done integration into a common PC space
+12/01/2020 12:12:25 AM Subsampling 5/5
+12/01/2020 12:12:26 AM snmcseq_gene (7437, 32) (4754, 7437)
+12/01/2020 12:12:31 AM 10x_cells_v3 (55630, 8) (4694, 55630)
+12/01/2020 12:12:32 AM Smoothing within modalities...
+12/01/2020 12:12:38 AM snmcseq_gene: 6.117040157318115
+12/01/2020 12:13:18 AM 10x_cells_v3: 40.27340245246887
+12/01/2020 12:13:18 AM Constructing a joint matrix...
+12/01/2020 12:13:18 AM Imputing into snmcseq_gene space...
+12/01/2020 12:13:18 AM for snmcseq_gene cells...
+12/01/2020 12:13:18 AM for 10x_cells_v3 cells...
+12/01/2020 12:14:47 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.4
+12/01/2020 12:14:47 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130.npy.4
+12/01/2020 12:14:47 AM Done integration into a common PC space
+Time used to build kNN map 0.19558119773864746
+Time used to get kNN 0.6913948059082031
+Time used to build kNN map 0.865058422088623
+Time used to get kNN 5.439100503921509
+Time used to build kNN map 0.18385815620422363
+Time used to get kNN 0.7015631198883057
+Time used to build kNN map 0.8695051670074463
+Time used to get kNN 5.431129455566406
+Time used to build kNN map 0.1853785514831543
+Time used to get kNN 0.617856502532959
+Time used to build kNN map 0.8400757312774658
+Time used to get kNN 5.497307538986206
+Time used to build kNN map 0.18775677680969238
+Time used to get kNN 0.6010808944702148
+Time used to build kNN map 0.848921537399292
+Time used to get kNN 5.352447748184204
+Time used to build kNN map 0.18359732627868652
+Time used to get kNN 0.6143403053283691
+Time used to build kNN map 0.8463544845581055
+Time used to get kNN 5.49367356300354
+10x_cells_v3, snmcseq_gene, 30, 30
+12/01/2020 12:14:51 AM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.py
+12/01/2020 12:14:51 AM Adding ./configs to python path
+12/01/2020 12:14:51 AM * Begin integration
+12/01/2020 12:14:51 AM Metadata snmcseq_gene (9366, 32)
+12/01/2020 12:14:52 AM Metadata 10x_cells_v3 (69727, 8)
+12/01/2020 12:15:09 AM Feature matrix snmcseq_gene (4754, 9366)
+12/01/2020 12:15:16 AM Feature matrix 10x_cells_v3 (4694, 69727)
+12/01/2020 12:15:16 AM Done reading data
+12/01/2020 12:15:16 AM Subsampling 1/5
+12/01/2020 12:15:16 AM snmcseq_gene (7499, 32) (4754, 7499)
+12/01/2020 12:15:22 AM 10x_cells_v3 (55912, 8) (4694, 55912)
+12/01/2020 12:15:22 AM Smoothing within modalities...
+12/01/2020 12:15:28 AM snmcseq_gene: 5.980937719345093
+12/01/2020 12:16:10 AM 10x_cells_v3: 42.158637046813965
+12/01/2020 12:16:10 AM Constructing a joint matrix...
+12/01/2020 12:16:10 AM Imputing into snmcseq_gene space...
+12/01/2020 12:16:10 AM for snmcseq_gene cells...
+12/01/2020 12:16:10 AM for 10x_cells_v3 cells...
+12/01/2020 12:16:15 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/01/2020 12:16:15 AM NumExpr defaulting to 8 threads.
+12/01/2020 12:17:56 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.0
+12/01/2020 12:17:56 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.0
+12/01/2020 12:17:56 AM Done integration into a common PC space
+12/01/2020 12:17:56 AM Subsampling 2/5
+12/01/2020 12:17:57 AM snmcseq_gene (7495, 32) (4754, 7495)
+12/01/2020 12:18:03 AM 10x_cells_v3 (55660, 8) (4694, 55660)
+12/01/2020 12:18:03 AM Smoothing within modalities...
+12/01/2020 12:18:09 AM snmcseq_gene: 6.125016450881958
+12/01/2020 12:18:51 AM 10x_cells_v3: 41.45762300491333
+12/01/2020 12:18:51 AM Constructing a joint matrix...
+12/01/2020 12:18:51 AM Imputing into snmcseq_gene space...
+12/01/2020 12:18:51 AM for snmcseq_gene cells...
+12/01/2020 12:18:51 AM for 10x_cells_v3 cells...
+12/01/2020 12:20:37 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.1
+12/01/2020 12:20:37 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.1
+12/01/2020 12:20:37 AM Done integration into a common PC space
+12/01/2020 12:20:37 AM Subsampling 3/5
+12/01/2020 12:20:37 AM snmcseq_gene (7517, 32) (4754, 7517)
+12/01/2020 12:20:43 AM 10x_cells_v3 (55817, 8) (4694, 55817)
+12/01/2020 12:20:43 AM Smoothing within modalities...
+12/01/2020 12:20:49 AM snmcseq_gene: 6.173583269119263
+12/01/2020 12:21:34 AM 10x_cells_v3: 44.67760157585144
+12/01/2020 12:21:34 AM Constructing a joint matrix...
+12/01/2020 12:21:34 AM Imputing into snmcseq_gene space...
+12/01/2020 12:21:34 AM for snmcseq_gene cells...
+12/01/2020 12:21:34 AM for 10x_cells_v3 cells...
+12/01/2020 12:23:18 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.2
+12/01/2020 12:23:18 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.2
+12/01/2020 12:23:18 AM Done integration into a common PC space
+12/01/2020 12:23:18 AM Subsampling 4/5
+12/01/2020 12:23:18 AM snmcseq_gene (7466, 32) (4754, 7466)
+12/01/2020 12:23:24 AM 10x_cells_v3 (55814, 8) (4694, 55814)
+12/01/2020 12:23:24 AM Smoothing within modalities...
+12/01/2020 12:23:30 AM snmcseq_gene: 5.960368633270264
+12/01/2020 12:24:15 AM 10x_cells_v3: 44.50805592536926
+12/01/2020 12:24:15 AM Constructing a joint matrix...
+12/01/2020 12:24:15 AM Imputing into snmcseq_gene space...
+12/01/2020 12:24:15 AM for snmcseq_gene cells...
+12/01/2020 12:24:15 AM for 10x_cells_v3 cells...
+12/01/2020 12:26:00 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.3
+12/01/2020 12:26:00 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.3
+12/01/2020 12:26:00 AM Done integration into a common PC space
+12/01/2020 12:26:00 AM Subsampling 5/5
+12/01/2020 12:26:00 AM snmcseq_gene (7446, 32) (4754, 7446)
+12/01/2020 12:26:07 AM 10x_cells_v3 (55623, 8) (4694, 55623)
+12/01/2020 12:26:07 AM Smoothing within modalities...
+12/01/2020 12:26:13 AM snmcseq_gene: 6.172889947891235
+12/01/2020 12:26:57 AM 10x_cells_v3: 43.59786319732666
+12/01/2020 12:26:57 AM Constructing a joint matrix...
+12/01/2020 12:26:57 AM Imputing into snmcseq_gene space...
+12/01/2020 12:26:57 AM for snmcseq_gene cells...
+12/01/2020 12:26:57 AM for 10x_cells_v3 cells...
+12/01/2020 12:28:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.4
+12/01/2020 12:28:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130.npy.4
+12/01/2020 12:28:42 AM Done integration into a common PC space
+Time used to build kNN map 0.18003606796264648
+Time used to get kNN 0.6681993007659912
+Time used to build kNN map 0.8655552864074707
+Time used to get kNN 5.535760164260864
+Time used to build kNN map 0.18088340759277344
+Time used to get kNN 0.6317415237426758
+Time used to build kNN map 0.8554131984710693
+Time used to get kNN 5.5381920337677
+Time used to build kNN map 0.18167352676391602
+Time used to get kNN 0.6210103034973145
+Time used to build kNN map 0.9292709827423096
+Time used to get kNN 5.602336406707764
+Time used to build kNN map 0.17942547798156738
+Time used to get kNN 0.6189961433410645
+Time used to build kNN map 0.9343187808990479
+Time used to get kNN 5.655417442321777
+Time used to build kNN map 0.17911195755004883
+Time used to get kNN 0.6290175914764404
+Time used to build kNN map 0.9045834541320801
+Time used to get kNN 5.480400562286377
+10x_cells_v3, snmcseq_gene, 30, 50
+12/01/2020 12:28:46 AM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.py
+12/01/2020 12:28:46 AM Adding ./configs to python path
+12/01/2020 12:28:46 AM * Begin integration
+12/01/2020 12:28:46 AM Metadata snmcseq_gene (9366, 32)
+12/01/2020 12:28:46 AM Metadata 10x_cells_v3 (69727, 8)
+12/01/2020 12:29:04 AM Feature matrix snmcseq_gene (4754, 9366)
+12/01/2020 12:29:11 AM Feature matrix 10x_cells_v3 (4694, 69727)
+12/01/2020 12:29:11 AM Done reading data
+12/01/2020 12:29:11 AM Subsampling 1/5
+12/01/2020 12:29:11 AM snmcseq_gene (7473, 32) (4754, 7473)
+12/01/2020 12:29:17 AM 10x_cells_v3 (55732, 8) (4694, 55732)
+12/01/2020 12:29:17 AM Smoothing within modalities...
+12/01/2020 12:29:23 AM snmcseq_gene: 6.351810932159424
+12/01/2020 12:30:07 AM 10x_cells_v3: 43.34995985031128
+12/01/2020 12:30:07 AM Constructing a joint matrix...
+12/01/2020 12:30:07 AM Imputing into snmcseq_gene space...
+12/01/2020 12:30:07 AM for snmcseq_gene cells...
+12/01/2020 12:30:07 AM for 10x_cells_v3 cells...
+12/01/2020 12:30:11 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/01/2020 12:30:11 AM NumExpr defaulting to 8 threads.
+12/01/2020 12:32:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.0
+12/01/2020 12:32:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.0
+12/01/2020 12:32:09 AM Done integration into a common PC space
+12/01/2020 12:32:09 AM Subsampling 2/5
+12/01/2020 12:32:09 AM snmcseq_gene (7465, 32) (4754, 7465)
+12/01/2020 12:32:16 AM 10x_cells_v3 (55633, 8) (4694, 55633)
+12/01/2020 12:32:16 AM Smoothing within modalities...
+12/01/2020 12:32:22 AM snmcseq_gene: 6.040574550628662
+12/01/2020 12:33:08 AM 10x_cells_v3: 45.65658378601074
+12/01/2020 12:33:08 AM Constructing a joint matrix...
+12/01/2020 12:33:08 AM Imputing into snmcseq_gene space...
+12/01/2020 12:33:08 AM for snmcseq_gene cells...
+12/01/2020 12:33:08 AM for 10x_cells_v3 cells...
+12/01/2020 12:35:06 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.1
+12/01/2020 12:35:06 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.1
+12/01/2020 12:35:07 AM Done integration into a common PC space
+12/01/2020 12:35:07 AM Subsampling 3/5
+12/01/2020 12:35:07 AM snmcseq_gene (7437, 32) (4754, 7437)
+12/01/2020 12:35:13 AM 10x_cells_v3 (55736, 8) (4694, 55736)
+12/01/2020 12:35:13 AM Smoothing within modalities...
+12/01/2020 12:35:19 AM snmcseq_gene: 5.97412109375
+12/01/2020 12:36:01 AM 10x_cells_v3: 42.21727514266968
+12/01/2020 12:36:01 AM Constructing a joint matrix...
+12/01/2020 12:36:01 AM Imputing into snmcseq_gene space...
+12/01/2020 12:36:01 AM for snmcseq_gene cells...
+12/01/2020 12:36:01 AM for 10x_cells_v3 cells...
+12/01/2020 12:38:03 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.2
+12/01/2020 12:38:03 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.2
+12/01/2020 12:38:04 AM Done integration into a common PC space
+12/01/2020 12:38:04 AM Subsampling 4/5
+12/01/2020 12:38:04 AM snmcseq_gene (7495, 32) (4754, 7495)
+12/01/2020 12:38:10 AM 10x_cells_v3 (55931, 8) (4694, 55931)
+12/01/2020 12:38:10 AM Smoothing within modalities...
+12/01/2020 12:38:16 AM snmcseq_gene: 6.2103800773620605
+12/01/2020 12:39:02 AM 10x_cells_v3: 45.512104511260986
+12/01/2020 12:39:02 AM Constructing a joint matrix...
+12/01/2020 12:39:02 AM Imputing into snmcseq_gene space...
+12/01/2020 12:39:02 AM for snmcseq_gene cells...
+12/01/2020 12:39:02 AM for 10x_cells_v3 cells...
+12/01/2020 12:41:04 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.3
+12/01/2020 12:41:04 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.3
+12/01/2020 12:41:05 AM Done integration into a common PC space
+12/01/2020 12:41:05 AM Subsampling 5/5
+12/01/2020 12:41:05 AM snmcseq_gene (7508, 32) (4754, 7508)
+12/01/2020 12:41:11 AM 10x_cells_v3 (55745, 8) (4694, 55745)
+12/01/2020 12:41:11 AM Smoothing within modalities...
+12/01/2020 12:41:17 AM snmcseq_gene: 5.935277938842773
+12/01/2020 12:41:58 AM 10x_cells_v3: 40.786781787872314
+12/01/2020 12:41:58 AM Constructing a joint matrix...
+12/01/2020 12:41:58 AM Imputing into snmcseq_gene space...
+12/01/2020 12:41:58 AM for snmcseq_gene cells...
+12/01/2020 12:41:58 AM for 10x_cells_v3 cells...
+12/01/2020 12:43:57 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.4
+12/01/2020 12:43:57 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130.npy.4
+12/01/2020 12:43:58 AM Done integration into a common PC space
+Time used to build kNN map 0.1889193058013916
+Time used to get kNN 0.6980183124542236
+Time used to build kNN map 0.9112129211425781
+Time used to get kNN 5.588191509246826
+Time used to build kNN map 0.18803977966308594
+Time used to get kNN 0.6307623386383057
+Time used to build kNN map 0.9525203704833984
+Time used to get kNN 5.770676612854004
+Time used to build kNN map 0.18422532081604004
+Time used to get kNN 0.6168406009674072
+Time used to build kNN map 0.9060821533203125
+Time used to get kNN 5.696197509765625
+Time used to build kNN map 0.18553519248962402
+Time used to get kNN 0.629300594329834
+Time used to build kNN map 0.9272570610046387
+Time used to get kNN 5.42385721206665
+Time used to build kNN map 0.186920166015625
+Time used to get kNN 0.6145315170288086
+Time used to build kNN map 0.8743152618408203
+Time used to get kNN 5.4850709438323975
+10x_cells_v3, snmcseq_gene, 30, 100
+12/01/2020 12:44:02 AM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.py
+12/01/2020 12:44:02 AM Adding ./configs to python path
+12/01/2020 12:44:02 AM * Begin integration
+12/01/2020 12:44:02 AM Metadata snmcseq_gene (9366, 32)
+12/01/2020 12:44:02 AM Metadata 10x_cells_v3 (69727, 8)
+12/01/2020 12:44:19 AM Feature matrix snmcseq_gene (4754, 9366)
+12/01/2020 12:44:26 AM Feature matrix 10x_cells_v3 (4694, 69727)
+12/01/2020 12:44:26 AM Done reading data
+12/01/2020 12:44:26 AM Subsampling 1/5
+12/01/2020 12:44:26 AM snmcseq_gene (7552, 32) (4754, 7552)
+12/01/2020 12:44:32 AM 10x_cells_v3 (55770, 8) (4694, 55770)
+12/01/2020 12:44:32 AM Smoothing within modalities...
+12/01/2020 12:44:39 AM snmcseq_gene: 6.376720190048218
+12/01/2020 12:45:20 AM 10x_cells_v3: 41.675071001052856
+12/01/2020 12:45:20 AM Constructing a joint matrix...
+12/01/2020 12:45:20 AM Imputing into snmcseq_gene space...
+12/01/2020 12:45:20 AM for snmcseq_gene cells...
+12/01/2020 12:45:20 AM for 10x_cells_v3 cells...
+12/01/2020 12:45:25 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/01/2020 12:45:25 AM NumExpr defaulting to 8 threads.
+12/01/2020 12:48:06 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.0
+12/01/2020 12:48:06 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.0
+12/01/2020 12:48:06 AM Done integration into a common PC space
+12/01/2020 12:48:06 AM Subsampling 2/5
+12/01/2020 12:48:07 AM snmcseq_gene (7488, 32) (4754, 7488)
+12/01/2020 12:48:13 AM 10x_cells_v3 (55808, 8) (4694, 55808)
+12/01/2020 12:48:13 AM Smoothing within modalities...
+12/01/2020 12:48:19 AM snmcseq_gene: 6.056526184082031
+12/01/2020 12:49:00 AM 10x_cells_v3: 41.57040858268738
+12/01/2020 12:49:00 AM Constructing a joint matrix...
+12/01/2020 12:49:00 AM Imputing into snmcseq_gene space...
+12/01/2020 12:49:00 AM for snmcseq_gene cells...
+12/01/2020 12:49:00 AM for 10x_cells_v3 cells...
+12/01/2020 12:51:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.1
+12/01/2020 12:51:42 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.1
+12/01/2020 12:51:43 AM Done integration into a common PC space
+12/01/2020 12:51:43 AM Subsampling 3/5
+12/01/2020 12:51:43 AM snmcseq_gene (7564, 32) (4754, 7564)
+12/01/2020 12:51:49 AM 10x_cells_v3 (55628, 8) (4694, 55628)
+12/01/2020 12:51:49 AM Smoothing within modalities...
+12/01/2020 12:51:55 AM snmcseq_gene: 6.08989143371582
+12/01/2020 12:52:39 AM 10x_cells_v3: 43.99199843406677
+12/01/2020 12:52:39 AM Constructing a joint matrix...
+12/01/2020 12:52:39 AM Imputing into snmcseq_gene space...
+12/01/2020 12:52:39 AM for snmcseq_gene cells...
+12/01/2020 12:52:39 AM for 10x_cells_v3 cells...
+12/01/2020 12:55:24 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.2
+12/01/2020 12:55:24 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.2
+12/01/2020 12:55:25 AM Done integration into a common PC space
+12/01/2020 12:55:25 AM Subsampling 4/5
+12/01/2020 12:55:25 AM snmcseq_gene (7480, 32) (4754, 7480)
+12/01/2020 12:55:31 AM 10x_cells_v3 (55612, 8) (4694, 55612)
+12/01/2020 12:55:31 AM Smoothing within modalities...
+12/01/2020 12:55:37 AM snmcseq_gene: 6.072717189788818
+12/01/2020 12:56:18 AM 10x_cells_v3: 41.05355095863342
+12/01/2020 12:56:19 AM Constructing a joint matrix...
+12/01/2020 12:56:19 AM Imputing into snmcseq_gene space...
+12/01/2020 12:56:19 AM for snmcseq_gene cells...
+12/01/2020 12:56:19 AM for 10x_cells_v3 cells...
+12/01/2020 12:59:00 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.3
+12/01/2020 12:59:00 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.3
+12/01/2020 12:59:01 AM Done integration into a common PC space
+12/01/2020 12:59:01 AM Subsampling 5/5
+12/01/2020 12:59:01 AM snmcseq_gene (7510, 32) (4754, 7510)
+12/01/2020 12:59:07 AM 10x_cells_v3 (55860, 8) (4694, 55860)
+12/01/2020 12:59:07 AM Smoothing within modalities...
+12/01/2020 12:59:13 AM snmcseq_gene: 6.132091045379639
+12/01/2020 12:59:55 AM 10x_cells_v3: 41.6066358089447
+12/01/2020 12:59:55 AM Constructing a joint matrix...
+12/01/2020 12:59:55 AM Imputing into snmcseq_gene space...
+12/01/2020 12:59:55 AM for snmcseq_gene cells...
+12/01/2020 12:59:55 AM for 10x_cells_v3 cells...
+12/01/2020 01:02:41 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.4
+12/01/2020 01:02:41 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130.npy.4
+12/01/2020 01:02:41 AM Done integration into a common PC space
+Time used to build kNN map 0.19431090354919434
+Time used to get kNN 0.6748766899108887
+Time used to build kNN map 0.8696541786193848
+Time used to get kNN 5.492921590805054
+Time used to build kNN map 0.19000983238220215
+Time used to get kNN 0.6199131011962891
+Time used to build kNN map 0.8735945224761963
+Time used to get kNN 5.559316396713257
+Time used to build kNN map 0.19037461280822754
+Time used to get kNN 0.6185898780822754
+Time used to build kNN map 0.9281721115112305
+Time used to get kNN 5.447527885437012
+Time used to build kNN map 0.1873626708984375
+Time used to get kNN 0.6201982498168945
+Time used to build kNN map 0.856980562210083
+Time used to get kNN 5.386389970779419
+Time used to build kNN map 0.18869233131408691
+Time used to get kNN 0.6172454357147217
+Time used to build kNN map 0.861457109451294
+Time used to get kNN 5.426121473312378
+10x_cells_v3 [  5  10  30  50 100] 5 mop_10x_cells_v3_snmcseq_gene_ka30_knn{{}}_201130
+[1.00000000e+00 1.25892541e+00 1.58489319e+00 1.99526231e+00
+ 2.51188643e+00 3.16227766e+00 3.98107171e+00 5.01187234e+00
+ 6.30957344e+00 7.94328235e+00 1.00000000e+01 1.25892541e+01
+ 1.58489319e+01 1.99526231e+01 2.51188643e+01 3.16227766e+01
+ 3.98107171e+01 5.01187234e+01 6.30957344e+01 7.94328235e+01
+ 1.00000000e+02 1.25892541e+02 1.58489319e+02 1.99526231e+02
+ 2.51188643e+02 3.16227766e+02 3.98107171e+02 5.01187234e+02
+ 6.30957344e+02 7.94328235e+02 1.00000000e+03 1.25892541e+03
+ 1.58489319e+03 1.99526231e+03 2.51188643e+03 3.16227766e+03
+ 3.98107171e+03 5.01187234e+03 6.30957344e+03 7.94328235e+03
+ 1.00000000e+04]
+Traceback (most recent call last):
+  File "../generate_rna_dataset_clustering.py", line 127, in <module>
+    wrapper_singlemod_clustering(
+  File "../generate_rna_dataset_clustering.py", line 94, in wrapper_singlemod_clustering
+    pipe_singlemod_clustering(
+  File "../generate_rna_dataset_clustering.py", line 37, in pipe_singlemod_clustering
+    with open(f_selected_cells, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/cells_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn{}_201130.npy.0.npy'
+12/01/2020 01:02:56 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:02:56 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:02:56 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:02:56 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:03:29 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:03:43 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:04:11 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130 0
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130_sub0.tsv.gz'
+12/01/2020 01:04:17 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:04:17 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:04:17 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:04:17 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:04:20 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:04:22 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:04:24 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130 1
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130_sub1.tsv.gz'
+12/01/2020 01:04:28 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:04:28 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:04:28 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:04:28 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:04:31 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:04:33 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:04:35 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130 2
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130_sub2.tsv.gz'
+12/01/2020 01:04:40 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:04:40 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:04:40 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:04:40 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:04:43 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:04:45 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:04:47 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130 3
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130_sub3.tsv.gz'
+12/01/2020 01:04:52 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:04:52 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:04:52 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:04:52 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:04:55 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:04:56 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:04:58 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130 4
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201130_sub4.tsv.gz'
+12/01/2020 01:05:03 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:05:03 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:05:03 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:05:03 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:05:06 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:05:07 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:05:10 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130 0
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130_sub0.tsv.gz'
+12/01/2020 01:05:14 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:05:14 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:05:14 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:05:14 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:05:17 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:05:19 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:05:21 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130 1
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130_sub1.tsv.gz'
+12/01/2020 01:05:27 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:05:27 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:05:27 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:05:27 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:05:30 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:05:31 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:05:34 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130 2
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130_sub2.tsv.gz'
+12/01/2020 01:05:38 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:05:38 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:05:38 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:05:38 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:05:42 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:05:43 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:05:46 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130 3
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130_sub3.tsv.gz'
+12/01/2020 01:05:50 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:05:50 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:05:50 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:05:50 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:05:53 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:05:55 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:05:57 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130 4
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201130_sub4.tsv.gz'
+12/01/2020 01:06:02 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:06:02 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:06:02 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:06:02 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:06:05 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:06:06 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:06:09 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130 0
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130_sub0.tsv.gz'
+12/01/2020 01:06:13 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:06:13 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:06:13 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:06:13 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:06:16 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:06:18 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:06:20 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130 1
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130_sub1.tsv.gz'
+12/01/2020 01:06:25 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:06:25 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:06:25 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:06:25 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:06:28 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:06:30 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:06:32 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130 2
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130_sub2.tsv.gz'
+12/01/2020 01:06:37 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:06:37 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:06:37 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:06:37 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:06:40 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:06:41 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:06:44 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130 3
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130_sub3.tsv.gz'
+12/01/2020 01:06:48 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:06:48 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:06:48 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:06:48 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:06:51 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:06:53 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:06:55 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130 4
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201130_sub4.tsv.gz'
+12/01/2020 01:07:00 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:00 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:00 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:00 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:07:03 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:07:04 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:07:07 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130 0
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130_sub0.tsv.gz'
+12/01/2020 01:07:11 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:11 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:11 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:11 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:07:14 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:07:16 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:07:18 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130 1
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130_sub1.tsv.gz'
+12/01/2020 01:07:23 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:23 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:23 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:23 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:07:26 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:07:27 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:07:29 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130 2
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130_sub2.tsv.gz'
+12/01/2020 01:07:34 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:34 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:34 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:34 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:07:37 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:07:39 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:07:41 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130 3
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130_sub3.tsv.gz'
+12/01/2020 01:07:46 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:46 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:46 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:46 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:07:49 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:07:51 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:07:53 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130 4
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn50_201130_sub4.tsv.gz'
+12/01/2020 01:07:57 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:07:57 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:07:57 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:07:57 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:08:00 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:08:02 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:08:04 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130 0
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130_sub0.tsv.gz'
+12/01/2020 01:08:08 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:08:08 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:08:08 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:08:09 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:08:12 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:08:13 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:08:16 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130 1
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130_sub1.tsv.gz'
+12/01/2020 01:08:20 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:08:20 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:08:20 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:08:20 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:08:23 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:08:25 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:08:27 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130 2
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130_sub2.tsv.gz'
+12/01/2020 01:08:31 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:08:31 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:08:31 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:08:31 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:08:34 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:08:36 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:08:38 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130 3
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130_sub3.tsv.gz'
+12/01/2020 01:08:43 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/01/2020 01:08:43 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/01/2020 01:08:43 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/01/2020 01:08:43 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/01/2020 01:08:46 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/01/2020 01:08:47 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/01/2020 01:08:49 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+10x_cells_v3 snmcseq_gene mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130 4
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 209, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 155, in wrap_corr_analysis_mc
+    modx_clsts = pd.concat([
+  File "../correlation_analysis_celllevel_mcrna_10xv3_Nov30.py", line 156, in <listcomp>
+    pd.read_csv(fname, sep='\t',index_col=0)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 361, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 599, in pandas._libs.parsers.TextReader._setup_parser_source
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn100_201130_sub4.tsv.gz'
+Command exited with non-zero status 1
+9571.94user 2365.08system 1:18:53elapsed 252%CPU (0avgtext+0avgdata 13965332maxresident)k
+30946064inputs+122743688outputs (14major+345305120minor)pagefaults 0swaps

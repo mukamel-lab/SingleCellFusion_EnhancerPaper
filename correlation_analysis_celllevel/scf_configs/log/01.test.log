@@ -1,0 +1,37 @@
+nohup: ignoring input
+2 5 10 20 50 100 200 500 1000
+2, 2
+11/09/2020 02:22:30 PM ./configs config_mop_smarter_cells_snmcseq_gene_ka2_knn2_201108.py
+11/09/2020 02:22:30 PM Adding ./configs to python path
+11/09/2020 02:22:30 PM * Begin integration
+11/09/2020 02:22:30 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 02:22:30 PM Metadata smarter_cells (6244, 129)
+11/09/2020 02:22:53 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 02:22:54 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 02:22:54 PM Done reading data
+11/09/2020 02:22:54 PM Subsampling 1/1
+11/09/2020 02:22:54 PM snmcseq_gene (7528, 32) (4754, 7528)
+11/09/2020 02:22:54 PM smarter_cells (5047, 129) (5743, 5047)
+11/09/2020 02:22:54 PM Smoothing within modalities...
+./01.run_mc.sh: line 25: 76733 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 02:22:58 PM corr_analysis_smarter_cells_snmcseq_gene_mop_smarter_cells_snmcseq_gene_ka2_knn2_201108
+11/09/2020 02:22:58 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+11/09/2020 02:22:58 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+11/09/2020 02:22:58 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+11/09/2020 02:22:58 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+11/09/2020 02:22:58 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+11/09/2020 02:23:00 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+11/09/2020 02:23:02 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc.py", line 132, in <module>
+    knn_xy = knn_xy.tocsr()[cell_idx_xaxis,:].tocsc()[:,cell_idx_yaxis] # x-by-y
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_index.py", line 33, in __getitem__
+    row, col = self._validate_indices(key)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_index.py", line 137, in _validate_indices
+    row = self._asindices(row, M)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_index.py", line 169, in _asindices
+    raise IndexError('index (%d) out of range' % max_indx)
+IndexError: index (5046) out of range
+40.95user 9.82system 0:37.69elapsed 134%CPU (0avgtext+0avgdata 14415028maxresident)k
+520inputs+1104outputs (0major+4298538minor)pagefaults 0swaps

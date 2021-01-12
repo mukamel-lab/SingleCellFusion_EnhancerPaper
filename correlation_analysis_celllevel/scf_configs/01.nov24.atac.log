@@ -1,0 +1,55 @@
+nohup: ignoring input
+10x_cells_v3, snatac_gene, 30, 50
+11/24/2020 10:25:23 AM ./configs config_mop_10x_cells_v3_snatac_gene_ka30_knn50_201120.py
+11/24/2020 10:25:23 AM Adding ./configs to python path
+11/24/2020 10:25:23 AM * Begin integration
+11/24/2020 10:25:24 AM Metadata snatac_gene (54844, 13)
+11/24/2020 10:25:24 AM Metadata 10x_cells_v3 (69727, 8)
+11/24/2020 10:25:26 AM Feature matrix snatac_gene (6345, 54844)
+11/24/2020 10:25:33 AM Feature matrix 10x_cells_v3 (4694, 69727)
+11/24/2020 10:25:33 AM Done reading data
+11/24/2020 10:25:33 AM Subsampling 1/1
+11/24/2020 10:25:33 AM Smoothing within modalities...
+11/24/2020 10:27:13 AM snatac_gene: 100.23191428184509
+11/24/2020 10:28:28 AM 10x_cells_v3: 75.02395129203796
+11/24/2020 10:28:28 AM Constructing a joint matrix...
+11/24/2020 10:28:28 AM Imputing into snatac_gene space...
+11/24/2020 10:28:28 AM for snatac_gene cells...
+11/24/2020 10:28:28 AM for 10x_cells_v3 cells...
+11/24/2020 10:28:38 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/24/2020 10:28:38 AM NumExpr defaulting to 8 threads.
+11/24/2020 10:39:31 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snatac_gene_ka30_knn50_201120.npy.0
+11/24/2020 10:39:31 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snatac_gene_ka30_knn50_201120.npy.0
+11/24/2020 10:39:31 AM Done integration into a common PC space
+Time used to build kNN map 1.0398921966552734
+Time used to get kNN 7.9146106243133545
+Time used to build kNN map 1.199195384979248
+Time used to get kNN 8.301083326339722
+10x_cells_v3, snatac_gene, 30, 100
+11/24/2020 10:39:35 AM ./configs config_mop_10x_cells_v3_snatac_gene_ka30_knn100_201120.py
+11/24/2020 10:39:35 AM Adding ./configs to python path
+11/24/2020 10:39:35 AM * Begin integration
+11/24/2020 10:39:36 AM Metadata snatac_gene (54844, 13)
+11/24/2020 10:39:36 AM Metadata 10x_cells_v3 (69727, 8)
+11/24/2020 10:39:38 AM Feature matrix snatac_gene (6345, 54844)
+11/24/2020 10:39:45 AM Feature matrix 10x_cells_v3 (4694, 69727)
+11/24/2020 10:39:45 AM Done reading data
+11/24/2020 10:39:45 AM Subsampling 1/1
+11/24/2020 10:39:45 AM Smoothing within modalities...
+11/24/2020 10:40:57 AM snatac_gene: 72.11485958099365
+11/24/2020 10:42:00 AM 10x_cells_v3: 63.19265031814575
+11/24/2020 10:42:00 AM Constructing a joint matrix...
+11/24/2020 10:42:00 AM Imputing into snatac_gene space...
+11/24/2020 10:42:00 AM for snatac_gene cells...
+11/24/2020 10:42:00 AM for 10x_cells_v3 cells...
+11/24/2020 10:42:09 AM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/24/2020 10:42:09 AM NumExpr defaulting to 8 threads.
+11/24/2020 10:53:43 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snatac_gene_ka30_knn100_201120.npy.0
+11/24/2020 10:53:43 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snatac_gene_ka30_knn100_201120.npy.0
+11/24/2020 10:53:44 AM Done integration into a common PC space
+Time used to build kNN map 0.9088685512542725
+Time used to get kNN 6.000319004058838
+Time used to build kNN map 1.0474669933319092
+Time used to get kNN 7.0007781982421875
+2824.39user 695.79system 28:24.22elapsed 206%CPU (0avgtext+0avgdata 20464664maxresident)k
+680inputs+25614304outputs (0major+106698289minor)pagefaults 0swaps

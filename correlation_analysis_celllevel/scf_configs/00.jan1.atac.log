@@ -1,0 +1,152 @@
+nohup: ignoring input
+10x_cells_v3, snatac_gene, 30, 30
+01/01/2021 12:12:38 PM ./configs config_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.py
+01/01/2021 12:12:38 PM Adding ./configs to python path
+01/01/2021 12:12:39 PM gene chrom lookup table: (51772,)
+01/01/2021 12:12:39 PM * Begin integration
+01/01/2021 12:12:39 PM Metadata snatac_gene (54844, 13)
+01/01/2021 12:12:39 PM Metadata 10x_cells_v3 (69727, 8)
+01/01/2021 12:12:43 PM Feature matrix snatac_gene (6345, 54844)
+01/01/2021 12:12:50 PM Feature matrix 10x_cells_v3 (4694, 69727)
+01/01/2021 12:12:50 PM Done reading data
+01/01/2021 12:12:50 PM Subsampling 1/1
+01/01/2021 12:12:50 PM Cluster chrom: ['chr7' 'chr2' 'chr8' 'chr16' 'chr1' 'chr18' 'chr15' 'chrX' 'chr14'
+ 'chr13'], feature chrom ['chr3' 'chr17' 'chr11' 'chr4' 'chr12' 'chr10' 'chr6' 'chr5' 'chr19'
+ 'chr9']
+01/01/2021 12:12:51 PM Finish split snatac_gene: (6345, 54844) -> (3088, 54844) (3256, 54844)
+01/01/2021 12:12:51 PM Finish split 10x_cells_v3: (4694, 69727) -> (2281, 69727) (2373, 69727)
+01/01/2021 12:12:51 PM Saved /cndd2/fangming/projects/miniatlas/results/chroms_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.txt.0.f0
+01/01/2021 12:12:51 PM Smoothing within modalities...
+01/01/2021 12:13:36 PM snatac_gene: 44.98897933959961
+01/01/2021 12:14:14 PM 10x_cells_v3: 37.26119327545166
+01/01/2021 12:14:14 PM Constructing a joint matrix...
+01/01/2021 12:14:14 PM Imputing into snatac_gene space...
+01/01/2021 12:14:14 PM for snatac_gene cells...
+01/01/2021 12:14:14 PM for 10x_cells_v3 cells...
+01/01/2021 12:14:18 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+01/01/2021 12:14:18 PM NumExpr defaulting to 8 threads.
+01/01/2021 12:18:45 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f0
+01/01/2021 12:18:45 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f0
+01/01/2021 12:18:46 PM Done integration into a common PC space
+01/01/2021 12:18:46 PM Cluster chrom: ['chr9' 'chr6' 'chr7' 'chr17' 'chr12' 'chr18' 'chr2' 'chr11' 'chr19'
+ 'chr15'], feature chrom ['chrX' 'chr5' 'chr8' 'chr4' 'chr14' 'chr13' 'chr16' 'chr1' 'chr10' 'chr3']
+01/01/2021 12:18:46 PM Finish split snatac_gene: (6345, 54844) -> (3164, 54844) (3180, 54844)
+01/01/2021 12:18:47 PM Finish split 10x_cells_v3: (4694, 69727) -> (2222, 69727) (2432, 69727)
+01/01/2021 12:18:47 PM Saved /cndd2/fangming/projects/miniatlas/results/chroms_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.txt.0.f1
+01/01/2021 12:18:47 PM Smoothing within modalities...
+01/01/2021 12:19:34 PM snatac_gene: 47.02634048461914
+01/01/2021 12:20:14 PM 10x_cells_v3: 39.92646598815918
+01/01/2021 12:20:14 PM Constructing a joint matrix...
+01/01/2021 12:20:14 PM Imputing into snatac_gene space...
+01/01/2021 12:20:14 PM for snatac_gene cells...
+01/01/2021 12:20:14 PM for 10x_cells_v3 cells...
+01/01/2021 12:25:43 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f1
+01/01/2021 12:25:43 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f1
+01/01/2021 12:25:43 PM Done integration into a common PC space
+01/01/2021 12:25:43 PM Cluster chrom: ['chr13' 'chr11' 'chr5' 'chr1' 'chr12' 'chr19' 'chr18' 'chr15' 'chr4'
+ 'chr3'], feature chrom ['chr7' 'chr10' 'chr6' 'chr17' 'chrX' 'chr8' 'chr16' 'chr14' 'chr2' 'chr9']
+01/01/2021 12:25:43 PM Finish split snatac_gene: (6345, 54844) -> (2943, 54844) (3401, 54844)
+01/01/2021 12:25:44 PM Finish split 10x_cells_v3: (4694, 69727) -> (2313, 69727) (2341, 69727)
+01/01/2021 12:25:44 PM Saved /cndd2/fangming/projects/miniatlas/results/chroms_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.txt.0.f2
+01/01/2021 12:25:44 PM Smoothing within modalities...
+01/01/2021 12:26:30 PM snatac_gene: 45.51864457130432
+01/01/2021 12:27:06 PM 10x_cells_v3: 36.433032751083374
+01/01/2021 12:27:06 PM Constructing a joint matrix...
+01/01/2021 12:27:06 PM Imputing into snatac_gene space...
+01/01/2021 12:27:06 PM for snatac_gene cells...
+01/01/2021 12:27:06 PM for 10x_cells_v3 cells...
+01/01/2021 12:31:54 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f2
+01/01/2021 12:31:54 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.f2
+01/01/2021 12:31:54 PM Done integration into a common PC space
+3088 3256
+2281 2373
+Time used to build kNN map 0.9118180274963379
+Time used to get kNN 6.071401119232178
+Time used to build kNN map 1.0616695880889893
+Time used to get kNN 7.036777496337891
+3164 3180
+2222 2432
+Time used to build kNN map 0.9581117630004883
+Time used to get kNN 6.119590759277344
+Time used to build kNN map 1.0725691318511963
+Time used to get kNN 7.049036026000977
+2943 3401
+2313 2341
+Time used to build kNN map 0.9236361980438232
+Time used to get kNN 6.130098819732666
+Time used to build kNN map 1.0815136432647705
+Time used to get kNN 6.955603122711182
+[1.00000000e+00 1.25892541e+00 1.58489319e+00 1.99526231e+00
+ 2.51188643e+00 3.16227766e+00 3.98107171e+00 5.01187234e+00
+ 6.30957344e+00 7.94328235e+00 1.00000000e+01 1.25892541e+01
+ 1.58489319e+01 1.99526231e+01 2.51188643e+01 3.16227766e+01
+ 3.98107171e+01 5.01187234e+01 6.30957344e+01 7.94328235e+01
+ 1.00000000e+02 1.25892541e+02 1.58489319e+02 1.99526231e+02
+ 2.51188643e+02 3.16227766e+02 3.98107171e+02 5.01187234e+02
+ 6.30957344e+02 7.94328235e+02 1.00000000e+03 1.25892541e+03
+ 1.58489319e+03 1.99526231e+03 2.51188643e+03 3.16227766e+03
+ 3.98107171e+03 5.01187234e+03 6.30957344e+03 7.94328235e+03
+ 1.00000000e+04]
+processing /cndd2/fangming/projects/miniatlas/results/cells_10x_cells_v3_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228.npy.0.npy
+Time used to build kNN map 1.1549994945526123
+Time used to get kNN 2.6776061058044434
+Time spent on leiden clustering: 4.215511322021484
+Time spent on leiden clustering: 4.118912220001221
+Time spent on leiden clustering: 4.132990121841431
+Time spent on leiden clustering: 4.134423494338989
+Time spent on leiden clustering: 4.090933561325073
+Time spent on leiden clustering: 4.068744897842407
+Time spent on leiden clustering: 4.067234039306641
+Time spent on leiden clustering: 5.373431444168091
+Time spent on leiden clustering: 4.1090474128723145
+Time spent on leiden clustering: 4.0646889209747314
+Time spent on leiden clustering: 4.1560258865356445
+Time spent on leiden clustering: 4.046720266342163
+Time spent on leiden clustering: 4.051671743392944
+Time spent on leiden clustering: 4.109856605529785
+Time spent on leiden clustering: 4.098278045654297
+Time spent on leiden clustering: 4.133076190948486
+Time spent on leiden clustering: 4.054024696350098
+Time spent on leiden clustering: 4.154684782028198
+Time spent on leiden clustering: 4.082133769989014
+Time spent on leiden clustering: 4.210935115814209
+Time spent on leiden clustering: 4.20603084564209
+Time spent on leiden clustering: 4.335287570953369
+Time spent on leiden clustering: 4.35493803024292
+Time spent on leiden clustering: 4.503540277481079
+Time spent on leiden clustering: 4.531639575958252
+Time spent on leiden clustering: 4.827950477600098
+Time spent on leiden clustering: 5.01566219329834
+Time spent on leiden clustering: 5.389246940612793
+Time spent on leiden clustering: 5.7912256717681885
+Time spent on leiden clustering: 6.15621280670166
+Time spent on leiden clustering: 6.738584518432617
+Time spent on leiden clustering: 7.743016004562378
+Time spent on leiden clustering: 8.243058204650879
+Time spent on leiden clustering: 9.603417873382568
+Time spent on leiden clustering: 10.732324361801147
+Time spent on leiden clustering: 11.698061227798462
+Time spent on leiden clustering: 10.921434879302979
+Time spent on leiden clustering: 11.207616567611694
+Time spent on leiden clustering: 9.961599826812744
+Time spent on leiden clustering: 9.873478651046753
+Time spent on leiden clustering: 10.037953615188599
+/cndd2/fangming/projects/miniatlas/results/clusterings_10x_cells_v3_mop_10x_cells_v3_snatac_gene_ka30_knn30_201228_sub0.tsv.gz
+01/01/2021 12:36:35 PM 10x_cells_v3,snatac_gene,mop_10x_cells_v3_snatac_gene_ka30_knn30_201228,0,spearmanr,False,1001
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_atacrna_halfchrom_Dec28.py", line 266, in <module>
+    wrap_corr_analysis_atac(
+TypeError: wrap_corr_analysis_atac() got multiple values for argument 'corr_type'
+01/01/2021 12:36:39 PM 10x_cells_v3,snatac_gene,mop_10x_cells_v3_snatac_gene_ka30_knn30_201228,0,spearmanr,False,1001
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_atacrna_halfchrom_Dec28.py", line 266, in <module>
+    wrap_corr_analysis_atac(
+TypeError: wrap_corr_analysis_atac() got multiple values for argument 'corr_type'
+01/01/2021 12:36:43 PM 10x_cells_v3,snatac_gene,mop_10x_cells_v3_snatac_gene_ka30_knn30_201228,0,spearmanr,False,1001
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_atacrna_halfchrom_Dec28.py", line 266, in <module>
+    wrap_corr_analysis_atac(
+TypeError: wrap_corr_analysis_atac() got multiple values for argument 'corr_type'
+Command exited with non-zero status 1
+2469.56user 716.64system 24:09.23elapsed 219%CPU (0avgtext+0avgdata 12136864maxresident)k
+570312inputs+19237608outputs (0major+63657328minor)pagefaults 0swaps

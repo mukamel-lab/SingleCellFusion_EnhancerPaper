@@ -1,0 +1,641 @@
+3, 3
+08/05/2020 11:09:28 AM corr_analysis_smarter_cells_snmcseq_gene_ka3_k3_200803_2020-08-05
+08/05/2020 11:09:28 AM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 11:09:28 AM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 11:09:28 AM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 11:09:28 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 11:09:29 AM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 11:09:31 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 11:09:33 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 11:09:34 AM (6244, 9364)_(6244, 6244)
+08/05/2020 11:11:25 AM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 11:13:23 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 11:13:38 AM (87129, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 11:13:45 AM 0
+08/05/2020 11:13:51 AM 100000
+08/05/2020 11:13:56 AM 200000
+08/05/2020 11:14:02 AM 300000
+08/05/2020 11:14:07 AM 400000
+08/05/2020 11:14:12 AM 500000
+08/05/2020 11:14:18 AM 600000
+08/05/2020 11:14:23 AM 700000
+08/05/2020 11:14:29 AM 800000
+08/05/2020 11:14:35 AM 900000
+08/05/2020 11:14:40 AM 1000000
+08/05/2020 11:14:46 AM 1100000
+08/05/2020 11:14:52 AM 1200000
+08/05/2020 11:14:57 AM 1300000
+08/05/2020 11:15:03 AM 1400000
+08/05/2020 11:15:09 AM 1500000
+08/05/2020 11:15:11 AM 0
+08/05/2020 11:15:16 AM 100000
+08/05/2020 11:15:22 AM 200000
+08/05/2020 11:15:27 AM 300000
+08/05/2020 11:15:33 AM 400000
+08/05/2020 11:15:38 AM 500000
+08/05/2020 11:15:43 AM 600000
+08/05/2020 11:15:49 AM 700000
+08/05/2020 11:15:55 AM 800000
+08/05/2020 11:16:00 AM 900000
+08/05/2020 11:16:06 AM 1000000
+08/05/2020 11:16:12 AM 1100000
+08/05/2020 11:16:17 AM 1200000
+08/05/2020 11:16:23 AM 1300000
+08/05/2020 11:16:29 AM 1400000
+08/05/2020 11:16:34 AM 1500000
+08/05/2020 11:16:36 AM 0
+08/05/2020 11:16:42 AM 100000
+08/05/2020 11:16:48 AM 200000
+08/05/2020 11:16:53 AM 300000
+08/05/2020 11:16:58 AM 400000
+08/05/2020 11:17:04 AM 500000
+08/05/2020 11:17:09 AM 600000
+08/05/2020 11:17:15 AM 700000
+08/05/2020 11:17:20 AM 800000
+08/05/2020 11:17:26 AM 900000
+08/05/2020 11:17:32 AM 1000000
+08/05/2020 11:17:37 AM 1100000
+08/05/2020 11:17:43 AM 1200000
+08/05/2020 11:17:49 AM 1300000
+08/05/2020 11:17:54 AM 1400000
+08/05/2020 11:18:00 AM 1500000
+08/05/2020 11:18:02 AM (1529730,)_(1529730,)_(1529730,)
+08/05/2020 11:18:02 AM 2067_999998
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+4, 4
+08/05/2020 11:20:07 AM corr_analysis_smarter_cells_snmcseq_gene_ka4_k4_200803_2020-08-05
+08/05/2020 11:20:07 AM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 11:20:07 AM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 11:20:07 AM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 11:20:07 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 11:20:07 AM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 11:20:09 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 11:20:12 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 11:20:12 AM (6244, 9364)_(6244, 6244)
+08/05/2020 11:22:04 AM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 11:23:58 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 11:24:18 AM (87923, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 11:24:24 AM 0
+08/05/2020 11:24:30 AM 100000
+08/05/2020 11:24:35 AM 200000
+08/05/2020 11:24:40 AM 300000
+08/05/2020 11:24:45 AM 400000
+08/05/2020 11:24:50 AM 500000
+08/05/2020 11:24:56 AM 600000
+08/05/2020 11:25:01 AM 700000
+08/05/2020 11:25:06 AM 800000
+08/05/2020 11:25:12 AM 900000
+08/05/2020 11:25:17 AM 1000000
+08/05/2020 11:25:23 AM 1100000
+08/05/2020 11:25:28 AM 1200000
+08/05/2020 11:25:34 AM 1300000
+08/05/2020 11:25:39 AM 1400000
+08/05/2020 11:25:44 AM 1500000
+08/05/2020 11:25:47 AM 0
+08/05/2020 11:25:53 AM 100000
+08/05/2020 11:25:58 AM 200000
+08/05/2020 11:26:03 AM 300000
+08/05/2020 11:26:08 AM 400000
+08/05/2020 11:26:13 AM 500000
+08/05/2020 11:26:18 AM 600000
+08/05/2020 11:26:24 AM 700000
+08/05/2020 11:26:29 AM 800000
+08/05/2020 11:26:34 AM 900000
+08/05/2020 11:26:40 AM 1000000
+08/05/2020 11:26:45 AM 1100000
+08/05/2020 11:26:51 AM 1200000
+08/05/2020 11:26:56 AM 1300000
+08/05/2020 11:27:02 AM 1400000
+08/05/2020 11:27:07 AM 1500000
+08/05/2020 11:27:10 AM 0
+08/05/2020 11:27:16 AM 100000
+08/05/2020 11:27:21 AM 200000
+08/05/2020 11:27:26 AM 300000
+08/05/2020 11:27:31 AM 400000
+08/05/2020 11:27:36 AM 500000
+08/05/2020 11:27:41 AM 600000
+08/05/2020 11:27:47 AM 700000
+08/05/2020 11:27:52 AM 800000
+08/05/2020 11:27:57 AM 900000
+08/05/2020 11:28:03 AM 1000000
+08/05/2020 11:28:08 AM 1100000
+08/05/2020 11:28:14 AM 1200000
+08/05/2020 11:28:19 AM 1300000
+08/05/2020 11:28:25 AM 1400000
+08/05/2020 11:28:30 AM 1500000
+08/05/2020 11:28:33 AM (1543345,)_(1543345,)_(1543345,)
+08/05/2020 11:28:33 AM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+6, 6
+08/05/2020 11:30:41 AM corr_analysis_smarter_cells_snmcseq_gene_ka6_k6_200803_2020-08-05
+08/05/2020 11:30:41 AM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 11:30:41 AM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 11:30:41 AM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 11:30:41 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 11:30:42 AM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 11:30:43 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 11:30:46 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 11:30:46 AM (6244, 9364)_(6244, 6244)
+08/05/2020 11:32:56 AM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 11:37:57 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 11:39:29 AM (87365, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 11:39:36 AM 0
+08/05/2020 11:39:42 AM 100000
+08/05/2020 11:39:47 AM 200000
+08/05/2020 11:39:52 AM 300000
+08/05/2020 11:39:58 AM 400000
+08/05/2020 11:40:03 AM 500000
+08/05/2020 11:40:08 AM 600000
+08/05/2020 11:40:13 AM 700000
+08/05/2020 11:40:19 AM 800000
+08/05/2020 11:40:25 AM 900000
+08/05/2020 11:40:30 AM 1000000
+08/05/2020 11:40:36 AM 1100000
+08/05/2020 11:40:42 AM 1200000
+08/05/2020 11:40:47 AM 1300000
+08/05/2020 11:40:53 AM 1400000
+08/05/2020 11:40:58 AM 1500000
+08/05/2020 11:41:01 AM 0
+08/05/2020 11:41:06 AM 100000
+08/05/2020 11:41:12 AM 200000
+08/05/2020 11:41:17 AM 300000
+08/05/2020 11:41:22 AM 400000
+08/05/2020 11:41:27 AM 500000
+08/05/2020 11:41:33 AM 600000
+08/05/2020 11:41:38 AM 700000
+08/05/2020 11:41:44 AM 800000
+08/05/2020 11:41:49 AM 900000
+08/05/2020 11:41:55 AM 1000000
+08/05/2020 11:42:01 AM 1100000
+08/05/2020 11:42:06 AM 1200000
+08/05/2020 11:42:12 AM 1300000
+08/05/2020 11:42:18 AM 1400000
+08/05/2020 11:42:23 AM 1500000
+08/05/2020 11:42:25 AM 0
+08/05/2020 11:42:31 AM 100000
+08/05/2020 11:42:36 AM 200000
+08/05/2020 11:42:42 AM 300000
+08/05/2020 11:42:47 AM 400000
+08/05/2020 11:42:52 AM 500000
+08/05/2020 11:42:57 AM 600000
+08/05/2020 11:43:03 AM 700000
+08/05/2020 11:43:08 AM 800000
+08/05/2020 11:43:14 AM 900000
+08/05/2020 11:43:19 AM 1000000
+08/05/2020 11:43:25 AM 1100000
+08/05/2020 11:43:31 AM 1200000
+08/05/2020 11:43:36 AM 1300000
+08/05/2020 11:43:42 AM 1400000
+08/05/2020 11:43:48 AM 1500000
+08/05/2020 11:43:50 AM (1533823,)_(1533823,)_(1533823,)
+08/05/2020 11:43:50 AM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+7, 7
+08/05/2020 11:45:58 AM corr_analysis_smarter_cells_snmcseq_gene_ka7_k7_200803_2020-08-05
+08/05/2020 11:45:58 AM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 11:45:58 AM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 11:45:58 AM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 11:45:58 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 11:45:58 AM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 11:46:00 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 11:46:03 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 11:46:03 AM (6244, 9364)_(6244, 6244)
+08/05/2020 11:47:59 AM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 11:49:54 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 11:50:11 AM (88157, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 11:50:18 AM 0
+08/05/2020 11:50:24 AM 100000
+08/05/2020 11:50:29 AM 200000
+08/05/2020 11:50:34 AM 300000
+08/05/2020 11:50:40 AM 400000
+08/05/2020 11:50:45 AM 500000
+08/05/2020 11:50:50 AM 600000
+08/05/2020 11:50:56 AM 700000
+08/05/2020 11:51:01 AM 800000
+08/05/2020 11:51:07 AM 900000
+08/05/2020 11:51:13 AM 1000000
+08/05/2020 11:51:18 AM 1100000
+08/05/2020 11:51:24 AM 1200000
+08/05/2020 11:51:30 AM 1300000
+08/05/2020 11:51:35 AM 1400000
+08/05/2020 11:51:41 AM 1500000
+08/05/2020 11:51:44 AM 0
+08/05/2020 11:51:50 AM 100000
+08/05/2020 11:51:55 AM 200000
+08/05/2020 11:52:00 AM 300000
+08/05/2020 11:52:06 AM 400000
+08/05/2020 11:52:11 AM 500000
+08/05/2020 11:52:16 AM 600000
+08/05/2020 11:52:22 AM 700000
+08/05/2020 11:52:27 AM 800000
+08/05/2020 11:52:33 AM 900000
+08/05/2020 11:52:39 AM 1000000
+08/05/2020 11:52:44 AM 1100000
+08/05/2020 11:52:50 AM 1200000
+08/05/2020 11:52:56 AM 1300000
+08/05/2020 11:53:01 AM 1400000
+08/05/2020 11:53:07 AM 1500000
+08/05/2020 11:53:10 AM 0
+08/05/2020 11:53:16 AM 100000
+08/05/2020 11:53:21 AM 200000
+08/05/2020 11:53:26 AM 300000
+08/05/2020 11:53:32 AM 400000
+08/05/2020 11:53:37 AM 500000
+08/05/2020 11:53:42 AM 600000
+08/05/2020 11:53:48 AM 700000
+08/05/2020 11:53:53 AM 800000
+08/05/2020 11:53:59 AM 900000
+08/05/2020 11:54:05 AM 1000000
+08/05/2020 11:54:10 AM 1100000
+08/05/2020 11:54:16 AM 1200000
+08/05/2020 11:54:22 AM 1300000
+08/05/2020 11:54:27 AM 1400000
+08/05/2020 11:54:33 AM 1500000
+08/05/2020 11:54:36 AM (1547918,)_(1547918,)_(1547918,)
+08/05/2020 11:54:36 AM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+8, 8
+08/05/2020 11:56:46 AM corr_analysis_smarter_cells_snmcseq_gene_ka8_k8_200803_2020-08-05
+08/05/2020 11:56:46 AM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 11:56:46 AM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 11:56:46 AM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 11:56:46 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 11:56:46 AM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 11:56:48 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 11:56:51 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 11:56:51 AM (6244, 9364)_(6244, 6244)
+08/05/2020 11:58:46 AM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 12:00:43 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 12:00:58 PM (87256, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 12:01:05 PM 0
+08/05/2020 12:01:10 PM 100000
+08/05/2020 12:01:15 PM 200000
+08/05/2020 12:01:21 PM 300000
+08/05/2020 12:01:26 PM 400000
+08/05/2020 12:01:31 PM 500000
+08/05/2020 12:01:37 PM 600000
+08/05/2020 12:01:42 PM 700000
+08/05/2020 12:01:48 PM 800000
+08/05/2020 12:01:53 PM 900000
+08/05/2020 12:01:59 PM 1000000
+08/05/2020 12:02:04 PM 1100000
+08/05/2020 12:02:10 PM 1200000
+08/05/2020 12:02:16 PM 1300000
+08/05/2020 12:02:21 PM 1400000
+08/05/2020 12:02:27 PM 1500000
+08/05/2020 12:02:29 PM 0
+08/05/2020 12:02:34 PM 100000
+08/05/2020 12:02:40 PM 200000
+08/05/2020 12:02:45 PM 300000
+08/05/2020 12:02:50 PM 400000
+08/05/2020 12:02:56 PM 500000
+08/05/2020 12:03:01 PM 600000
+08/05/2020 12:03:06 PM 700000
+08/05/2020 12:03:12 PM 800000
+08/05/2020 12:03:18 PM 900000
+08/05/2020 12:03:23 PM 1000000
+08/05/2020 12:03:29 PM 1100000
+08/05/2020 12:03:34 PM 1200000
+08/05/2020 12:03:40 PM 1300000
+08/05/2020 12:03:45 PM 1400000
+08/05/2020 12:03:51 PM 1500000
+08/05/2020 12:03:53 PM 0
+08/05/2020 12:03:59 PM 100000
+08/05/2020 12:04:04 PM 200000
+08/05/2020 12:04:09 PM 300000
+08/05/2020 12:04:15 PM 400000
+08/05/2020 12:04:20 PM 500000
+08/05/2020 12:04:25 PM 600000
+08/05/2020 12:04:31 PM 700000
+08/05/2020 12:04:36 PM 800000
+08/05/2020 12:04:42 PM 900000
+08/05/2020 12:04:47 PM 1000000
+08/05/2020 12:04:53 PM 1100000
+08/05/2020 12:04:58 PM 1200000
+08/05/2020 12:05:04 PM 1300000
+08/05/2020 12:05:09 PM 1400000
+08/05/2020 12:05:15 PM 1500000
+08/05/2020 12:05:17 PM (1531219,)_(1531219,)_(1531219,)
+08/05/2020 12:05:17 PM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+9, 9
+08/05/2020 12:07:24 PM corr_analysis_smarter_cells_snmcseq_gene_ka9_k9_200803_2020-08-05
+08/05/2020 12:07:24 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 12:07:24 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 12:07:24 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 12:07:24 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 12:07:25 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 12:07:27 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 12:07:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 12:07:30 PM (6244, 9364)_(6244, 6244)
+08/05/2020 12:09:48 PM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 12:14:49 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 12:16:16 PM (86295, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 12:16:23 PM 0
+08/05/2020 12:16:29 PM 100000
+08/05/2020 12:16:34 PM 200000
+08/05/2020 12:16:39 PM 300000
+08/05/2020 12:16:44 PM 400000
+08/05/2020 12:16:50 PM 500000
+08/05/2020 12:16:55 PM 600000
+08/05/2020 12:17:00 PM 700000
+08/05/2020 12:17:06 PM 800000
+08/05/2020 12:17:11 PM 900000
+08/05/2020 12:17:17 PM 1000000
+08/05/2020 12:17:22 PM 1100000
+08/05/2020 12:17:28 PM 1200000
+08/05/2020 12:17:33 PM 1300000
+08/05/2020 12:17:39 PM 1400000
+08/05/2020 12:17:44 PM 1500000
+08/05/2020 12:17:46 PM 0
+08/05/2020 12:17:51 PM 100000
+08/05/2020 12:17:57 PM 200000
+08/05/2020 12:18:02 PM 300000
+08/05/2020 12:18:07 PM 400000
+08/05/2020 12:18:12 PM 500000
+08/05/2020 12:18:18 PM 600000
+08/05/2020 12:18:23 PM 700000
+08/05/2020 12:18:28 PM 800000
+08/05/2020 12:18:34 PM 900000
+08/05/2020 12:18:40 PM 1000000
+08/05/2020 12:18:45 PM 1100000
+08/05/2020 12:18:51 PM 1200000
+08/05/2020 12:18:56 PM 1300000
+08/05/2020 12:19:02 PM 1400000
+08/05/2020 12:19:08 PM 1500000
+08/05/2020 12:19:09 PM 0
+08/05/2020 12:19:14 PM 100000
+08/05/2020 12:19:20 PM 200000
+08/05/2020 12:19:25 PM 300000
+08/05/2020 12:19:30 PM 400000
+08/05/2020 12:19:35 PM 500000
+08/05/2020 12:19:40 PM 600000
+08/05/2020 12:19:46 PM 700000
+08/05/2020 12:19:51 PM 800000
+08/05/2020 12:19:57 PM 900000
+08/05/2020 12:20:02 PM 1000000
+08/05/2020 12:20:08 PM 1100000
+08/05/2020 12:20:13 PM 1200000
+08/05/2020 12:20:19 PM 1300000
+08/05/2020 12:20:25 PM 1400000
+08/05/2020 12:20:30 PM 1500000
+08/05/2020 12:20:31 PM (1516127,)_(1516127,)_(1516127,)
+08/05/2020 12:20:31 PM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+75, 75
+08/05/2020 12:23:18 PM corr_analysis_smarter_cells_snmcseq_gene_ka75_k75_200803_2020-08-05
+08/05/2020 12:23:18 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 12:23:18 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 12:23:18 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 12:23:18 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 12:23:18 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 12:23:20 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 12:23:23 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 12:23:23 PM (6244, 9364)_(6244, 6244)
+08/05/2020 12:26:17 PM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 12:31:15 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 12:32:43 PM (87983, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 12:32:50 PM 0
+08/05/2020 12:32:56 PM 100000
+08/05/2020 12:33:01 PM 200000
+08/05/2020 12:33:06 PM 300000
+08/05/2020 12:33:11 PM 400000
+08/05/2020 12:33:16 PM 500000
+08/05/2020 12:33:22 PM 600000
+08/05/2020 12:33:27 PM 700000
+08/05/2020 12:33:32 PM 800000
+08/05/2020 12:33:38 PM 900000
+08/05/2020 12:33:43 PM 1000000
+08/05/2020 12:33:49 PM 1100000
+08/05/2020 12:33:54 PM 1200000
+08/05/2020 12:34:00 PM 1300000
+08/05/2020 12:34:05 PM 1400000
+08/05/2020 12:34:11 PM 1500000
+08/05/2020 12:34:14 PM 0
+08/05/2020 12:34:19 PM 100000
+08/05/2020 12:34:24 PM 200000
+08/05/2020 12:34:29 PM 300000
+08/05/2020 12:34:35 PM 400000
+08/05/2020 12:34:40 PM 500000
+08/05/2020 12:34:45 PM 600000
+08/05/2020 12:34:50 PM 700000
+08/05/2020 12:34:56 PM 800000
+08/05/2020 12:35:01 PM 900000
+08/05/2020 12:35:07 PM 1000000
+08/05/2020 12:35:12 PM 1100000
+08/05/2020 12:35:18 PM 1200000
+08/05/2020 12:35:23 PM 1300000
+08/05/2020 12:35:29 PM 1400000
+08/05/2020 12:35:34 PM 1500000
+08/05/2020 12:35:37 PM 0
+08/05/2020 12:35:42 PM 100000
+08/05/2020 12:35:48 PM 200000
+08/05/2020 12:35:53 PM 300000
+08/05/2020 12:35:58 PM 400000
+08/05/2020 12:36:03 PM 500000
+08/05/2020 12:36:08 PM 600000
+08/05/2020 12:36:14 PM 700000
+08/05/2020 12:36:19 PM 800000
+08/05/2020 12:36:25 PM 900000
+08/05/2020 12:36:30 PM 1000000
+08/05/2020 12:36:36 PM 1100000
+08/05/2020 12:36:41 PM 1200000
+08/05/2020 12:36:47 PM 1300000
+08/05/2020 12:36:52 PM 1400000
+08/05/2020 12:36:58 PM 1500000
+08/05/2020 12:37:01 PM (1544159,)_(1544159,)_(1544159,)
+08/05/2020 12:37:01 PM 2067_999998
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+300, 300
+08/05/2020 12:41:55 PM corr_analysis_smarter_cells_snmcseq_gene_ka300_k300_200803_2020-08-05
+08/05/2020 12:41:55 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 12:41:55 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 12:41:55 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 12:41:55 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 12:41:55 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 12:41:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 12:42:00 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 12:42:01 PM (6244, 9364)_(6244, 6244)
+08/05/2020 12:46:55 PM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 12:48:51 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 12:49:34 PM (86763, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 12:49:42 PM 0
+08/05/2020 12:49:47 PM 100000
+08/05/2020 12:49:52 PM 200000
+08/05/2020 12:49:58 PM 300000
+08/05/2020 12:50:03 PM 400000
+08/05/2020 12:50:08 PM 500000
+08/05/2020 12:50:13 PM 600000
+08/05/2020 12:50:18 PM 700000
+08/05/2020 12:50:24 PM 800000
+08/05/2020 12:50:29 PM 900000
+08/05/2020 12:50:35 PM 1000000
+08/05/2020 12:50:40 PM 1100000
+08/05/2020 12:50:46 PM 1200000
+08/05/2020 12:50:52 PM 1300000
+08/05/2020 12:50:57 PM 1400000
+08/05/2020 12:51:03 PM 1500000
+08/05/2020 12:51:04 PM 0
+08/05/2020 12:51:10 PM 100000
+08/05/2020 12:51:15 PM 200000
+08/05/2020 12:51:20 PM 300000
+08/05/2020 12:51:26 PM 400000
+08/05/2020 12:51:31 PM 500000
+08/05/2020 12:51:36 PM 600000
+08/05/2020 12:51:41 PM 700000
+08/05/2020 12:51:47 PM 800000
+08/05/2020 12:51:52 PM 900000
+08/05/2020 12:51:58 PM 1000000
+08/05/2020 12:52:03 PM 1100000
+08/05/2020 12:52:09 PM 1200000
+08/05/2020 12:52:14 PM 1300000
+08/05/2020 12:52:20 PM 1400000
+08/05/2020 12:52:25 PM 1500000
+08/05/2020 12:52:27 PM 0
+08/05/2020 12:52:32 PM 100000
+08/05/2020 12:52:38 PM 200000
+08/05/2020 12:52:43 PM 300000
+08/05/2020 12:52:48 PM 400000
+08/05/2020 12:52:53 PM 500000
+08/05/2020 12:52:58 PM 600000
+08/05/2020 12:53:04 PM 700000
+08/05/2020 12:53:09 PM 800000
+08/05/2020 12:53:15 PM 900000
+08/05/2020 12:53:20 PM 1000000
+08/05/2020 12:53:26 PM 1100000
+08/05/2020 12:53:31 PM 1200000
+08/05/2020 12:53:37 PM 1300000
+08/05/2020 12:53:42 PM 1400000
+08/05/2020 12:53:48 PM 1500000
+08/05/2020 12:53:49 PM (1524613,)_(1524613,)_(1524613,)
+08/05/2020 12:53:49 PM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+400, 400
+08/05/2020 12:59:41 PM corr_analysis_smarter_cells_snmcseq_gene_ka400_k400_200803_2020-08-05
+08/05/2020 12:59:41 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/05/2020 12:59:41 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
+08/05/2020 12:59:41 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/05/2020 12:59:41 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
+08/05/2020 12:59:42 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/05/2020 12:59:44 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz
+08/05/2020 12:59:47 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_cg_snmcseq_gene.npz
+08/05/2020 12:59:48 PM (6244, 9364)_(6244, 6244)
+08/05/2020 01:05:36 PM (32324, 6244)_(233514, 6244)_(233514, 6244)
+08/05/2020 01:07:26 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+08/05/2020 01:07:38 PM (85841, 6244)
+/cndd/fangming/venvs/conda_dobro/lib/python3.6/site-packages/scipy/stats/stats.py:2419: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/05/2020 01:07:45 PM 0
+08/05/2020 01:07:50 PM 100000
+08/05/2020 01:07:56 PM 200000
+08/05/2020 01:08:01 PM 300000
+08/05/2020 01:08:06 PM 400000
+08/05/2020 01:08:11 PM 500000
+08/05/2020 01:08:17 PM 600000
+08/05/2020 01:08:22 PM 700000
+08/05/2020 01:08:28 PM 800000
+08/05/2020 01:08:33 PM 900000
+08/05/2020 01:08:39 PM 1000000
+08/05/2020 01:08:45 PM 1100000
+08/05/2020 01:08:50 PM 1200000
+08/05/2020 01:08:56 PM 1300000
+08/05/2020 01:09:01 PM 1400000
+08/05/2020 01:09:07 PM 1500000
+08/05/2020 01:09:08 PM 0
+08/05/2020 01:09:14 PM 100000
+08/05/2020 01:09:19 PM 200000
+08/05/2020 01:09:24 PM 300000
+08/05/2020 01:09:29 PM 400000
+08/05/2020 01:09:35 PM 500000
+08/05/2020 01:09:40 PM 600000
+08/05/2020 01:09:45 PM 700000
+08/05/2020 01:09:51 PM 800000
+08/05/2020 01:09:57 PM 900000
+08/05/2020 01:10:02 PM 1000000
+08/05/2020 01:10:08 PM 1100000
+08/05/2020 01:10:13 PM 1200000
+08/05/2020 01:10:19 PM 1300000
+08/05/2020 01:10:25 PM 1400000
+08/05/2020 01:10:30 PM 1500000
+08/05/2020 01:10:31 PM 0
+08/05/2020 01:10:37 PM 100000
+08/05/2020 01:10:42 PM 200000
+08/05/2020 01:10:47 PM 300000
+08/05/2020 01:10:53 PM 400000
+08/05/2020 01:10:58 PM 500000
+08/05/2020 01:11:03 PM 600000
+08/05/2020 01:11:09 PM 700000
+08/05/2020 01:11:14 PM 800000
+08/05/2020 01:11:20 PM 900000
+08/05/2020 01:11:26 PM 1000000
+08/05/2020 01:11:31 PM 1100000
+08/05/2020 01:11:37 PM 1200000
+08/05/2020 01:11:42 PM 1300000
+08/05/2020 01:11:48 PM 1400000
+08/05/2020 01:11:54 PM 1500000
+08/05/2020 01:11:54 PM (1509337,)_(1509337,)_(1509337,)
+08/05/2020 01:11:54 PM 2067_999999
+../correlation_analysis_celllevel-v2-stage3.py:328: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v2-stage3.py:329: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+6175.92user 1861.22system 2:04:32elapsed 107%CPU (0avgtext+0avgdata 68495900maxresident)k
+5488inputs+13324360outputs (0major+137082014minor)pagefaults 0swaps

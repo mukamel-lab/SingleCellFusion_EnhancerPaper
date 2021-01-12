@@ -1,0 +1,364 @@
+nohup: ignoring input
+10x_cells_v3, snmcseq_gene, 30, 30
+12/06/2020 11:18:47 PM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206.py
+12/06/2020 11:18:47 PM Adding ./configs to python path
+12/06/2020 11:18:47 PM * Begin integration
+12/06/2020 11:18:47 PM Metadata snmcseq_gene (9366, 32)
+12/06/2020 11:18:47 PM Metadata 10x_cells_v3 (69727, 8)
+12/06/2020 11:19:10 PM Feature matrix snmcseq_gene (4754, 9366)
+12/06/2020 11:19:18 PM Feature matrix 10x_cells_v3 (4694, 69727)
+12/06/2020 11:19:18 PM Done reading data
+12/06/2020 11:19:18 PM Subsampling 1/1
+12/06/2020 11:19:18 PM Smoothing within modalities...
+12/06/2020 11:19:30 PM snmcseq_gene: 12.190945625305176
+12/06/2020 11:20:40 PM 10x_cells_v3: 69.76592683792114
+12/06/2020 11:20:40 PM Constructing a joint matrix...
+12/06/2020 11:20:40 PM Imputing into snmcseq_gene space...
+12/06/2020 11:20:40 PM for snmcseq_gene cells...
+12/06/2020 11:20:40 PM for 10x_cells_v3 cells...
+12/06/2020 11:20:47 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/06/2020 11:20:47 PM NumExpr defaulting to 8 threads.
+12/06/2020 11:23:21 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206.npy.0
+12/06/2020 11:23:21 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206.npy.0
+12/06/2020 11:23:22 PM Done integration into a common PC space
+Time used to build kNN map 0.2796750068664551
+Time used to get kNN 0.8542461395263672
+Time used to build kNN map 1.1283702850341797
+Time used to get kNN 7.759061574935913
+[1.00000000e+00 1.25892541e+00 1.58489319e+00 1.99526231e+00
+ 2.51188643e+00 3.16227766e+00 3.98107171e+00 5.01187234e+00
+ 6.30957344e+00 7.94328235e+00 1.00000000e+01 1.25892541e+01
+ 1.58489319e+01 1.99526231e+01 2.51188643e+01 3.16227766e+01
+ 3.98107171e+01 5.01187234e+01 6.30957344e+01 7.94328235e+01
+ 1.00000000e+02 1.25892541e+02 1.58489319e+02 1.99526231e+02
+ 2.51188643e+02 3.16227766e+02 3.98107171e+02 5.01187234e+02
+ 6.30957344e+02 7.94328235e+02 1.00000000e+03 1.25892541e+03
+ 1.58489319e+03 1.99526231e+03 2.51188643e+03 3.16227766e+03
+ 3.98107171e+03 5.01187234e+03 6.30957344e+03 7.94328235e+03
+ 1.00000000e+04]
+processing /cndd2/fangming/projects/miniatlas/results/cells_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206.npy.0.npy
+Time used to build kNN map 1.2362675666809082
+Time used to get kNN 2.9356040954589844
+Time spent on leiden clustering: 5.489997386932373
+Time spent on leiden clustering: 5.239399671554565
+Time spent on leiden clustering: 5.2922163009643555
+Time spent on leiden clustering: 4.950217008590698
+Time spent on leiden clustering: 5.308653354644775
+Time spent on leiden clustering: 5.04491400718689
+Time spent on leiden clustering: 5.255638360977173
+Time spent on leiden clustering: 4.892725706100464
+Time spent on leiden clustering: 5.182814121246338
+Time spent on leiden clustering: 5.120837926864624
+Time spent on leiden clustering: 5.122408390045166
+Time spent on leiden clustering: 5.406489133834839
+Time spent on leiden clustering: 5.96473503112793
+Time spent on leiden clustering: 5.222817659378052
+Time spent on leiden clustering: 5.336645126342773
+Time spent on leiden clustering: 5.226301670074463
+Time spent on leiden clustering: 5.134233713150024
+Time spent on leiden clustering: 5.1516804695129395
+Time spent on leiden clustering: 5.5143256187438965
+Time spent on leiden clustering: 5.677947521209717
+Time spent on leiden clustering: 5.145023345947266
+Time spent on leiden clustering: 5.836301326751709
+Time spent on leiden clustering: 5.43672513961792
+Time spent on leiden clustering: 5.763282060623169
+Time spent on leiden clustering: 6.272738456726074
+Time spent on leiden clustering: 6.103584051132202
+Time spent on leiden clustering: 6.358219623565674
+Time spent on leiden clustering: 6.554540634155273
+Time spent on leiden clustering: 6.977020263671875
+Time spent on leiden clustering: 8.107304096221924
+Time spent on leiden clustering: 9.266748428344727
+Time spent on leiden clustering: 10.642394542694092
+Time spent on leiden clustering: 11.12404489517212
+Time spent on leiden clustering: 12.944662094116211
+Time spent on leiden clustering: 14.403553009033203
+Time spent on leiden clustering: 16.011982679367065
+Time spent on leiden clustering: 14.86977481842041
+Time spent on leiden clustering: 17.35591721534729
+Time spent on leiden clustering: 15.911208868026733
+Time spent on leiden clustering: 13.45124363899231
+Time spent on leiden clustering: 13.074977397918701
+/cndd2/fangming/projects/miniatlas/results/clusterings_10x_cells_v3_mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206_sub0.tsv.gz
+12/06/2020 11:29:25 PM 10x_cells_v3,snmcseq_gene,mop_10x_cells_v3_snmcseq_gene_ka30_knn30_201206,0,spearmanr,False,1001
+12/06/2020 11:29:25 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/06/2020 11:29:25 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+12/06/2020 11:29:25 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/06/2020 11:29:25 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/06/2020 11:29:28 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/06/2020 11:29:29 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+12/06/2020 11:29:31 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+12/06/2020 11:29:32 PM (69727, 41) (69727, 9366) (69727,) (9366,)
+12/06/2020 11:29:52 PM (69727, 9364)_(69727, 41)_(31053, 69727)_(233514, 9364)_(233514, 9364)
+12/06/2020 11:29:52 PM cluster_r1.0
+12/06/2020 11:29:52 PM Number of metacells: 16
+12/06/2020 11:30:06 PM (31053, 16) (233514, 16) (233514, 16)
+12/06/2020 11:30:06 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/06/2020 11:30:06 PM NumExpr defaulting to 8 threads.
+12/06/2020 11:30:06 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:30:06 PM (173322, 16)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:30:08 PM cluster_r1.2589254117941673
+12/06/2020 11:30:08 PM Number of metacells: 21
+12/06/2020 11:30:24 PM (31053, 21) (233514, 21) (233514, 21)
+12/06/2020 11:30:24 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:30:24 PM (172868, 21)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:30:27 PM cluster_r1.5848931924611136
+12/06/2020 11:30:27 PM Number of metacells: 24
+12/06/2020 11:30:44 PM (31053, 24) (233514, 24) (233514, 24)
+12/06/2020 11:30:44 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:30:44 PM (172243, 24)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:30:46 PM cluster_r1.9952623149688797
+12/06/2020 11:30:46 PM Number of metacells: 29
+12/06/2020 11:31:11 PM (31053, 29) (233514, 29) (233514, 29)
+12/06/2020 11:31:11 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:31:11 PM (172796, 29)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:31:14 PM cluster_r2.51188643150958
+12/06/2020 11:31:14 PM Number of metacells: 36
+12/06/2020 11:31:36 PM (31053, 36) (233514, 36) (233514, 36)
+12/06/2020 11:31:37 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:31:37 PM (173528, 36)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:31:39 PM cluster_r3.1622776601683795
+12/06/2020 11:31:39 PM Number of metacells: 41
+12/06/2020 11:32:03 PM (31053, 41) (233514, 41) (233514, 41)
+12/06/2020 11:32:03 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:32:03 PM (173610, 41)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:32:07 PM cluster_r3.981071705534973
+12/06/2020 11:32:07 PM Number of metacells: 52
+12/06/2020 11:32:34 PM (31053, 52) (233514, 52) (233514, 52)
+12/06/2020 11:32:35 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:32:35 PM (173211, 52)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:32:40 PM cluster_r5.011872336272724
+12/06/2020 11:32:40 PM Number of metacells: 63
+12/06/2020 11:33:11 PM (31053, 63) (233514, 63) (233514, 63)
+12/06/2020 11:33:11 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:33:11 PM (173231, 63)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:33:16 PM cluster_r6.309573444801933
+12/06/2020 11:33:16 PM Number of metacells: 79
+12/06/2020 11:33:51 PM (31053, 79) (233514, 79) (233514, 79)
+12/06/2020 11:33:52 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:33:52 PM (172840, 79)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:33:58 PM cluster_r7.943282347242816
+12/06/2020 11:33:58 PM Number of metacells: 92
+12/06/2020 11:34:35 PM (31053, 92) (233514, 92) (233514, 92)
+12/06/2020 11:34:36 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:34:36 PM (173262, 92)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:34:44 PM cluster_r10.0
+12/06/2020 11:34:44 PM Number of metacells: 111
+12/06/2020 11:35:28 PM (31053, 111) (233514, 111) (233514, 111)
+12/06/2020 11:35:28 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:35:29 PM (173042, 111)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:35:40 PM cluster_r12.589254117941675
+12/06/2020 11:35:40 PM Number of metacells: 133
+12/06/2020 11:36:29 PM (31053, 133) (233514, 133) (233514, 133)
+12/06/2020 11:36:30 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:36:30 PM (172907, 133)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:36:45 PM cluster_r15.848931924611142
+12/06/2020 11:36:45 PM Number of metacells: 170
+12/06/2020 11:37:41 PM (31053, 170) (233514, 170) (233514, 170)
+12/06/2020 11:37:42 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:37:43 PM (172905, 170)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:38:02 PM cluster_r19.952623149688797
+12/06/2020 11:38:02 PM Number of metacells: 205
+12/06/2020 11:39:10 PM (31053, 205) (233514, 205) (233514, 205)
+12/06/2020 11:39:11 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:39:12 PM (172804, 205)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:39:34 PM cluster_r25.11886431509581
+12/06/2020 11:39:34 PM Number of metacells: 259
+12/06/2020 11:40:53 PM (31053, 259) (233514, 259) (233514, 259)
+12/06/2020 11:40:55 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:40:56 PM (172512, 259)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:41:26 PM cluster_r31.622776601683793
+12/06/2020 11:41:26 PM Number of metacells: 316
+12/06/2020 11:42:58 PM (31053, 316) (233514, 316) (233514, 316)
+12/06/2020 11:43:01 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:43:02 PM (172513, 316)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:43:37 PM cluster_r39.810717055349734
+12/06/2020 11:43:37 PM Number of metacells: 390
+12/06/2020 11:45:24 PM (31053, 390) (233514, 390) (233514, 390)
+12/06/2020 11:45:27 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:45:29 PM (172322, 390)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:46:14 PM cluster_r50.11872336272725
+12/06/2020 11:46:14 PM Number of metacells: 494
+12/06/2020 11:48:17 PM (31053, 494) (233514, 494) (233514, 494)
+12/06/2020 11:48:22 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:48:25 PM (172081, 494)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:49:20 PM cluster_r63.09573444801933
+12/06/2020 11:49:20 PM Number of metacells: 603
+12/06/2020 11:51:42 PM (31053, 603) (233514, 603) (233514, 603)
+12/06/2020 11:51:48 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:51:51 PM (171920, 603)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:53:01 PM cluster_r79.43282347242817
+12/06/2020 11:53:01 PM Number of metacells: 766
+12/06/2020 11:55:28 PM (31053, 766) (233514, 766) (233514, 766)
+12/06/2020 11:55:34 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:55:37 PM (171609, 766)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/06/2020 11:56:53 PM cluster_r100.0
+12/06/2020 11:56:53 PM Number of metacells: 928
+12/06/2020 11:59:31 PM (31053, 928) (233514, 928) (233514, 928)
+12/06/2020 11:59:40 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/06/2020 11:59:44 PM (171348, 928)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:01:19 AM cluster_r125.89254117941675
+12/07/2020 12:01:19 AM Number of metacells: 1179
+12/07/2020 12:01:19 AM skip 1179, exceeding max num_metacell_limit...
+12/07/2020 12:04:21 AM (31053, 1179) (233514, 1179) (233514, 1179)
+12/07/2020 12:04:34 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:04:42 AM (170947, 1179)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:06:54 AM cluster_r158.48931924611142
+12/07/2020 12:06:54 AM Number of metacells: 1488
+12/07/2020 12:06:54 AM skip 1488, exceeding max num_metacell_limit...
+12/07/2020 12:10:26 AM (31053, 1488) (233514, 1488) (233514, 1488)
+12/07/2020 12:10:48 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:11:01 AM (170543, 1488)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:14:15 AM cluster_r199.52623149688807
+12/07/2020 12:14:15 AM Number of metacells: 1862
+12/07/2020 12:14:15 AM skip 1862, exceeding max num_metacell_limit...
+12/07/2020 12:18:17 AM (31053, 1862) (233514, 1862) (233514, 1862)
+12/07/2020 12:18:47 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:19:04 AM (169999, 1862)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:23:20 AM cluster_r251.18864315095823
+12/07/2020 12:23:20 AM Number of metacells: 2386
+12/07/2020 12:23:20 AM skip 2386, exceeding max num_metacell_limit...
+12/07/2020 12:28:02 AM (31053, 2386) (233514, 2386) (233514, 2386)
+12/07/2020 12:28:45 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:29:11 AM (169355, 2386)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:35:00 AM cluster_r316.22776601683796
+12/07/2020 12:35:00 AM Number of metacells: 3036
+12/07/2020 12:35:00 AM skip 3036, exceeding max num_metacell_limit...
+12/07/2020 12:40:22 AM (31053, 3036) (233514, 3036) (233514, 3036)
+12/07/2020 12:41:22 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:41:57 AM (168649, 3036)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 12:49:40 AM cluster_r398.1071705534973
+12/07/2020 12:49:40 AM Number of metacells: 3892
+12/07/2020 12:49:40 AM skip 3892, exceeding max num_metacell_limit...
+12/07/2020 12:55:51 AM (31053, 3892) (233514, 3892) (233514, 3892)
+12/07/2020 12:57:09 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 12:57:54 AM (167644, 3892)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 01:07:52 AM cluster_r501.18723362727246
+12/07/2020 01:07:52 AM Number of metacells: 5043
+12/07/2020 01:07:52 AM skip 5043, exceeding max num_metacell_limit...
+12/07/2020 01:14:58 AM (31053, 5043) (233514, 5043) (233514, 5043)
+12/07/2020 01:16:42 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 01:17:42 AM (166433, 5043)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 01:31:02 AM cluster_r630.9573444801937
+12/07/2020 01:31:02 AM Number of metacells: 6604
+12/07/2020 01:31:02 AM skip 6604, exceeding max num_metacell_limit...
+12/07/2020 01:39:04 AM (31053, 6604) (233514, 6604) (233514, 6604)
+12/07/2020 01:41:36 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 01:43:01 AM (164723, 6604)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 02:00:52 AM cluster_r794.3282347242822
+12/07/2020 02:00:52 AM Number of metacells: 8630
+12/07/2020 02:00:52 AM skip 8630, exceeding max num_metacell_limit...
+12/07/2020 02:10:12 AM (31053, 8630) (233514, 8630) (233514, 8630)
+12/07/2020 02:14:05 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+12/07/2020 02:16:01 AM (162580, 8630)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/07/2020 02:40:54 AM cluster_r1000.0
+12/07/2020 02:40:54 AM Number of metacells: 11592
+12/07/2020 02:40:54 AM skip 11592, exceeding max num_metacell_limit...
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mcrna_Dec1.py", line 234, in <module>
+    wrap_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_Dec1.py", line 184, in wrap_corr_analysis_mc
+    pipe_corr_analysis_mc(
+  File "../correlation_analysis_celllevel_mcrna_Dec1.py", line 84, in pipe_corr_analysis_mc
+    ec_cg = Y_cg.dot(knn_yz).todense() 
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/base.py", line 480, in __mul__
+    return self._mul_sparse_matrix(other)
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/compressed.py", line 505, in _mul_sparse_matrix
+    nnz = fn(M, N,
+RuntimeError: nnz of the result is too large
+Command exited with non-zero status 1
+9754.50user 3239.75system 3:23:34elapsed 106%CPU (0avgtext+0avgdata 130830996maxresident)k
+2194008inputs+9575208outputs (5major+2519859907minor)pagefaults 0swaps

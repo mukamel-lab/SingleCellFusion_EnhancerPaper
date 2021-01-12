@@ -1,0 +1,1530 @@
+2 5 10 20 50 100 200 15 25 30 35 40 45 500 3 4 6 7 8 9 75 300 400
+2, 2
+08/26/2020 04:41:02 PM  config_atac_scsmart_ka2_knn2_200826.py
+08/26/2020 04:41:02 PM * Begin integration
+08/26/2020 04:41:02 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+08/26/2020 04:41:03 PM Metadata smarter_cells (6244, 129)
+08/26/2020 04:41:09 PM Feature matrix snatac_gene (6345, 54844)
+08/26/2020 04:41:12 PM Feature matrix smarter_cells (5743, 6244)
+08/26/2020 04:41:12 PM Done reading data
+08/26/2020 04:41:12 PM Subsampling 1/3
+08/26/2020 04:41:22 PM snatac_gene (43766, 13) (6345, 43766)
+08/26/2020 04:41:25 PM smarter_cells (4935, 129) (5743, 4935)
+08/26/2020 04:41:25 PM Smoothing within modalities...
+08/26/2020 04:42:33 PM snatac_gene: 68.18167161941528
+08/26/2020 04:42:38 PM smarter_cells: 4.3543219566345215
+08/26/2020 04:42:38 PM Constructing a joint matrix...
+08/26/2020 04:42:38 PM Imputing into snatac_gene space...
+08/26/2020 04:42:38 PM for snatac_gene cells...
+08/26/2020 04:42:38 PM for smarter_cells cells...
+08/26/2020 04:46:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka2_knn2.npy.0
+08/26/2020 04:46:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka2_knn2.npy.0
+08/26/2020 04:46:35 PM Done integration into a common PC space
+08/26/2020 04:46:35 PM Subsampling 2/3
+08/26/2020 04:46:37 PM snatac_gene (43892, 13) (6345, 43892)
+08/26/2020 04:46:37 PM smarter_cells (4990, 129) (5743, 4990)
+08/26/2020 04:46:37 PM Smoothing within modalities...
+08/26/2020 04:47:03 PM snatac_gene: 25.814411640167236
+08/26/2020 04:47:06 PM smarter_cells: 2.529228687286377
+08/26/2020 04:47:06 PM Constructing a joint matrix...
+08/26/2020 04:47:06 PM Imputing into snatac_gene space...
+08/26/2020 04:47:06 PM for snatac_gene cells...
+08/26/2020 04:47:06 PM for smarter_cells cells...
+08/26/2020 04:51:08 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka2_knn2.npy.1
+08/26/2020 04:51:08 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka2_knn2.npy.1
+08/26/2020 04:51:08 PM Done integration into a common PC space
+08/26/2020 04:51:08 PM Subsampling 3/3
+08/26/2020 04:51:10 PM snatac_gene (44022, 13) (6345, 44022)
+08/26/2020 04:51:11 PM smarter_cells (5011, 129) (5743, 5011)
+08/26/2020 04:51:11 PM Smoothing within modalities...
+08/26/2020 04:51:39 PM snatac_gene: 28.13468623161316
+08/26/2020 04:51:41 PM smarter_cells: 1.735727310180664
+08/26/2020 04:51:41 PM Constructing a joint matrix...
+08/26/2020 04:51:41 PM Imputing into snatac_gene space...
+08/26/2020 04:51:41 PM for snatac_gene cells...
+08/26/2020 04:51:41 PM for smarter_cells cells...
+08/26/2020 04:55:40 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka2_knn2.npy.2
+08/26/2020 04:55:40 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka2_knn2.npy.2
+08/26/2020 04:55:41 PM Done integration into a common PC space
+Time used to build kNN map 0.8229861259460449
+Time used to get kNN 1.0220935344696045
+Time used to build kNN map 0.11667275428771973
+Time used to get kNN 0.12188839912414551
+Time used to build kNN map 0.7867581844329834
+Time used to get kNN 0.8653347492218018
+Time used to build kNN map 0.12788891792297363
+Time used to get kNN 0.09431743621826172
+Time used to build kNN map 0.7981233596801758
+Time used to get kNN 0.867189884185791
+Time used to build kNN map 0.17262768745422363
+Time used to get kNN 0.1462569236755371
+08/26/2020 04:55:48 PM corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26
+08/26/2020 04:55:48 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_2_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_2_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_2_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_2_plot1_v2.pdf
+08/26/2020 04:55:48 PM corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26
+08/26/2020 04:55:48 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_0_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_0_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_0_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_0_plot1_v2.pdf
+08/26/2020 04:55:48 PM corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26
+08/26/2020 04:55:48 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_1_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_1_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_1_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka2_knn2_200826_2020-08-26_1_plot1_v2.pdf
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 04:55:49 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 04:55:49 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 04:55:49 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 04:55:52 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 04:55:52 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 04:55:52 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 04:55:54 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 04:55:54 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 04:55:55 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 04:55:59 PM (5011, 44022)_(5011, 5011)_(32324, 5011)_(233514, 44022)
+08/26/2020 04:56:00 PM (4935, 43766)_(4935, 4935)_(32324, 4935)_(233514, 43766)
+08/26/2020 04:56:01 PM (4990, 43892)_(4990, 4990)_(32324, 4990)_(233514, 43892)
+08/26/2020 04:57:24 PM (32324, 4935)_(233514, 4935)
+08/26/2020 04:57:25 PM (32324, 4990)_(233514, 4990)
+08/26/2020 04:57:25 PM (32324, 5011)_(233514, 5011)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 05:02:28 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 05:02:31 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 05:02:31 PM 0
+08/26/2020 05:03:41 PM 100000
+08/26/2020 05:03:43 PM 100000
+08/26/2020 05:03:44 PM 100000
+08/26/2020 05:04:13 PM 200000
+08/26/2020 05:04:15 PM 200000
+08/26/2020 05:04:15 PM 200000
+08/26/2020 05:04:43 PM 300000
+08/26/2020 05:04:44 PM 300000
+08/26/2020 05:04:44 PM 300000
+08/26/2020 05:05:12 PM 400000
+08/26/2020 05:05:12 PM 400000
+08/26/2020 05:05:13 PM 400000
+08/26/2020 05:05:41 PM 500000
+08/26/2020 05:05:41 PM 500000
+08/26/2020 05:05:42 PM 500000
+08/26/2020 05:06:08 PM 600000
+08/26/2020 05:06:08 PM 600000
+08/26/2020 05:06:10 PM 600000
+08/26/2020 05:06:36 PM 700000
+08/26/2020 05:06:39 PM 700000
+08/26/2020 05:06:41 PM 700000
+08/26/2020 05:07:04 PM 800000
+08/26/2020 05:07:07 PM 800000
+08/26/2020 05:07:09 PM 800000
+08/26/2020 05:07:32 PM 900000
+08/26/2020 05:07:33 PM 900000
+08/26/2020 05:07:37 PM 900000
+08/26/2020 05:08:00 PM 1000000
+08/26/2020 05:08:01 PM 1000000
+08/26/2020 05:08:06 PM 1000000
+08/26/2020 05:08:27 PM 1100000
+08/26/2020 05:08:29 PM 1100000
+08/26/2020 05:08:35 PM 1100000
+08/26/2020 05:08:54 PM 1200000
+08/26/2020 05:08:56 PM 1200000
+08/26/2020 05:09:03 PM 1200000
+08/26/2020 05:09:22 PM 1300000
+08/26/2020 05:09:24 PM 1300000
+08/26/2020 05:09:33 PM 1300000
+08/26/2020 05:10:00 PM 1400000
+08/26/2020 05:10:01 PM 1400000
+08/26/2020 05:10:09 PM 1400000
+08/26/2020 05:10:29 PM 1500000
+08/26/2020 05:10:29 PM 1500000
+08/26/2020 05:10:37 PM 1500000
+08/26/2020 05:10:57 PM 1600000
+08/26/2020 05:10:57 PM 1600000
+08/26/2020 05:11:06 PM 1600000
+08/26/2020 05:11:24 PM 1700000
+08/26/2020 05:11:27 PM 1700000
+08/26/2020 05:11:35 PM 1700000
+08/26/2020 05:11:53 PM 1800000
+08/26/2020 05:11:56 PM 1800000
+08/26/2020 05:12:04 PM 1800000
+08/26/2020 05:12:22 PM 1900000
+08/26/2020 05:12:24 PM 1900000
+08/26/2020 05:12:34 PM 1900000
+08/26/2020 05:12:51 PM 2000000
+08/26/2020 05:12:53 PM 2000000
+08/26/2020 05:13:03 PM 2000000
+08/26/2020 05:13:19 PM 2100000
+08/26/2020 05:13:21 PM 2100000
+08/26/2020 05:13:31 PM 2100000
+08/26/2020 05:13:48 PM 2200000
+08/26/2020 05:13:48 PM 2200000
+08/26/2020 05:14:01 PM 2200000
+08/26/2020 05:14:20 PM 2300000
+08/26/2020 05:14:22 PM 2300000
+08/26/2020 05:14:33 PM 2300000
+08/26/2020 05:14:56 PM 2400000
+08/26/2020 05:14:57 PM 2400000
+08/26/2020 05:15:09 PM 2400000
+08/26/2020 05:15:31 PM 2500000
+08/26/2020 05:15:32 PM 2500000
+08/26/2020 05:15:43 PM 2500000
+08/26/2020 05:16:06 PM 0
+08/26/2020 05:16:10 PM 0
+08/26/2020 05:16:36 PM 0
+08/26/2020 05:17:13 PM 100000
+08/26/2020 05:17:25 PM 100000
+08/26/2020 05:17:52 PM 100000
+08/26/2020 05:18:22 PM 200000
+08/26/2020 05:18:41 PM 200000
+08/26/2020 05:19:10 PM 200000
+08/26/2020 05:19:30 PM 300000
+08/26/2020 05:19:57 PM 300000
+08/26/2020 05:20:27 PM 300000
+08/26/2020 05:20:39 PM 400000
+08/26/2020 05:21:13 PM 400000
+08/26/2020 05:21:43 PM 400000
+08/26/2020 05:21:47 PM 500000
+08/26/2020 05:22:28 PM 500000
+08/26/2020 05:22:56 PM 600000
+08/26/2020 05:23:00 PM 500000
+08/26/2020 05:23:43 PM 600000
+08/26/2020 05:24:05 PM 700000
+08/26/2020 05:24:17 PM 600000
+08/26/2020 05:24:59 PM 700000
+08/26/2020 05:25:13 PM 800000
+08/26/2020 05:25:34 PM 700000
+08/26/2020 05:26:14 PM 800000
+08/26/2020 05:26:22 PM 900000
+08/26/2020 05:26:51 PM 800000
+08/26/2020 05:27:30 PM 900000
+08/26/2020 05:27:31 PM 1000000
+08/26/2020 05:28:09 PM 900000
+08/26/2020 05:28:39 PM 1100000
+08/26/2020 05:28:45 PM 1000000
+08/26/2020 05:29:26 PM 1000000
+08/26/2020 05:29:45 PM 1200000
+08/26/2020 05:29:58 PM 1100000
+08/26/2020 05:30:28 PM 1100000
+08/26/2020 05:30:33 PM 1300000
+08/26/2020 05:30:50 PM 1200000
+08/26/2020 05:31:13 PM 1400000
+08/26/2020 05:31:18 PM 1200000
+08/26/2020 05:31:38 PM 1300000
+08/26/2020 05:31:54 PM 1500000
+08/26/2020 05:32:07 PM 1300000
+08/26/2020 05:32:29 PM 1400000
+08/26/2020 05:32:36 PM 1600000
+08/26/2020 05:32:58 PM 1400000
+08/26/2020 05:33:19 PM 1700000
+08/26/2020 05:33:19 PM 1500000
+08/26/2020 05:33:49 PM 1500000
+08/26/2020 05:34:01 PM 1800000
+08/26/2020 05:34:11 PM 1600000
+08/26/2020 05:34:42 PM 1600000
+08/26/2020 05:34:43 PM 1900000
+08/26/2020 05:35:04 PM 1700000
+08/26/2020 05:35:26 PM 2000000
+08/26/2020 05:35:35 PM 1700000
+08/26/2020 05:35:58 PM 1800000
+08/26/2020 05:36:10 PM 2100000
+08/26/2020 05:36:29 PM 1800000
+08/26/2020 05:36:52 PM 2200000
+08/26/2020 05:36:52 PM 1900000
+08/26/2020 05:37:22 PM 1900000
+08/26/2020 05:37:33 PM 2300000
+08/26/2020 05:37:44 PM 2000000
+08/26/2020 05:38:20 PM 2000000
+08/26/2020 05:38:20 PM 2400000
+08/26/2020 05:38:46 PM 2100000
+08/26/2020 05:39:11 PM 2500000
+08/26/2020 05:39:24 PM 2100000
+08/26/2020 05:39:51 PM 2200000
+08/26/2020 05:39:59 PM 0
+08/26/2020 05:40:17 PM 2200000
+08/26/2020 05:40:32 PM 2300000
+08/26/2020 05:40:40 PM 100000
+08/26/2020 05:41:01 PM 2300000
+08/26/2020 05:41:11 PM 2400000
+08/26/2020 05:41:25 PM 200000
+08/26/2020 05:41:45 PM 2400000
+08/26/2020 05:41:50 PM 2500000
+08/26/2020 05:42:06 PM 300000
+08/26/2020 05:42:26 PM 2500000
+08/26/2020 05:42:28 PM 0
+08/26/2020 05:42:43 PM 400000
+08/26/2020 05:42:57 PM 0
+08/26/2020 05:43:03 PM 100000
+08/26/2020 05:43:17 PM 500000
+08/26/2020 05:43:35 PM 100000
+08/26/2020 05:43:40 PM 200000
+08/26/2020 05:43:54 PM 600000
+08/26/2020 05:44:13 PM 200000
+08/26/2020 05:44:16 PM 300000
+08/26/2020 05:44:27 PM 700000
+08/26/2020 05:44:47 PM 300000
+08/26/2020 05:44:48 PM 400000
+08/26/2020 05:44:59 PM 800000
+08/26/2020 05:45:19 PM 400000
+08/26/2020 05:45:21 PM 500000
+08/26/2020 05:45:32 PM 900000
+08/26/2020 05:45:53 PM 500000
+08/26/2020 05:45:56 PM 600000
+08/26/2020 05:46:08 PM 1000000
+08/26/2020 05:46:29 PM 600000
+08/26/2020 05:46:31 PM 700000
+08/26/2020 05:46:46 PM 1100000
+08/26/2020 05:47:06 PM 700000
+08/26/2020 05:47:07 PM 800000
+08/26/2020 05:47:24 PM 1200000
+08/26/2020 05:47:44 PM 800000
+08/26/2020 05:47:45 PM 900000
+08/26/2020 05:48:04 PM 1300000
+08/26/2020 05:48:22 PM 900000
+08/26/2020 05:48:24 PM 1000000
+08/26/2020 05:48:43 PM 1400000
+08/26/2020 05:48:59 PM 1000000
+08/26/2020 05:49:00 PM 1100000
+08/26/2020 05:49:21 PM 1500000
+08/26/2020 05:49:34 PM 1100000
+08/26/2020 05:49:36 PM 1200000
+08/26/2020 05:50:01 PM 1600000
+08/26/2020 05:50:15 PM 1200000
+08/26/2020 05:50:17 PM 1300000
+08/26/2020 05:50:47 PM 1700000
+08/26/2020 05:51:02 PM 1300000
+08/26/2020 05:51:03 PM 1400000
+08/26/2020 05:51:35 PM 1800000
+08/26/2020 05:51:51 PM 1400000
+08/26/2020 05:51:52 PM 1500000
+08/26/2020 05:52:23 PM 1900000
+08/26/2020 05:52:39 PM 1500000
+08/26/2020 05:52:41 PM 1600000
+08/26/2020 05:53:12 PM 2000000
+08/26/2020 05:53:30 PM 1600000
+08/26/2020 05:53:32 PM 1700000
+08/26/2020 05:54:03 PM 2100000
+08/26/2020 05:54:22 PM 1700000
+08/26/2020 05:54:23 PM 1800000
+08/26/2020 05:54:54 PM 2200000
+08/26/2020 05:55:10 PM 1800000
+08/26/2020 05:55:12 PM 1900000
+08/26/2020 05:55:41 PM 2300000
+08/26/2020 05:55:57 PM 1900000
+08/26/2020 05:56:00 PM 2000000
+08/26/2020 05:56:26 PM 2400000
+08/26/2020 05:56:42 PM 2000000
+08/26/2020 05:56:45 PM 2100000
+08/26/2020 05:57:09 PM 2500000
+08/26/2020 05:57:26 PM 2100000
+08/26/2020 05:57:29 PM 2200000
+08/26/2020 05:57:49 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 05:57:49 PM 2062_1000000
+08/26/2020 05:58:07 PM 2200000
+08/26/2020 05:58:10 PM 2300000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+08/26/2020 05:58:40 PM 2300000
+08/26/2020 05:58:43 PM 2400000
+08/26/2020 05:59:14 PM 2400000
+08/26/2020 05:59:14 PM 2500000
+08/26/2020 05:59:40 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 05:59:40 PM 2062_1000000
+08/26/2020 05:59:44 PM 2500000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+08/26/2020 06:00:10 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 06:00:10 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:296: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+5, 5
+08/26/2020 06:00:43 PM  config_atac_scsmart_ka5_knn5_200826.py
+08/26/2020 06:00:43 PM * Begin integration
+08/26/2020 06:00:43 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+08/26/2020 06:00:43 PM Metadata smarter_cells (6244, 129)
+08/26/2020 06:00:49 PM Feature matrix snatac_gene (6345, 54844)
+08/26/2020 06:00:51 PM Feature matrix smarter_cells (5743, 6244)
+08/26/2020 06:00:51 PM Done reading data
+08/26/2020 06:00:51 PM Subsampling 1/3
+08/26/2020 06:00:58 PM snatac_gene (43941, 13) (6345, 43941)
+08/26/2020 06:01:00 PM smarter_cells (5011, 129) (5743, 5011)
+08/26/2020 06:01:00 PM Smoothing within modalities...
+08/26/2020 06:01:48 PM snatac_gene: 47.60121130943298
+08/26/2020 06:01:52 PM smarter_cells: 4.594166040420532
+08/26/2020 06:01:52 PM Constructing a joint matrix...
+08/26/2020 06:01:52 PM Imputing into snatac_gene space...
+08/26/2020 06:01:52 PM for snatac_gene cells...
+08/26/2020 06:01:52 PM for smarter_cells cells...
+08/26/2020 06:06:42 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka5_knn5.npy.0
+08/26/2020 06:06:42 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka5_knn5.npy.0
+08/26/2020 06:06:42 PM Done integration into a common PC space
+08/26/2020 06:06:42 PM Subsampling 2/3
+08/26/2020 06:06:48 PM snatac_gene (43735, 13) (6345, 43735)
+08/26/2020 06:06:49 PM smarter_cells (4972, 129) (5743, 4972)
+08/26/2020 06:06:49 PM Smoothing within modalities...
+08/26/2020 06:07:30 PM snatac_gene: 41.018020153045654
+08/26/2020 06:07:35 PM smarter_cells: 5.218578338623047
+08/26/2020 06:07:35 PM Constructing a joint matrix...
+08/26/2020 06:07:35 PM Imputing into snatac_gene space...
+08/26/2020 06:07:35 PM for snatac_gene cells...
+08/26/2020 06:07:35 PM for smarter_cells cells...
+08/26/2020 06:12:37 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka5_knn5.npy.1
+08/26/2020 06:12:37 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka5_knn5.npy.1
+08/26/2020 06:12:37 PM Done integration into a common PC space
+08/26/2020 06:12:37 PM Subsampling 3/3
+08/26/2020 06:12:43 PM snatac_gene (44008, 13) (6345, 44008)
+08/26/2020 06:12:44 PM smarter_cells (4966, 129) (5743, 4966)
+08/26/2020 06:12:44 PM Smoothing within modalities...
+08/26/2020 06:13:25 PM snatac_gene: 40.54809093475342
+08/26/2020 06:13:30 PM smarter_cells: 4.9423463344573975
+08/26/2020 06:13:30 PM Constructing a joint matrix...
+08/26/2020 06:13:30 PM Imputing into snatac_gene space...
+08/26/2020 06:13:30 PM for snatac_gene cells...
+08/26/2020 06:13:30 PM for smarter_cells cells...
+08/26/2020 06:18:20 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka5_knn5.npy.2
+08/26/2020 06:18:20 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka5_knn5.npy.2
+08/26/2020 06:18:21 PM Done integration into a common PC space
+Time used to build kNN map 0.86244797706604
+Time used to get kNN 1.7998144626617432
+Time used to build kNN map 0.20438718795776367
+Time used to get kNN 0.13198590278625488
+Time used to build kNN map 0.8774189949035645
+Time used to get kNN 1.5824213027954102
+Time used to build kNN map 0.11792898178100586
+Time used to get kNN 0.18500161170959473
+Time used to build kNN map 0.9022479057312012
+Time used to get kNN 1.789001226425171
+Time used to build kNN map 0.20636487007141113
+Time used to get kNN 0.25803041458129883
+08/26/2020 06:18:26 PM corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26
+08/26/2020 06:18:26 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_1_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_1_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_1_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_1_plot1_v2.pdf
+08/26/2020 06:18:26 PM corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26
+08/26/2020 06:18:26 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_0_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_0_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_0_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_0_plot1_v2.pdf
+08/26/2020 06:18:26 PM corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26
+08/26/2020 06:18:26 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_2_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_2_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_2_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka5_knn5_200826_2020-08-26_2_plot1_v2.pdf
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 06:18:26 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 06:18:26 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 06:18:26 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 06:18:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 06:18:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 06:18:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 06:18:33 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 06:18:33 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 06:18:33 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 06:18:37 PM (5011, 43941)_(5011, 5011)_(32324, 5011)_(233514, 43941)
+08/26/2020 06:18:38 PM (4966, 44008)_(4966, 4966)_(32324, 4966)_(233514, 44008)
+08/26/2020 06:18:38 PM (4972, 43735)_(4972, 4972)_(32324, 4972)_(233514, 43735)
+08/26/2020 06:20:12 PM (32324, 4972)_(233514, 4972)
+08/26/2020 06:20:12 PM (32324, 5011)_(233514, 5011)
+08/26/2020 06:20:13 PM (32324, 4966)_(233514, 4966)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 06:23:27 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 06:23:29 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 06:23:34 PM 0
+08/26/2020 06:24:52 PM 100000
+08/26/2020 06:24:56 PM 100000
+08/26/2020 06:24:59 PM 100000
+08/26/2020 06:25:58 PM 200000
+08/26/2020 06:26:01 PM 200000
+08/26/2020 06:26:03 PM 200000
+08/26/2020 06:27:04 PM 300000
+08/26/2020 06:27:05 PM 300000
+08/26/2020 06:27:07 PM 300000
+08/26/2020 06:28:10 PM 400000
+08/26/2020 06:28:11 PM 400000
+08/26/2020 06:28:14 PM 400000
+08/26/2020 06:29:16 PM 500000
+08/26/2020 06:29:18 PM 500000
+08/26/2020 06:29:21 PM 500000
+08/26/2020 06:30:22 PM 600000
+08/26/2020 06:30:25 PM 600000
+08/26/2020 06:30:28 PM 600000
+08/26/2020 06:31:28 PM 700000
+08/26/2020 06:31:31 PM 700000
+08/26/2020 06:31:33 PM 700000
+08/26/2020 06:32:34 PM 800000
+08/26/2020 06:32:38 PM 800000
+08/26/2020 06:32:38 PM 800000
+08/26/2020 06:33:40 PM 900000
+08/26/2020 06:33:44 PM 900000
+08/26/2020 06:33:44 PM 900000
+08/26/2020 06:34:46 PM 1000000
+08/26/2020 06:34:49 PM 1000000
+08/26/2020 06:34:50 PM 1000000
+08/26/2020 06:35:52 PM 1100000
+08/26/2020 06:35:55 PM 1100000
+08/26/2020 06:35:55 PM 1100000
+08/26/2020 06:36:59 PM 1200000
+08/26/2020 06:37:01 PM 1200000
+08/26/2020 06:37:02 PM 1200000
+08/26/2020 06:38:05 PM 1300000
+08/26/2020 06:38:08 PM 1300000
+08/26/2020 06:38:08 PM 1300000
+08/26/2020 06:39:12 PM 1400000
+08/26/2020 06:39:14 PM 1400000
+08/26/2020 06:39:14 PM 1400000
+08/26/2020 06:40:17 PM 1500000
+08/26/2020 06:40:20 PM 1500000
+08/26/2020 06:40:21 PM 1500000
+08/26/2020 06:41:23 PM 1600000
+08/26/2020 06:41:27 PM 1600000
+08/26/2020 06:41:27 PM 1600000
+08/26/2020 06:42:30 PM 1700000
+08/26/2020 06:42:32 PM 1700000
+08/26/2020 06:42:34 PM 1700000
+08/26/2020 06:43:33 PM 1800000
+08/26/2020 06:43:36 PM 1800000
+08/26/2020 06:43:39 PM 1800000
+08/26/2020 06:44:37 PM 1900000
+08/26/2020 06:44:39 PM 1900000
+08/26/2020 06:44:41 PM 1900000
+08/26/2020 06:45:42 PM 2000000
+08/26/2020 06:45:45 PM 2000000
+08/26/2020 06:45:45 PM 2000000
+08/26/2020 06:46:46 PM 2100000
+08/26/2020 06:46:48 PM 2100000
+08/26/2020 06:46:49 PM 2100000
+08/26/2020 06:47:38 PM 2200000
+08/26/2020 06:47:41 PM 2200000
+08/26/2020 06:47:42 PM 2200000
+08/26/2020 06:48:32 PM 2300000
+08/26/2020 06:48:36 PM 2300000
+08/26/2020 06:48:36 PM 2300000
+08/26/2020 06:49:34 PM 2400000
+08/26/2020 06:49:36 PM 2400000
+08/26/2020 06:49:37 PM 2400000
+08/26/2020 06:50:31 PM 2500000
+08/26/2020 06:50:34 PM 2500000
+08/26/2020 06:50:36 PM 2500000
+08/26/2020 06:51:32 PM 0
+08/26/2020 06:51:35 PM 0
+08/26/2020 06:51:37 PM 0
+08/26/2020 06:52:35 PM 100000
+08/26/2020 06:52:39 PM 100000
+08/26/2020 06:52:41 PM 100000
+08/26/2020 06:53:32 PM 200000
+08/26/2020 06:53:39 PM 200000
+08/26/2020 06:53:43 PM 200000
+08/26/2020 06:54:31 PM 300000
+08/26/2020 06:54:40 PM 300000
+08/26/2020 06:54:46 PM 300000
+08/26/2020 06:55:31 PM 400000
+08/26/2020 06:55:43 PM 400000
+08/26/2020 06:55:50 PM 400000
+08/26/2020 06:56:32 PM 500000
+08/26/2020 06:56:46 PM 500000
+08/26/2020 06:56:54 PM 500000
+08/26/2020 06:57:33 PM 600000
+08/26/2020 06:57:48 PM 600000
+08/26/2020 06:58:00 PM 600000
+08/26/2020 06:58:34 PM 700000
+08/26/2020 06:58:50 PM 700000
+08/26/2020 06:59:03 PM 700000
+08/26/2020 06:59:35 PM 800000
+08/26/2020 06:59:54 PM 800000
+08/26/2020 07:00:09 PM 800000
+08/26/2020 07:00:38 PM 900000
+08/26/2020 07:00:58 PM 900000
+08/26/2020 07:01:16 PM 900000
+08/26/2020 07:01:48 PM 1000000
+08/26/2020 07:02:14 PM 1000000
+08/26/2020 07:02:34 PM 1000000
+08/26/2020 07:03:02 PM 1100000
+08/26/2020 07:03:29 PM 1100000
+08/26/2020 07:03:51 PM 1100000
+08/26/2020 07:04:16 PM 1200000
+08/26/2020 07:04:47 PM 1200000
+08/26/2020 07:05:10 PM 1200000
+08/26/2020 07:05:29 PM 1300000
+08/26/2020 07:05:56 PM 1300000
+08/26/2020 07:06:18 PM 1300000
+08/26/2020 07:06:33 PM 1400000
+08/26/2020 07:07:05 PM 1400000
+08/26/2020 07:07:32 PM 1400000
+08/26/2020 07:07:43 PM 1500000
+08/26/2020 07:08:13 PM 1500000
+08/26/2020 07:08:36 PM 1500000
+08/26/2020 07:08:41 PM 1600000
+08/26/2020 07:09:15 PM 1600000
+08/26/2020 07:09:43 PM 1600000
+08/26/2020 07:09:44 PM 1700000
+08/26/2020 07:10:23 PM 1700000
+08/26/2020 07:10:50 PM 1800000
+08/26/2020 07:10:52 PM 1700000
+08/26/2020 07:11:35 PM 1800000
+08/26/2020 07:11:57 PM 1900000
+08/26/2020 07:12:02 PM 1800000
+08/26/2020 07:12:44 PM 1900000
+08/26/2020 07:13:11 PM 2000000
+08/26/2020 07:13:17 PM 1900000
+08/26/2020 07:13:59 PM 2000000
+08/26/2020 07:14:21 PM 2100000
+08/26/2020 07:14:30 PM 2000000
+08/26/2020 07:15:06 PM 2100000
+08/26/2020 07:15:28 PM 2200000
+08/26/2020 07:15:39 PM 2100000
+08/26/2020 07:16:11 PM 2200000
+08/26/2020 07:16:30 PM 2300000
+08/26/2020 07:16:41 PM 2200000
+08/26/2020 07:17:11 PM 2300000
+08/26/2020 07:17:28 PM 2400000
+08/26/2020 07:17:42 PM 2300000
+08/26/2020 07:18:18 PM 2400000
+08/26/2020 07:18:33 PM 2500000
+08/26/2020 07:18:49 PM 2400000
+08/26/2020 07:19:25 PM 2500000
+08/26/2020 07:19:29 PM 0
+08/26/2020 07:19:51 PM 2500000
+08/26/2020 07:20:17 PM 0
+08/26/2020 07:20:26 PM 100000
+08/26/2020 07:20:40 PM 0
+08/26/2020 07:21:10 PM 100000
+08/26/2020 07:21:17 PM 200000
+08/26/2020 07:21:33 PM 100000
+08/26/2020 07:22:02 PM 200000
+08/26/2020 07:22:08 PM 300000
+08/26/2020 07:22:27 PM 200000
+08/26/2020 07:22:54 PM 300000
+08/26/2020 07:23:02 PM 400000
+08/26/2020 07:23:19 PM 300000
+08/26/2020 07:23:45 PM 400000
+08/26/2020 07:23:51 PM 500000
+08/26/2020 07:24:11 PM 400000
+08/26/2020 07:24:36 PM 500000
+08/26/2020 07:24:42 PM 600000
+08/26/2020 07:25:04 PM 500000
+08/26/2020 07:25:31 PM 600000
+08/26/2020 07:25:38 PM 700000
+08/26/2020 07:26:01 PM 600000
+08/26/2020 07:26:29 PM 700000
+08/26/2020 07:26:37 PM 800000
+08/26/2020 07:26:55 PM 700000
+08/26/2020 07:27:22 PM 800000
+08/26/2020 07:27:29 PM 900000
+08/26/2020 07:27:47 PM 800000
+08/26/2020 07:28:13 PM 900000
+08/26/2020 07:28:20 PM 1000000
+08/26/2020 07:28:38 PM 900000
+08/26/2020 07:29:07 PM 1000000
+08/26/2020 07:29:12 PM 1100000
+08/26/2020 07:29:32 PM 1000000
+08/26/2020 07:30:03 PM 1100000
+08/26/2020 07:30:12 PM 1200000
+08/26/2020 07:30:30 PM 1100000
+08/26/2020 07:30:57 PM 1200000
+08/26/2020 07:31:05 PM 1300000
+08/26/2020 07:31:22 PM 1200000
+08/26/2020 07:31:48 PM 1300000
+08/26/2020 07:31:55 PM 1400000
+08/26/2020 07:32:12 PM 1300000
+08/26/2020 07:32:46 PM 1400000
+08/26/2020 07:32:52 PM 1500000
+08/26/2020 07:33:11 PM 1400000
+08/26/2020 07:33:38 PM 1500000
+08/26/2020 07:33:42 PM 1600000
+08/26/2020 07:34:02 PM 1500000
+08/26/2020 07:34:34 PM 1600000
+08/26/2020 07:34:36 PM 1700000
+08/26/2020 07:34:57 PM 1600000
+08/26/2020 07:35:30 PM 1700000
+08/26/2020 07:35:32 PM 1800000
+08/26/2020 07:35:55 PM 1700000
+08/26/2020 07:36:27 PM 1800000
+08/26/2020 07:36:30 PM 1900000
+08/26/2020 07:36:59 PM 1800000
+08/26/2020 07:37:27 PM 1900000
+08/26/2020 07:37:29 PM 2000000
+08/26/2020 07:37:52 PM 1900000
+08/26/2020 07:38:13 PM 2000000
+08/26/2020 07:38:14 PM 2100000
+08/26/2020 07:38:38 PM 2000000
+08/26/2020 07:39:03 PM 2100000
+08/26/2020 07:39:05 PM 2200000
+08/26/2020 07:39:30 PM 2100000
+08/26/2020 07:39:59 PM 2200000
+08/26/2020 07:40:02 PM 2300000
+08/26/2020 07:40:23 PM 2200000
+08/26/2020 07:40:52 PM 2300000
+08/26/2020 07:40:55 PM 2400000
+08/26/2020 07:41:15 PM 2300000
+08/26/2020 07:41:46 PM 2400000
+08/26/2020 07:41:50 PM 2500000
+08/26/2020 07:42:14 PM 2400000
+08/26/2020 07:42:50 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 07:42:50 PM 2062_1000000
+08/26/2020 07:42:52 PM 2500000
+08/26/2020 07:43:22 PM 2500000
+08/26/2020 07:43:51 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 07:43:51 PM 2062_1000000
+08/26/2020 07:44:22 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 07:44:22 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+10, 10
+08/26/2020 08:12:30 PM  config_atac_scsmart_ka10_knn10_200826.py
+08/26/2020 08:12:30 PM * Begin integration
+08/26/2020 08:12:30 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+08/26/2020 08:12:30 PM Metadata smarter_cells (6244, 129)
+08/26/2020 08:12:33 PM Feature matrix snatac_gene (6345, 54844)
+08/26/2020 08:12:34 PM Feature matrix smarter_cells (5743, 6244)
+08/26/2020 08:12:34 PM Done reading data
+08/26/2020 08:12:34 PM Subsampling 1/3
+08/26/2020 08:12:37 PM snatac_gene (44066, 13) (6345, 44066)
+08/26/2020 08:12:37 PM smarter_cells (4991, 129) (5743, 4991)
+08/26/2020 08:12:37 PM Smoothing within modalities...
+08/26/2020 08:13:09 PM snatac_gene: 32.10784721374512
+08/26/2020 08:13:12 PM smarter_cells: 2.9565601348876953
+08/26/2020 08:13:12 PM Constructing a joint matrix...
+08/26/2020 08:13:12 PM Imputing into snatac_gene space...
+08/26/2020 08:13:12 PM for snatac_gene cells...
+08/26/2020 08:13:12 PM for smarter_cells cells...
+08/26/2020 08:16:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka10_knn10.npy.0
+08/26/2020 08:16:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka10_knn10.npy.0
+08/26/2020 08:16:01 PM Done integration into a common PC space
+08/26/2020 08:16:01 PM Subsampling 2/3
+08/26/2020 08:16:03 PM snatac_gene (43823, 13) (6345, 43823)
+08/26/2020 08:16:03 PM smarter_cells (5020, 129) (5743, 5020)
+08/26/2020 08:16:03 PM Smoothing within modalities...
+08/26/2020 08:16:30 PM snatac_gene: 26.6422221660614
+08/26/2020 08:16:33 PM smarter_cells: 3.5293588638305664
+08/26/2020 08:16:33 PM Constructing a joint matrix...
+08/26/2020 08:16:33 PM Imputing into snatac_gene space...
+08/26/2020 08:16:33 PM for snatac_gene cells...
+08/26/2020 08:16:33 PM for smarter_cells cells...
+08/26/2020 08:20:11 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka10_knn10.npy.1
+08/26/2020 08:20:11 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka10_knn10.npy.1
+08/26/2020 08:20:11 PM Done integration into a common PC space
+08/26/2020 08:20:11 PM Subsampling 3/3
+08/26/2020 08:20:13 PM snatac_gene (43797, 13) (6345, 43797)
+08/26/2020 08:20:13 PM smarter_cells (5036, 129) (5743, 5036)
+08/26/2020 08:20:13 PM Smoothing within modalities...
+08/26/2020 08:20:42 PM snatac_gene: 28.937638998031616
+08/26/2020 08:20:46 PM smarter_cells: 3.357257843017578
+08/26/2020 08:20:46 PM Constructing a joint matrix...
+08/26/2020 08:20:46 PM Imputing into snatac_gene space...
+08/26/2020 08:20:46 PM for snatac_gene cells...
+08/26/2020 08:20:46 PM for smarter_cells cells...
+08/26/2020 08:23:51 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka10_knn10.npy.2
+08/26/2020 08:23:51 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka10_knn10.npy.2
+08/26/2020 08:23:51 PM Done integration into a common PC space
+Time used to build kNN map 0.8851356506347656
+Time used to get kNN 2.678708553314209
+Time used to build kNN map 0.22837305068969727
+Time used to get kNN 0.18167829513549805
+Time used to build kNN map 0.8687572479248047
+Time used to get kNN 2.4144508838653564
+Time used to build kNN map 0.174454927444458
+Time used to get kNN 0.18586945533752441
+Time used to build kNN map 0.7921488285064697
+Time used to get kNN 2.3091859817504883
+Time used to build kNN map 0.22398948669433594
+Time used to get kNN 0.17869782447814941
+08/26/2020 08:23:54 PM corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26
+08/26/2020 08:23:54 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_1_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_1_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_1_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_1_plot1_v2.pdf
+08/26/2020 08:23:54 PM corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26
+08/26/2020 08:23:54 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_0_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_0_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_0_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_0_plot1_v2.pdf
+08/26/2020 08:23:54 PM corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26
+08/26/2020 08:23:54 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_2_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_2_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_2_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_ka10_knn10_200826_2020-08-26_2_plot1_v2.pdf
+08/26/2020 08:23:54 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 08:23:54 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 08:23:54 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 08:23:55 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 08:23:55 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 08:23:55 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 08:23:55 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 08:23:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 08:23:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 08:23:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 08:23:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 08:23:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 08:23:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 08:24:00 PM (4991, 44066)_(4991, 4991)_(32324, 4991)_(233514, 44066)
+08/26/2020 08:24:00 PM (5036, 43797)_(5036, 5036)_(32324, 5036)_(233514, 43797)
+08/26/2020 08:24:00 PM (5020, 43823)_(5020, 5020)_(32324, 5020)_(233514, 43823)
+08/26/2020 08:24:33 PM (32324, 5036)_(233514, 5036)
+08/26/2020 08:24:34 PM (32324, 5020)_(233514, 5020)
+08/26/2020 08:25:16 PM (32324, 4991)_(233514, 4991)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 08:27:54 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 08:28:11 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 08:29:02 PM 0
+08/26/2020 08:29:10 PM 100000
+08/26/2020 08:29:25 PM 100000
+08/26/2020 08:29:53 PM 100000
+08/26/2020 08:30:19 PM 200000
+08/26/2020 08:30:21 PM 200000
+08/26/2020 08:30:28 PM 200000
+08/26/2020 08:30:47 PM 300000
+08/26/2020 08:31:13 PM 400000
+08/26/2020 08:31:16 PM 300000
+08/26/2020 08:31:25 PM 300000
+08/26/2020 08:31:39 PM 500000
+08/26/2020 08:32:05 PM 600000
+08/26/2020 08:32:13 PM 400000
+08/26/2020 08:32:20 PM 400000
+08/26/2020 08:32:32 PM 700000
+08/26/2020 08:32:58 PM 800000
+08/26/2020 08:33:12 PM 500000
+08/26/2020 08:33:21 PM 500000
+08/26/2020 08:33:23 PM 900000
+08/26/2020 08:33:49 PM 1000000
+08/26/2020 08:34:04 PM 600000
+08/26/2020 08:34:09 PM 600000
+08/26/2020 08:34:15 PM 1100000
+08/26/2020 08:34:42 PM 1200000
+08/26/2020 08:34:44 PM 700000
+08/26/2020 08:34:45 PM 700000
+08/26/2020 08:35:09 PM 1300000
+08/26/2020 08:35:22 PM 800000
+08/26/2020 08:35:25 PM 800000
+08/26/2020 08:35:37 PM 1400000
+08/26/2020 08:36:01 PM 900000
+08/26/2020 08:36:07 PM 1500000
+08/26/2020 08:36:08 PM 900000
+08/26/2020 08:36:40 PM 1600000
+08/26/2020 08:36:41 PM 1000000
+08/26/2020 08:36:51 PM 1000000
+08/26/2020 08:37:11 PM 1700000
+08/26/2020 08:37:21 PM 1100000
+08/26/2020 08:37:35 PM 1100000
+08/26/2020 08:37:43 PM 1800000
+08/26/2020 08:38:02 PM 1200000
+08/26/2020 08:38:15 PM 1900000
+08/26/2020 08:38:20 PM 1200000
+08/26/2020 08:38:42 PM 1300000
+08/26/2020 08:38:46 PM 2000000
+08/26/2020 08:39:01 PM 1300000
+08/26/2020 08:39:19 PM 2100000
+08/26/2020 08:39:22 PM 1400000
+08/26/2020 08:39:42 PM 1400000
+08/26/2020 08:39:51 PM 2200000
+08/26/2020 08:40:03 PM 1500000
+08/26/2020 08:40:23 PM 2300000
+08/26/2020 08:40:23 PM 1500000
+08/26/2020 08:40:46 PM 1600000
+08/26/2020 08:40:56 PM 2400000
+08/26/2020 08:41:15 PM 1600000
+08/26/2020 08:41:28 PM 2500000
+08/26/2020 08:41:52 PM 1700000
+08/26/2020 08:41:59 PM 0
+08/26/2020 08:42:22 PM 1700000
+08/26/2020 08:42:55 PM 100000
+08/26/2020 08:42:57 PM 1800000
+08/26/2020 08:43:27 PM 1800000
+08/26/2020 08:43:50 PM 200000
+08/26/2020 08:44:03 PM 1900000
+08/26/2020 08:44:34 PM 1900000
+08/26/2020 08:44:45 PM 300000
+08/26/2020 08:45:09 PM 2000000
+08/26/2020 08:45:40 PM 400000
+08/26/2020 08:45:41 PM 2000000
+08/26/2020 08:46:18 PM 2100000
+08/26/2020 08:46:34 PM 500000
+08/26/2020 08:46:51 PM 2100000
+08/26/2020 08:47:29 PM 2200000
+08/26/2020 08:47:30 PM 600000
+08/26/2020 08:48:04 PM 2200000
+08/26/2020 08:48:27 PM 700000
+08/26/2020 08:48:43 PM 2300000
+08/26/2020 08:49:22 PM 2300000
+08/26/2020 08:49:41 PM 800000
+08/26/2020 08:50:00 PM 2400000
+08/26/2020 08:50:42 PM 2400000
+08/26/2020 08:50:54 PM 900000
+08/26/2020 08:51:16 PM 2500000
+08/26/2020 08:51:34 PM 1000000
+08/26/2020 08:51:59 PM 2500000
+08/26/2020 08:52:01 PM 1100000
+08/26/2020 08:52:30 PM 1200000
+08/26/2020 08:52:31 PM 0
+08/26/2020 08:53:17 PM 0
+08/26/2020 08:53:18 PM 1300000
+08/26/2020 08:53:45 PM 100000
+08/26/2020 08:54:09 PM 1400000
+08/26/2020 08:54:39 PM 100000
+08/26/2020 08:54:59 PM 1500000
+08/26/2020 08:55:01 PM 200000
+08/26/2020 08:55:49 PM 1600000
+08/26/2020 08:56:03 PM 200000
+08/26/2020 08:56:17 PM 300000
+08/26/2020 08:56:40 PM 1700000
+08/26/2020 08:57:10 PM 300000
+08/26/2020 08:57:19 PM 400000
+08/26/2020 08:57:37 PM 1800000
+08/26/2020 08:58:10 PM 400000
+08/26/2020 08:58:19 PM 500000
+08/26/2020 08:58:50 PM 1900000
+08/26/2020 08:59:10 PM 500000
+08/26/2020 08:59:19 PM 600000
+08/26/2020 09:00:04 PM 2000000
+08/26/2020 09:00:10 PM 600000
+08/26/2020 09:00:19 PM 700000
+08/26/2020 09:01:10 PM 700000
+08/26/2020 09:01:18 PM 800000
+08/26/2020 09:01:19 PM 2100000
+08/26/2020 09:02:10 PM 800000
+08/26/2020 09:02:18 PM 900000
+08/26/2020 09:02:34 PM 2200000
+08/26/2020 09:03:10 PM 900000
+08/26/2020 09:03:17 PM 1000000
+08/26/2020 09:03:48 PM 2300000
+08/26/2020 09:04:09 PM 1000000
+08/26/2020 09:04:17 PM 1100000
+08/26/2020 09:05:02 PM 2400000
+08/26/2020 09:05:10 PM 1100000
+08/26/2020 09:05:17 PM 1200000
+08/26/2020 09:06:08 PM 1200000
+08/26/2020 09:06:15 PM 1300000
+08/26/2020 09:06:17 PM 2500000
+08/26/2020 09:07:05 PM 1300000
+08/26/2020 09:07:14 PM 1400000
+08/26/2020 09:07:23 PM 0
+08/26/2020 09:08:04 PM 1400000
+08/26/2020 09:08:12 PM 1500000
+08/26/2020 09:08:12 PM 100000
+08/26/2020 09:09:02 PM 1500000
+08/26/2020 09:09:02 PM 200000
+08/26/2020 09:09:11 PM 1600000
+08/26/2020 09:09:49 PM 300000
+08/26/2020 09:10:01 PM 1600000
+08/26/2020 09:10:10 PM 1700000
+08/26/2020 09:10:34 PM 400000
+08/26/2020 09:11:01 PM 1700000
+08/26/2020 09:11:10 PM 1800000
+08/26/2020 09:11:18 PM 500000
+08/26/2020 09:12:03 PM 600000
+08/26/2020 09:12:03 PM 1800000
+08/26/2020 09:12:10 PM 1900000
+08/26/2020 09:12:46 PM 700000
+08/26/2020 09:13:08 PM 1900000
+08/26/2020 09:13:10 PM 2000000
+08/26/2020 09:13:33 PM 800000
+08/26/2020 09:14:14 PM 2000000
+08/26/2020 09:14:14 PM 2100000
+08/26/2020 09:14:20 PM 900000
+08/26/2020 09:15:10 PM 1000000
+08/26/2020 09:15:25 PM 2100000
+08/26/2020 09:15:27 PM 2200000
+08/26/2020 09:15:57 PM 1100000
+08/26/2020 09:16:35 PM 2300000
+08/26/2020 09:16:37 PM 2200000
+08/26/2020 09:16:44 PM 1200000
+08/26/2020 09:17:33 PM 1300000
+08/26/2020 09:17:51 PM 2400000
+08/26/2020 09:17:55 PM 2300000
+08/26/2020 09:18:28 PM 1400000
+08/26/2020 09:18:54 PM 2500000
+08/26/2020 09:19:02 PM 2400000
+08/26/2020 09:19:41 PM 1500000
+08/26/2020 09:19:47 PM 0
+08/26/2020 09:20:02 PM 2500000
+08/26/2020 09:20:44 PM 100000
+08/26/2020 09:20:55 PM 1600000
+08/26/2020 09:20:56 PM 0
+08/26/2020 09:21:40 PM 200000
+08/26/2020 09:21:57 PM 100000
+08/26/2020 09:22:12 PM 1700000
+08/26/2020 09:22:48 PM 300000
+08/26/2020 09:23:07 PM 200000
+08/26/2020 09:23:27 PM 1800000
+08/26/2020 09:23:56 PM 400000
+08/26/2020 09:24:16 PM 300000
+08/26/2020 09:24:45 PM 1900000
+08/26/2020 09:25:05 PM 500000
+08/26/2020 09:25:26 PM 400000
+08/26/2020 09:26:00 PM 2000000
+08/26/2020 09:26:13 PM 600000
+08/26/2020 09:26:36 PM 500000
+08/26/2020 09:27:18 PM 2100000
+08/26/2020 09:27:20 PM 700000
+08/26/2020 09:27:45 PM 600000
+08/26/2020 09:28:27 PM 800000
+08/26/2020 09:28:34 PM 2200000
+08/26/2020 09:28:56 PM 700000
+08/26/2020 09:29:35 PM 900000
+08/26/2020 09:29:46 PM 2300000
+08/26/2020 09:30:06 PM 800000
+08/26/2020 09:30:43 PM 1000000
+08/26/2020 09:31:00 PM 2400000
+08/26/2020 09:31:15 PM 900000
+08/26/2020 09:31:51 PM 1100000
+08/26/2020 09:32:15 PM 2500000
+08/26/2020 09:32:25 PM 1000000
+08/26/2020 09:33:00 PM 1200000
+08/26/2020 09:33:22 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 09:33:22 PM 2062_1000000
+08/26/2020 09:33:34 PM 1100000
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+08/26/2020 09:34:04 PM 1300000
+08/26/2020 09:34:33 PM 1200000
+08/26/2020 09:34:59 PM 1400000
+08/26/2020 09:35:32 PM 1300000
+08/26/2020 09:35:57 PM 1500000
+08/26/2020 09:36:32 PM 1400000
+08/26/2020 09:36:58 PM 1600000
+08/26/2020 09:37:33 PM 1500000
+08/26/2020 09:37:59 PM 1700000
+08/26/2020 09:38:34 PM 1600000
+08/26/2020 09:39:00 PM 1800000
+08/26/2020 09:39:35 PM 1700000
+08/26/2020 09:40:00 PM 1900000
+08/26/2020 09:40:34 PM 1800000
+08/26/2020 09:40:59 PM 2000000
+08/26/2020 09:41:29 PM 1900000
+08/26/2020 09:41:50 PM 2100000
+08/26/2020 09:42:19 PM 2000000
+08/26/2020 09:42:40 PM 2200000
+08/26/2020 09:43:10 PM 2100000
+08/26/2020 09:43:31 PM 2300000
+08/26/2020 09:44:01 PM 2200000
+08/26/2020 09:44:22 PM 2400000
+08/26/2020 09:44:53 PM 2300000
+08/26/2020 09:45:12 PM 2500000
+08/26/2020 09:45:45 PM 2400000
+08/26/2020 09:45:56 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 09:45:56 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+08/26/2020 09:46:23 PM 2500000
+08/26/2020 09:46:49 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 09:46:49 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:295: RuntimeWarning: divide by zero encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: divide by zero encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:337: RuntimeWarning: invalid value encountered in true_divide
+  fdr_cdfs[label] = fdr
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: divide by zero encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+../correlation_analysis_celllevel-v4-stage3.py:338: RuntimeWarning: invalid value encountered in true_divide
+  fig, axs = plt.subplots(3, 1, figsize=(4*2,4*3), sharex=True)
+20, 20
+08/26/2020 09:47:11 PM  config_atac_scsmart_ka20_knn20_200826.py
+08/26/2020 09:47:11 PM * Begin integration
+08/26/2020 09:47:11 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+08/26/2020 09:47:11 PM Metadata smarter_cells (6244, 129)
+08/26/2020 09:47:14 PM Feature matrix snatac_gene (6345, 54844)
+08/26/2020 09:47:15 PM Feature matrix smarter_cells (5743, 6244)
+08/26/2020 09:47:15 PM Done reading data
+08/26/2020 09:47:15 PM Subsampling 1/3
+08/26/2020 09:47:17 PM snatac_gene (43884, 13) (6345, 43884)
+08/26/2020 09:47:18 PM smarter_cells (4968, 129) (5743, 4968)
+08/26/2020 09:47:18 PM Smoothing within modalities...
+08/26/2020 09:47:59 PM snatac_gene: 41.25900435447693
+08/26/2020 09:48:03 PM smarter_cells: 3.8790016174316406
+08/26/2020 09:48:03 PM Constructing a joint matrix...
+08/26/2020 09:48:03 PM Imputing into snatac_gene space...
+08/26/2020 09:48:03 PM for snatac_gene cells...
+08/26/2020 09:48:03 PM for smarter_cells cells...
+08/26/2020 09:51:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka20_knn20.npy.0
+08/26/2020 09:51:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka20_knn20.npy.0
+08/26/2020 09:51:00 PM Done integration into a common PC space
+08/26/2020 09:51:00 PM Subsampling 2/3
+08/26/2020 09:51:02 PM snatac_gene (43852, 13) (6345, 43852)
+08/26/2020 09:51:02 PM smarter_cells (4994, 129) (5743, 4994)
+08/26/2020 09:51:02 PM Smoothing within modalities...
+08/26/2020 09:51:43 PM snatac_gene: 40.80511665344238
+08/26/2020 09:51:47 PM smarter_cells: 3.7912380695343018
+08/26/2020 09:51:47 PM Constructing a joint matrix...
+08/26/2020 09:51:47 PM Imputing into snatac_gene space...
+08/26/2020 09:51:47 PM for snatac_gene cells...
+08/26/2020 09:51:47 PM for smarter_cells cells...
+08/26/2020 09:54:30 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka20_knn20.npy.1
+08/26/2020 09:54:30 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka20_knn20.npy.1
+08/26/2020 09:54:30 PM Done integration into a common PC space
+08/26/2020 09:54:30 PM Subsampling 3/3
+08/26/2020 09:54:32 PM snatac_gene (43723, 13) (6345, 43723)
+08/26/2020 09:54:32 PM smarter_cells (4991, 129) (5743, 4991)
+08/26/2020 09:54:32 PM Smoothing within modalities...
+08/26/2020 09:55:10 PM snatac_gene: 37.71236515045166
+08/26/2020 09:55:13 PM smarter_cells: 3.14237642288208
+08/26/2020 09:55:13 PM Constructing a joint matrix...
+08/26/2020 09:55:13 PM Imputing into snatac_gene space...
+08/26/2020 09:55:13 PM for snatac_gene cells...
+08/26/2020 09:55:13 PM for smarter_cells cells...
+08/26/2020 09:58:07 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_atacrna_200826_ka20_knn20.npy.2
+08/26/2020 09:58:07 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_atacrna_200826_ka20_knn20.npy.2
+08/26/2020 09:58:07 PM Done integration into a common PC space
+Time used to build kNN map 0.909501314163208
+Time used to get kNN 4.171151399612427
+Time used to build kNN map 0.2425086498260498
+Time used to get kNN 0.30206799507141113
+Time used to build kNN map 0.8322398662567139
+Time used to get kNN 4.517767667770386
+Time used to build kNN map 0.1520700454711914
+Time used to get kNN 0.336423397064209
+Time used to build kNN map 0.7387359142303467
+Time used to get kNN 3.8476929664611816
+Time used to build kNN map 0.2141878604888916
+Time used to get kNN 0.2980945110321045
+08/26/2020 09:58:10 PM corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20
+08/26/2020 09:58:10 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_2_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_2_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_2_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_2_plot1_v2.pdf
+08/26/2020 09:58:10 PM corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20
+08/26/2020 09:58:10 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_0_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_0_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_0_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_0_plot1_v2.pdf
+08/26/2020 09:58:10 PM corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20
+08/26/2020 09:58:10 PM Output: /cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_1_corrs.pkl
+/cndd2/fangming/projects/scf_enhancers/results/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_1_corrs_idx.pkl
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_1_plot1.pdf
+/cndd2/fangming/projects/scf_enhancers/results/figures/corr_analysis_smarter_cells_snatac_gene_mop_2mods_atacrna_200826_ka20_knn20_1_plot1_v2.pdf
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
+08/26/2020 09:58:10 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 09:58:10 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 09:58:10 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+08/26/2020 09:58:13 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 09:58:13 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 09:58:13 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
+08/26/2020 09:58:14 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 09:58:14 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 09:58:15 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_atac_snatac_gene.npz
+08/26/2020 09:58:15 PM (4968, 43884)_(4968, 4968)_(32324, 4968)_(233514, 43884)
+08/26/2020 09:58:15 PM (4994, 43852)_(4994, 4994)_(32324, 4994)_(233514, 43852)
+08/26/2020 09:58:16 PM (4991, 43723)_(4991, 4991)_(32324, 4991)_(233514, 43723)
+08/26/2020 09:59:34 PM (32324, 4968)_(233514, 4968)
+08/26/2020 09:59:35 PM (32324, 4994)_(233514, 4994)
+08/26/2020 09:59:58 PM (32324, 4991)_(233514, 4991)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 10:02:49 PM 0
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 10:02:50 PM 0
+08/26/2020 10:03:44 PM 100000
+08/26/2020 10:03:44 PM 100000
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+08/26/2020 10:04:25 PM 0
+08/26/2020 10:04:39 PM 200000
+08/26/2020 10:04:39 PM 200000
+08/26/2020 10:05:12 PM 100000
+08/26/2020 10:05:32 PM 300000
+08/26/2020 10:05:34 PM 300000
+08/26/2020 10:05:54 PM 200000
+08/26/2020 10:06:24 PM 400000
+08/26/2020 10:06:28 PM 400000
+08/26/2020 10:06:45 PM 300000
+08/26/2020 10:07:17 PM 500000
+08/26/2020 10:07:23 PM 500000
+08/26/2020 10:07:36 PM 400000
+08/26/2020 10:08:11 PM 600000
+08/26/2020 10:08:19 PM 600000
+08/26/2020 10:08:28 PM 500000
+08/26/2020 10:09:05 PM 700000
+08/26/2020 10:09:15 PM 700000
+08/26/2020 10:09:21 PM 600000
+08/26/2020 10:10:00 PM 800000
+08/26/2020 10:10:11 PM 700000
+08/26/2020 10:10:12 PM 800000
+08/26/2020 10:10:55 PM 900000
+08/26/2020 10:11:00 PM 800000
+08/26/2020 10:11:09 PM 900000
+08/26/2020 10:11:40 PM 900000
+08/26/2020 10:11:50 PM 1000000
+08/26/2020 10:12:05 PM 1000000
+08/26/2020 10:12:07 PM 1000000
+08/26/2020 10:12:33 PM 1100000
+08/26/2020 10:12:42 PM 1100000
+08/26/2020 10:12:57 PM 1100000
+08/26/2020 10:13:00 PM 1200000
+08/26/2020 10:13:27 PM 1300000
+08/26/2020 10:13:34 PM 1200000
+08/26/2020 10:13:50 PM 1200000
+08/26/2020 10:13:54 PM 1400000
+08/26/2020 10:14:22 PM 1500000
+08/26/2020 10:14:23 PM 1300000
+08/26/2020 10:14:42 PM 1300000
+08/26/2020 10:14:50 PM 1600000
+08/26/2020 10:15:14 PM 1400000
+08/26/2020 10:15:17 PM 1700000
+08/26/2020 10:15:35 PM 1400000
+08/26/2020 10:15:44 PM 1800000
+08/26/2020 10:16:07 PM 1500000
+08/26/2020 10:16:13 PM 1900000
+08/26/2020 10:16:27 PM 1500000
+08/26/2020 10:16:41 PM 2000000
+08/26/2020 10:17:01 PM 1600000
+08/26/2020 10:17:08 PM 2100000
+08/26/2020 10:17:23 PM 1600000
+08/26/2020 10:17:36 PM 2200000
+08/26/2020 10:17:56 PM 1700000
+08/26/2020 10:18:04 PM 2300000
+08/26/2020 10:18:21 PM 1700000
+08/26/2020 10:18:31 PM 2400000
+08/26/2020 10:18:51 PM 1800000
+08/26/2020 10:18:58 PM 2500000
+08/26/2020 10:19:17 PM 1800000
+08/26/2020 10:19:23 PM 0
+08/26/2020 10:19:46 PM 1900000
+08/26/2020 10:20:14 PM 1900000
+08/26/2020 10:20:22 PM 100000
+08/26/2020 10:20:42 PM 2000000
+08/26/2020 10:21:11 PM 2000000
+08/26/2020 10:21:21 PM 200000
+08/26/2020 10:21:35 PM 2100000
+08/26/2020 10:22:07 PM 2100000
+08/26/2020 10:22:18 PM 300000
+08/26/2020 10:22:29 PM 2200000
+08/26/2020 10:23:02 PM 2200000
+08/26/2020 10:23:16 PM 400000
+08/26/2020 10:23:24 PM 2300000
+08/26/2020 10:23:57 PM 2300000
+08/26/2020 10:24:14 PM 500000
+08/26/2020 10:24:19 PM 2400000
+08/26/2020 10:24:52 PM 2400000
+08/26/2020 10:25:13 PM 600000
+08/26/2020 10:25:14 PM 2500000
+08/26/2020 10:25:47 PM 2500000
+08/26/2020 10:26:09 PM 0
+08/26/2020 10:26:11 PM 700000
+08/26/2020 10:26:42 PM 0
+08/26/2020 10:27:06 PM 800000
+08/26/2020 10:27:06 PM 100000
+08/26/2020 10:27:40 PM 100000
+08/26/2020 10:27:44 PM 900000
+08/26/2020 10:28:05 PM 200000
+08/26/2020 10:28:22 PM 1000000
+08/26/2020 10:28:38 PM 200000
+08/26/2020 10:29:02 PM 1100000
+08/26/2020 10:29:02 PM 300000
+08/26/2020 10:29:35 PM 300000
+08/26/2020 10:29:49 PM 1200000
+08/26/2020 10:29:59 PM 400000
+08/26/2020 10:30:31 PM 400000
+08/26/2020 10:30:35 PM 1300000
+08/26/2020 10:30:57 PM 500000
+08/26/2020 10:31:21 PM 1400000
+08/26/2020 10:31:28 PM 500000
+08/26/2020 10:31:54 PM 600000
+08/26/2020 10:32:08 PM 1500000
+08/26/2020 10:32:25 PM 600000
+08/26/2020 10:32:50 PM 700000
+08/26/2020 10:32:55 PM 1600000
+08/26/2020 10:33:22 PM 700000
+08/26/2020 10:33:42 PM 1700000
+08/26/2020 10:33:47 PM 800000
+08/26/2020 10:34:18 PM 800000
+08/26/2020 10:34:30 PM 1800000
+08/26/2020 10:34:44 PM 900000
+08/26/2020 10:35:15 PM 900000
+08/26/2020 10:35:18 PM 1900000
+08/26/2020 10:35:41 PM 1000000
+08/26/2020 10:36:06 PM 2000000
+08/26/2020 10:36:12 PM 1000000
+08/26/2020 10:36:37 PM 1100000
+08/26/2020 10:36:53 PM 2100000
+08/26/2020 10:37:09 PM 1100000
+08/26/2020 10:37:35 PM 1200000
+08/26/2020 10:37:40 PM 2200000
+08/26/2020 10:38:07 PM 1200000
+08/26/2020 10:38:27 PM 2300000
+08/26/2020 10:38:33 PM 1300000
+08/26/2020 10:39:05 PM 1300000
+08/26/2020 10:39:14 PM 2400000
+08/26/2020 10:39:31 PM 1400000
+08/26/2020 10:40:01 PM 2500000
+08/26/2020 10:40:04 PM 1400000
+08/26/2020 10:40:30 PM 1500000
+08/26/2020 10:40:44 PM 0
+08/26/2020 10:41:03 PM 1500000
+08/26/2020 10:41:11 PM 100000
+08/26/2020 10:41:29 PM 1600000
+08/26/2020 10:41:38 PM 200000
+08/26/2020 10:42:02 PM 1600000
+08/26/2020 10:42:05 PM 300000
+08/26/2020 10:42:29 PM 1700000
+08/26/2020 10:42:33 PM 400000
+08/26/2020 10:43:00 PM 500000
+08/26/2020 10:43:03 PM 1700000
+08/26/2020 10:43:28 PM 600000
+08/26/2020 10:43:29 PM 1800000
+08/26/2020 10:43:55 PM 700000
+08/26/2020 10:44:04 PM 1800000
+08/26/2020 10:44:21 PM 800000
+08/26/2020 10:44:29 PM 1900000
+08/26/2020 10:44:48 PM 900000
+08/26/2020 10:45:04 PM 1900000
+08/26/2020 10:45:15 PM 1000000
+08/26/2020 10:45:29 PM 2000000
+08/26/2020 10:45:42 PM 1100000
+08/26/2020 10:46:05 PM 2000000
+08/26/2020 10:46:11 PM 1200000
+08/26/2020 10:46:29 PM 2100000
+08/26/2020 10:46:39 PM 1300000
+08/26/2020 10:47:06 PM 2100000
+08/26/2020 10:47:07 PM 1400000
+08/26/2020 10:47:28 PM 2200000
+08/26/2020 10:47:34 PM 1500000
+08/26/2020 10:48:01 PM 1600000
+08/26/2020 10:48:07 PM 2200000
+08/26/2020 10:48:28 PM 2300000
+08/26/2020 10:48:30 PM 1700000
+08/26/2020 10:48:58 PM 1800000
+08/26/2020 10:49:08 PM 2300000
+08/26/2020 10:49:26 PM 1900000
+08/26/2020 10:49:28 PM 2400000
+08/26/2020 10:49:55 PM 2000000
+08/26/2020 10:50:08 PM 2400000
+08/26/2020 10:50:24 PM 2100000
+08/26/2020 10:50:27 PM 2500000
+08/26/2020 10:50:55 PM 2200000
+08/26/2020 10:51:08 PM 2500000
+08/26/2020 10:51:21 PM 0
+08/26/2020 10:51:24 PM 2300000
+08/26/2020 10:51:52 PM 2400000
+08/26/2020 10:52:02 PM 0
+08/26/2020 10:52:18 PM 100000
+08/26/2020 10:52:19 PM 2500000
+08/26/2020 10:52:43 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 10:52:43 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+08/26/2020 10:53:00 PM 100000
+08/26/2020 10:53:11 PM 200000
+08/26/2020 10:53:40 PM 200000
+08/26/2020 10:53:43 PM 300000
+08/26/2020 10:54:09 PM 300000
+08/26/2020 10:54:10 PM 400000
+08/26/2020 10:54:36 PM 500000
+08/26/2020 10:54:37 PM 400000
+08/26/2020 10:55:03 PM 600000
+08/26/2020 10:55:05 PM 500000
+08/26/2020 10:55:30 PM 700000
+08/26/2020 10:55:34 PM 600000
+08/26/2020 10:55:56 PM 800000
+08/26/2020 10:56:03 PM 700000
+08/26/2020 10:56:22 PM 900000
+08/26/2020 10:56:31 PM 800000
+08/26/2020 10:56:49 PM 1000000
+08/26/2020 10:57:00 PM 900000
+08/26/2020 10:57:15 PM 1100000
+08/26/2020 10:57:29 PM 1000000
+08/26/2020 10:57:43 PM 1200000
+08/26/2020 10:57:58 PM 1100000
+08/26/2020 10:58:11 PM 1300000
+08/26/2020 10:58:29 PM 1200000
+08/26/2020 10:58:39 PM 1400000
+08/26/2020 10:58:59 PM 1300000
+08/26/2020 10:59:07 PM 1500000
+08/26/2020 10:59:29 PM 1400000
+08/26/2020 10:59:36 PM 1600000
+08/26/2020 10:59:59 PM 1500000
+08/26/2020 11:00:06 PM 1700000
+08/26/2020 11:00:30 PM 1600000
+08/26/2020 11:00:35 PM 1800000
+08/26/2020 11:01:01 PM 1700000
+08/26/2020 11:01:03 PM 1900000
+08/26/2020 11:01:32 PM 1800000
+08/26/2020 11:01:32 PM 2000000
+08/26/2020 11:02:00 PM 2100000
+08/26/2020 11:02:03 PM 1900000
+08/26/2020 11:02:29 PM 2200000
+08/26/2020 11:02:35 PM 2000000
+08/26/2020 11:02:58 PM 2300000
+08/26/2020 11:03:05 PM 2100000
+08/26/2020 11:03:27 PM 2400000
+08/26/2020 11:03:37 PM 2200000
+08/26/2020 11:03:56 PM 2500000
+08/26/2020 11:04:07 PM 2300000
+08/26/2020 11:04:21 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 11:04:21 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+08/26/2020 11:04:38 PM 2400000
+08/26/2020 11:05:05 PM 2500000
+08/26/2020 11:05:29 PM (2589994,)_(2589994,)_(2589994,)
+08/26/2020 11:05:29 PM 2062_1000000
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: divide by zero encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:334: RuntimeWarning: invalid value encountered in true_divide
+  fdr = cdf_shuff/cdf
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: divide by zero encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+../correlation_analysis_celllevel-v4-stage3.py:335: RuntimeWarning: invalid value encountered in true_divide
+  tracks_hist_ratios[label] = hist/hist_shuff
+50, 50
+08/26/2020 11:05:43 PM  config_atac_scsmart_ka50_knn50_200826.py
+08/26/2020 11:05:43 PM * Begin integration
+08/26/2020 11:05:43 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+08/26/2020 11:05:44 PM Metadata smarter_cells (6244, 129)
+08/26/2020 11:05:47 PM Feature matrix snatac_gene (6345, 54844)
+08/26/2020 11:05:48 PM Feature matrix smarter_cells (5743, 6244)
+08/26/2020 11:05:48 PM Done reading data
+08/26/2020 11:05:48 PM Subsampling 1/3
+08/26/2020 11:05:50 PM snatac_gene (44026, 13) (6345, 44026)
+08/26/2020 11:05:50 PM smarter_cells (5018, 129) (5743, 5018)
+08/26/2020 11:05:50 PM Smoothing within modalities...
+08/26/2020 11:07:49 PM snatac_gene: 118.88887929916382
+08/26/2020 11:07:56 PM smarter_cells: 7.073123455047607
+08/26/2020 11:07:56 PM Constructing a joint matrix...
+08/26/2020 11:07:56 PM Imputing into snatac_gene space...
+08/26/2020 11:07:56 PM for snatac_gene cells...
+08/26/2020 11:07:56 PM for smarter_cells cells...

@@ -1,0 +1,975 @@
+nohup: ignoring input
+2 5 10 20 50 100 200 500 1000
+2, 2
+11/09/2020 10:45:16 AM  config_mop_10x_cells_v3_snatac_gene_ka2_knn2_201108.py
+11/09/2020 10:45:16 AM * Begin integration
+11/09/2020 10:45:16 AM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 10:45:16 AM Metadata smarter_cells (6244, 129)
+11/09/2020 10:45:18 AM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 10:45:19 AM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 10:45:19 AM Done reading data
+11/09/2020 10:45:19 AM Subsampling 1/3
+11/09/2020 10:45:21 AM snatac_gene (43936, 13) (6345, 43936)
+11/09/2020 10:45:21 AM smarter_cells (4999, 129) (5743, 4999)
+11/09/2020 10:45:21 AM Smoothing within modalities...
+11/09/2020 10:45:43 AM snatac_gene: 21.58782720565796
+11/09/2020 10:45:44 AM smarter_cells: 1.4456393718719482
+11/09/2020 10:45:44 AM Constructing a joint matrix...
+11/09/2020 10:45:44 AM Imputing into snatac_gene space...
+11/09/2020 10:45:44 AM for snatac_gene cells...
+11/09/2020 10:45:44 AM for smarter_cells cells...
+11/09/2020 10:49:16 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.0
+11/09/2020 10:49:16 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.0
+11/09/2020 10:49:16 AM Done integration into a common PC space
+11/09/2020 10:49:16 AM Subsampling 2/3
+11/09/2020 10:49:17 AM snatac_gene (44037, 13) (6345, 44037)
+11/09/2020 10:49:18 AM smarter_cells (5045, 129) (5743, 5045)
+11/09/2020 10:49:18 AM Smoothing within modalities...
+11/09/2020 10:49:33 AM snatac_gene: 15.279599905014038
+11/09/2020 10:49:35 AM smarter_cells: 1.50388503074646
+11/09/2020 10:49:35 AM Constructing a joint matrix...
+11/09/2020 10:49:35 AM Imputing into snatac_gene space...
+11/09/2020 10:49:35 AM for snatac_gene cells...
+11/09/2020 10:49:35 AM for smarter_cells cells...
+11/09/2020 10:53:02 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.1
+11/09/2020 10:53:02 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.1
+11/09/2020 10:53:02 AM Done integration into a common PC space
+11/09/2020 10:53:02 AM Subsampling 3/3
+11/09/2020 10:53:04 AM snatac_gene (43961, 13) (6345, 43961)
+11/09/2020 10:53:05 AM smarter_cells (4956, 129) (5743, 4956)
+11/09/2020 10:53:05 AM Smoothing within modalities...
+11/09/2020 10:53:21 AM snatac_gene: 16.699515342712402
+11/09/2020 10:53:23 AM smarter_cells: 1.6827459335327148
+11/09/2020 10:53:23 AM Constructing a joint matrix...
+11/09/2020 10:53:23 AM Imputing into snatac_gene space...
+11/09/2020 10:53:23 AM for snatac_gene cells...
+11/09/2020 10:53:23 AM for smarter_cells cells...
+11/09/2020 10:56:49 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.2
+11/09/2020 10:56:49 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka2_knn2_201108.npy.2
+11/09/2020 10:56:49 AM Done integration into a common PC space
+Time used to build kNN map 1.835832118988037
+Time used to get kNN 0.9975006580352783
+Time used to build kNN map 0.12193679809570312
+Time used to get kNN 0.09812521934509277
+Time used to build kNN map 0.8672747611999512
+Time used to get kNN 0.6674351692199707
+Time used to build kNN map 0.20785260200500488
+Time used to get kNN 0.06115555763244629
+Time used to build kNN map 1.149120569229126
+Time used to get kNN 0.9309279918670654
+Time used to build kNN map 0.183394193649292
+Time used to get kNN 0.1646132469177246
+11/09/2020 10:56:52 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka2_knn2_201108
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 10:56:52 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka2_knn2_201108
+11/09/2020 10:56:52 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka2_knn2_201108
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 10:56:52 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+5, 5
+11/09/2020 10:56:55 AM  config_mop_10x_cells_v3_snatac_gene_ka5_knn5_201108.py
+11/09/2020 10:56:55 AM * Begin integration
+11/09/2020 10:56:56 AM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 10:56:56 AM Metadata smarter_cells (6244, 129)
+11/09/2020 10:56:59 AM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 10:56:59 AM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 10:56:59 AM Done reading data
+11/09/2020 10:56:59 AM Subsampling 1/3
+11/09/2020 10:57:01 AM snatac_gene (43928, 13) (6345, 43928)
+11/09/2020 10:57:01 AM smarter_cells (4986, 129) (5743, 4986)
+11/09/2020 10:57:01 AM Smoothing within modalities...
+11/09/2020 10:57:18 AM snatac_gene: 17.121228218078613
+11/09/2020 10:57:20 AM smarter_cells: 1.6589875221252441
+11/09/2020 10:57:20 AM Constructing a joint matrix...
+11/09/2020 10:57:20 AM Imputing into snatac_gene space...
+11/09/2020 10:57:20 AM for snatac_gene cells...
+11/09/2020 10:57:20 AM for smarter_cells cells...
+11/09/2020 11:00:52 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.0
+11/09/2020 11:00:52 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.0
+11/09/2020 11:00:52 AM Done integration into a common PC space
+11/09/2020 11:00:52 AM Subsampling 2/3
+11/09/2020 11:00:54 AM snatac_gene (43800, 13) (6345, 43800)
+11/09/2020 11:00:54 AM smarter_cells (4990, 129) (5743, 4990)
+11/09/2020 11:00:54 AM Smoothing within modalities...
+11/09/2020 11:01:16 AM snatac_gene: 21.900031566619873
+11/09/2020 11:01:18 AM smarter_cells: 1.618201494216919
+11/09/2020 11:01:18 AM Constructing a joint matrix...
+11/09/2020 11:01:18 AM Imputing into snatac_gene space...
+11/09/2020 11:01:18 AM for snatac_gene cells...
+11/09/2020 11:01:18 AM for smarter_cells cells...
+11/09/2020 11:04:44 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.1
+11/09/2020 11:04:44 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.1
+11/09/2020 11:04:44 AM Done integration into a common PC space
+11/09/2020 11:04:44 AM Subsampling 3/3
+11/09/2020 11:04:47 AM snatac_gene (43923, 13) (6345, 43923)
+11/09/2020 11:04:47 AM smarter_cells (4996, 129) (5743, 4996)
+11/09/2020 11:04:47 AM Smoothing within modalities...
+11/09/2020 11:05:08 AM snatac_gene: 20.807918548583984
+11/09/2020 11:05:10 AM smarter_cells: 2.1435959339141846
+11/09/2020 11:05:10 AM Constructing a joint matrix...
+11/09/2020 11:05:10 AM Imputing into snatac_gene space...
+11/09/2020 11:05:10 AM for snatac_gene cells...
+11/09/2020 11:05:10 AM for smarter_cells cells...
+11/09/2020 11:09:57 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.2
+11/09/2020 11:09:57 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka5_knn5_201108.npy.2
+11/09/2020 11:09:57 AM Done integration into a common PC space
+Time used to build kNN map 0.7268588542938232
+Time used to get kNN 1.3703346252441406
+Time used to build kNN map 0.11697793006896973
+Time used to get kNN 0.12877583503723145
+Time used to build kNN map 0.8667166233062744
+Time used to get kNN 1.2533085346221924
+Time used to build kNN map 0.11834359169006348
+Time used to get kNN 0.1255509853363037
+Time used to build kNN map 0.7389321327209473
+Time used to get kNN 1.389965534210205
+Time used to build kNN map 0.11867403984069824
+Time used to get kNN 0.3419356346130371
+11/09/2020 11:10:02 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka5_knn5_201108
+11/09/2020 11:10:02 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka5_knn5_201108
+11/09/2020 11:10:02 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka5_knn5_201108
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:10:03 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+10, 10
+11/09/2020 11:10:08 AM  config_mop_10x_cells_v3_snatac_gene_ka10_knn10_201108.py
+11/09/2020 11:10:09 AM * Begin integration
+11/09/2020 11:10:09 AM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 11:10:09 AM Metadata smarter_cells (6244, 129)
+11/09/2020 11:10:11 AM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 11:10:12 AM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 11:10:12 AM Done reading data
+11/09/2020 11:10:12 AM Subsampling 1/3
+11/09/2020 11:10:15 AM snatac_gene (43911, 13) (6345, 43911)
+11/09/2020 11:10:15 AM smarter_cells (4986, 129) (5743, 4986)
+11/09/2020 11:10:15 AM Smoothing within modalities...
+11/09/2020 11:10:54 AM snatac_gene: 38.82087159156799
+11/09/2020 11:11:00 AM smarter_cells: 5.609201192855835
+11/09/2020 11:11:00 AM Constructing a joint matrix...
+11/09/2020 11:11:00 AM Imputing into snatac_gene space...
+11/09/2020 11:11:00 AM for snatac_gene cells...
+11/09/2020 11:11:00 AM for smarter_cells cells...
+11/09/2020 11:15:33 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.0
+11/09/2020 11:15:33 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.0
+11/09/2020 11:15:33 AM Done integration into a common PC space
+11/09/2020 11:15:33 AM Subsampling 2/3
+11/09/2020 11:15:35 AM snatac_gene (43850, 13) (6345, 43850)
+11/09/2020 11:15:35 AM smarter_cells (5007, 129) (5743, 5007)
+11/09/2020 11:15:35 AM Smoothing within modalities...
+11/09/2020 11:16:11 AM snatac_gene: 35.60023784637451
+11/09/2020 11:16:14 AM smarter_cells: 3.5258705615997314
+11/09/2020 11:16:14 AM Constructing a joint matrix...
+11/09/2020 11:16:14 AM Imputing into snatac_gene space...
+11/09/2020 11:16:14 AM for snatac_gene cells...
+11/09/2020 11:16:14 AM for smarter_cells cells...
+11/09/2020 11:20:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.1
+11/09/2020 11:20:09 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.1
+11/09/2020 11:20:09 AM Done integration into a common PC space
+11/09/2020 11:20:09 AM Subsampling 3/3
+11/09/2020 11:20:10 AM snatac_gene (43906, 13) (6345, 43906)
+11/09/2020 11:20:11 AM smarter_cells (4979, 129) (5743, 4979)
+11/09/2020 11:20:11 AM Smoothing within modalities...
+11/09/2020 11:20:41 AM snatac_gene: 29.72192120552063
+11/09/2020 11:20:43 AM smarter_cells: 2.638577461242676
+11/09/2020 11:20:43 AM Constructing a joint matrix...
+11/09/2020 11:20:43 AM Imputing into snatac_gene space...
+11/09/2020 11:20:43 AM for snatac_gene cells...
+11/09/2020 11:20:43 AM for smarter_cells cells...
+11/09/2020 11:26:28 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.2
+11/09/2020 11:26:28 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka10_knn10_201108.npy.2
+11/09/2020 11:26:28 AM Done integration into a common PC space
+Time used to build kNN map 0.8314800262451172
+Time used to get kNN 2.5536813735961914
+Time used to build kNN map 0.22229290008544922
+Time used to get kNN 0.27103376388549805
+Time used to build kNN map 0.8551630973815918
+Time used to get kNN 2.4714410305023193
+Time used to build kNN map 0.12308502197265625
+Time used to get kNN 0.2388134002685547
+Time used to build kNN map 0.8265917301177979
+Time used to get kNN 2.19217586517334
+Time used to build kNN map 0.2327284812927246
+Time used to get kNN 0.22626256942749023
+11/09/2020 11:26:39 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka10_knn10_201108
+11/09/2020 11:26:39 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka10_knn10_201108
+11/09/2020 11:26:40 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka10_knn10_201108
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:26:40 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+20, 20
+11/09/2020 11:26:45 AM  config_mop_10x_cells_v3_snatac_gene_ka20_knn20_201108.py
+11/09/2020 11:26:45 AM * Begin integration
+11/09/2020 11:26:45 AM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 11:26:45 AM Metadata smarter_cells (6244, 129)
+11/09/2020 11:26:49 AM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 11:26:51 AM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 11:26:51 AM Done reading data
+11/09/2020 11:26:51 AM Subsampling 1/3
+11/09/2020 11:26:56 AM snatac_gene (43945, 13) (6345, 43945)
+11/09/2020 11:26:56 AM smarter_cells (4936, 129) (5743, 4936)
+11/09/2020 11:26:56 AM Smoothing within modalities...
+11/09/2020 11:28:15 AM snatac_gene: 78.28023648262024
+11/09/2020 11:28:27 AM smarter_cells: 12.828353881835938
+11/09/2020 11:28:27 AM Constructing a joint matrix...
+11/09/2020 11:28:27 AM Imputing into snatac_gene space...
+11/09/2020 11:28:27 AM for snatac_gene cells...
+11/09/2020 11:28:27 AM for smarter_cells cells...
+11/09/2020 11:35:07 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.0
+11/09/2020 11:35:07 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.0
+11/09/2020 11:35:07 AM Done integration into a common PC space
+11/09/2020 11:35:07 AM Subsampling 2/3
+11/09/2020 11:35:11 AM snatac_gene (43877, 13) (6345, 43877)
+11/09/2020 11:35:11 AM smarter_cells (4967, 129) (5743, 4967)
+11/09/2020 11:35:11 AM Smoothing within modalities...
+11/09/2020 11:36:36 AM snatac_gene: 84.45337247848511
+11/09/2020 11:36:49 AM smarter_cells: 12.834821701049805
+11/09/2020 11:36:49 AM Constructing a joint matrix...
+11/09/2020 11:36:49 AM Imputing into snatac_gene space...
+11/09/2020 11:36:49 AM for snatac_gene cells...
+11/09/2020 11:36:49 AM for smarter_cells cells...
+11/09/2020 11:43:37 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.1
+11/09/2020 11:43:37 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.1
+11/09/2020 11:43:37 AM Done integration into a common PC space
+11/09/2020 11:43:37 AM Subsampling 3/3
+11/09/2020 11:43:42 AM snatac_gene (43893, 13) (6345, 43893)
+11/09/2020 11:43:43 AM smarter_cells (4984, 129) (5743, 4984)
+11/09/2020 11:43:43 AM Smoothing within modalities...
+11/09/2020 11:45:31 AM snatac_gene: 108.51714825630188
+11/09/2020 11:45:47 AM smarter_cells: 15.24239468574524
+11/09/2020 11:45:47 AM Constructing a joint matrix...
+11/09/2020 11:45:47 AM Imputing into snatac_gene space...
+11/09/2020 11:45:47 AM for snatac_gene cells...
+11/09/2020 11:45:47 AM for smarter_cells cells...
+11/09/2020 11:51:58 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.2
+11/09/2020 11:51:58 AM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka20_knn20_201108.npy.2
+11/09/2020 11:51:58 AM Done integration into a common PC space
+Time used to build kNN map 1.5411248207092285
+Time used to get kNN 11.117586135864258
+Time used to build kNN map 0.20043110847473145
+Time used to get kNN 0.47783899307250977
+Time used to build kNN map 3.0195670127868652
+Time used to get kNN 10.852430582046509
+Time used to build kNN map 0.21074271202087402
+Time used to get kNN 0.4493062496185303
+Time used to build kNN map 1.6218383312225342
+Time used to get kNN 9.636543989181519
+Time used to build kNN map 0.2108471393585205
+Time used to get kNN 1.147287130355835
+11/09/2020 11:52:05 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka20_knn20_201108
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:52:05 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka20_knn20_201108
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:52:05 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka20_knn20_201108
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 11:52:05 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+50, 50
+11/09/2020 11:52:10 AM  config_mop_10x_cells_v3_snatac_gene_ka50_knn50_201108.py
+11/09/2020 11:52:10 AM * Begin integration
+11/09/2020 11:52:10 AM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 11:52:11 AM Metadata smarter_cells (6244, 129)
+11/09/2020 11:52:15 AM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 11:52:16 AM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 11:52:16 AM Done reading data
+11/09/2020 11:52:16 AM Subsampling 1/3
+11/09/2020 11:52:21 AM snatac_gene (43865, 13) (6345, 43865)
+11/09/2020 11:52:21 AM smarter_cells (4984, 129) (5743, 4984)
+11/09/2020 11:52:21 AM Smoothing within modalities...
+11/09/2020 11:55:45 AM snatac_gene: 203.80903720855713
+11/09/2020 11:56:00 AM smarter_cells: 15.222228050231934
+11/09/2020 11:56:00 AM Constructing a joint matrix...
+11/09/2020 11:56:00 AM Imputing into snatac_gene space...
+11/09/2020 11:56:00 AM for snatac_gene cells...
+11/09/2020 11:56:00 AM for smarter_cells cells...
+11/09/2020 12:00:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.0
+11/09/2020 12:00:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.0
+11/09/2020 12:00:19 PM Done integration into a common PC space
+11/09/2020 12:00:19 PM Subsampling 2/3
+11/09/2020 12:00:23 PM snatac_gene (43834, 13) (6345, 43834)
+11/09/2020 12:00:24 PM smarter_cells (4970, 129) (5743, 4970)
+11/09/2020 12:00:24 PM Smoothing within modalities...
+11/09/2020 12:03:02 PM snatac_gene: 158.65004444122314
+11/09/2020 12:03:21 PM smarter_cells: 18.702192068099976
+11/09/2020 12:03:21 PM Constructing a joint matrix...
+11/09/2020 12:03:21 PM Imputing into snatac_gene space...
+11/09/2020 12:03:21 PM for snatac_gene cells...
+11/09/2020 12:03:21 PM for smarter_cells cells...
+11/09/2020 12:07:47 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.1
+11/09/2020 12:07:47 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.1
+11/09/2020 12:07:47 PM Done integration into a common PC space
+11/09/2020 12:07:47 PM Subsampling 3/3
+11/09/2020 12:07:51 PM snatac_gene (43789, 13) (6345, 43789)
+11/09/2020 12:07:51 PM smarter_cells (5033, 129) (5743, 5033)
+11/09/2020 12:07:52 PM Smoothing within modalities...
+11/09/2020 12:10:31 PM snatac_gene: 159.36529850959778
+11/09/2020 12:10:49 PM smarter_cells: 17.642725467681885
+11/09/2020 12:10:49 PM Constructing a joint matrix...
+11/09/2020 12:10:49 PM Imputing into snatac_gene space...
+11/09/2020 12:10:49 PM for snatac_gene cells...
+11/09/2020 12:10:49 PM for smarter_cells cells...
+11/09/2020 12:16:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.2
+11/09/2020 12:16:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka50_knn50_201108.npy.2
+11/09/2020 12:16:19 PM Done integration into a common PC space
+Time used to build kNN map 1.9260857105255127
+Time used to get kNN 20.606218814849854
+Time used to build kNN map 0.19326376914978027
+Time used to get kNN 0.9731123447418213
+Time used to build kNN map 1.3658454418182373
+Time used to get kNN 19.5312020778656
+Time used to build kNN map 0.24699831008911133
+Time used to get kNN 0.9526345729827881
+Time used to build kNN map 1.3539857864379883
+Time used to get kNN 15.109740734100342
+Time used to build kNN map 0.24925851821899414
+Time used to get kNN 0.9934513568878174
+11/09/2020 12:16:23 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka50_knn50_201108
+11/09/2020 12:16:23 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka50_knn50_201108
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:16:23 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka50_knn50_201108
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:16:23 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+100, 100
+11/09/2020 12:16:26 PM  config_mop_10x_cells_v3_snatac_gene_ka100_knn100_201108.py
+11/09/2020 12:16:27 PM * Begin integration
+11/09/2020 12:16:27 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 12:16:27 PM Metadata smarter_cells (6244, 129)
+11/09/2020 12:16:30 PM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 12:16:31 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 12:16:31 PM Done reading data
+11/09/2020 12:16:31 PM Subsampling 1/3
+11/09/2020 12:16:35 PM snatac_gene (43917, 13) (6345, 43917)
+11/09/2020 12:16:35 PM smarter_cells (4989, 129) (5743, 4989)
+11/09/2020 12:16:35 PM Smoothing within modalities...
+11/09/2020 12:21:02 PM snatac_gene: 266.6063587665558
+11/09/2020 12:21:26 PM smarter_cells: 24.335213899612427
+11/09/2020 12:21:26 PM Constructing a joint matrix...
+11/09/2020 12:21:26 PM Imputing into snatac_gene space...
+11/09/2020 12:21:26 PM for snatac_gene cells...
+11/09/2020 12:21:26 PM for smarter_cells cells...
+11/09/2020 12:26:02 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.0
+11/09/2020 12:26:02 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.0
+11/09/2020 12:26:02 PM Done integration into a common PC space
+11/09/2020 12:26:02 PM Subsampling 2/3
+11/09/2020 12:26:07 PM snatac_gene (43888, 13) (6345, 43888)
+11/09/2020 12:26:09 PM smarter_cells (4997, 129) (5743, 4997)
+11/09/2020 12:26:09 PM Smoothing within modalities...
+11/09/2020 12:30:29 PM snatac_gene: 259.9303138256073
+11/09/2020 12:30:54 PM smarter_cells: 24.815271854400635
+11/09/2020 12:30:54 PM Constructing a joint matrix...
+11/09/2020 12:30:54 PM Imputing into snatac_gene space...
+11/09/2020 12:30:54 PM for snatac_gene cells...
+11/09/2020 12:30:54 PM for smarter_cells cells...
+11/09/2020 12:36:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.1
+11/09/2020 12:36:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.1
+11/09/2020 12:36:03 PM Done integration into a common PC space
+11/09/2020 12:36:03 PM Subsampling 3/3
+11/09/2020 12:36:06 PM snatac_gene (43792, 13) (6345, 43792)
+11/09/2020 12:36:07 PM smarter_cells (5034, 129) (5743, 5034)
+11/09/2020 12:36:07 PM Smoothing within modalities...
+11/09/2020 12:40:13 PM snatac_gene: 246.3597536087036
+11/09/2020 12:40:40 PM smarter_cells: 26.042079210281372
+11/09/2020 12:40:40 PM Constructing a joint matrix...
+11/09/2020 12:40:40 PM Imputing into snatac_gene space...
+11/09/2020 12:40:40 PM for snatac_gene cells...
+11/09/2020 12:40:40 PM for smarter_cells cells...
+11/09/2020 12:45:09 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.2
+11/09/2020 12:45:09 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka100_knn100_201108.npy.2
+11/09/2020 12:45:10 PM Done integration into a common PC space
+Time used to build kNN map 1.2849841117858887
+Time used to get kNN 28.679149627685547
+Time used to build kNN map 0.3527956008911133
+Time used to get kNN 2.8123483657836914
+Time used to build kNN map 1.3625223636627197
+Time used to get kNN 33.219834089279175
+Time used to build kNN map 0.21363258361816406
+Time used to get kNN 1.8279507160186768
+Time used to build kNN map 1.3502371311187744
+Time used to get kNN 26.898065090179443
+Time used to build kNN map 0.2393505573272705
+Time used to get kNN 1.8505668640136719
+11/09/2020 12:45:13 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka100_knn100_201108
+11/09/2020 12:45:13 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka100_knn100_201108
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:45:13 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka100_knn100_201108
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 12:45:13 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 12:45:14 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 12:45:14 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+200, 200
+11/09/2020 12:45:17 PM  config_mop_10x_cells_v3_snatac_gene_ka200_knn200_201108.py
+11/09/2020 12:45:17 PM * Begin integration
+11/09/2020 12:45:17 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 12:45:17 PM Metadata smarter_cells (6244, 129)
+11/09/2020 12:45:21 PM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 12:45:22 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 12:45:22 PM Done reading data
+11/09/2020 12:45:22 PM Subsampling 1/3
+11/09/2020 12:45:25 PM snatac_gene (43915, 13) (6345, 43915)
+11/09/2020 12:45:26 PM smarter_cells (5087, 129) (5743, 5087)
+11/09/2020 12:45:26 PM Smoothing within modalities...
+11/09/2020 12:52:31 PM snatac_gene: 425.4015715122223
+11/09/2020 12:53:07 PM smarter_cells: 35.580101013183594
+11/09/2020 12:53:07 PM Constructing a joint matrix...
+11/09/2020 12:53:07 PM Imputing into snatac_gene space...
+11/09/2020 12:53:07 PM for snatac_gene cells...
+11/09/2020 12:53:07 PM for smarter_cells cells...
+11/09/2020 12:55:46 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.0
+11/09/2020 12:55:46 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.0
+11/09/2020 12:55:46 PM Done integration into a common PC space
+11/09/2020 12:55:46 PM Subsampling 2/3
+11/09/2020 12:55:47 PM snatac_gene (43920, 13) (6345, 43920)
+11/09/2020 12:55:48 PM smarter_cells (4971, 129) (5743, 4971)
+11/09/2020 12:55:48 PM Smoothing within modalities...
+11/09/2020 01:02:08 PM snatac_gene: 379.6971507072449
+11/09/2020 01:02:31 PM smarter_cells: 23.384575843811035
+11/09/2020 01:02:31 PM Constructing a joint matrix...
+11/09/2020 01:02:31 PM Imputing into snatac_gene space...
+11/09/2020 01:02:31 PM for snatac_gene cells...
+11/09/2020 01:02:31 PM for smarter_cells cells...
+11/09/2020 01:04:49 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.1
+11/09/2020 01:04:49 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.1
+11/09/2020 01:04:49 PM Done integration into a common PC space
+11/09/2020 01:04:49 PM Subsampling 3/3
+11/09/2020 01:04:50 PM snatac_gene (43878, 13) (6345, 43878)
+11/09/2020 01:04:51 PM smarter_cells (5030, 129) (5743, 5030)
+11/09/2020 01:04:51 PM Smoothing within modalities...
+11/09/2020 01:09:34 PM snatac_gene: 283.14908385276794
+11/09/2020 01:09:55 PM smarter_cells: 21.019675731658936
+11/09/2020 01:09:55 PM Constructing a joint matrix...
+11/09/2020 01:09:55 PM Imputing into snatac_gene space...
+11/09/2020 01:09:55 PM for snatac_gene cells...
+11/09/2020 01:09:55 PM for smarter_cells cells...
+11/09/2020 01:12:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.2
+11/09/2020 01:12:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka200_knn200_201108.npy.2
+11/09/2020 01:12:14 PM Done integration into a common PC space
+Time used to build kNN map 1.9591221809387207
+Time used to get kNN 59.35051727294922
+Time used to build kNN map 0.2218763828277588
+Time used to get kNN 3.4338371753692627
+Time used to build kNN map 0.7979414463043213
+Time used to get kNN 29.72137188911438
+Time used to build kNN map 0.11620736122131348
+Time used to get kNN 2.3460068702697754
+Time used to build kNN map 0.723613977432251
+Time used to get kNN 26.431214809417725
+Time used to build kNN map 0.11630654335021973
+Time used to get kNN 2.7295753955841064
+11/09/2020 01:12:16 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka200_knn200_201108
+11/09/2020 01:12:17 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka200_knn200_201108
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:12:17 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka200_knn200_201108
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 01:12:17 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+500, 500
+11/09/2020 01:12:20 PM  config_mop_10x_cells_v3_snatac_gene_ka500_knn500_201108.py
+11/09/2020 01:12:20 PM * Begin integration
+11/09/2020 01:12:20 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:12:20 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:12:23 PM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 01:12:23 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:12:23 PM Done reading data
+11/09/2020 01:12:23 PM Subsampling 1/3
+11/09/2020 01:12:25 PM snatac_gene (43802, 13) (6345, 43802)
+11/09/2020 01:12:25 PM smarter_cells (4994, 129) (5743, 4994)
+11/09/2020 01:12:25 PM Smoothing within modalities...
+11/09/2020 01:24:03 PM snatac_gene: 697.6459774971008
+11/09/2020 01:24:51 PM smarter_cells: 48.438854932785034
+11/09/2020 01:24:51 PM Constructing a joint matrix...
+11/09/2020 01:24:51 PM Imputing into snatac_gene space...
+11/09/2020 01:24:51 PM for snatac_gene cells...
+11/09/2020 01:24:51 PM for smarter_cells cells...
+11/09/2020 01:27:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.0
+11/09/2020 01:27:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.0
+11/09/2020 01:27:32 PM Done integration into a common PC space
+11/09/2020 01:27:32 PM Subsampling 2/3
+11/09/2020 01:27:33 PM snatac_gene (43798, 13) (6345, 43798)
+11/09/2020 01:27:33 PM smarter_cells (5029, 129) (5743, 5029)
+11/09/2020 01:27:33 PM Smoothing within modalities...
+11/09/2020 01:40:29 PM snatac_gene: 775.2005293369293
+11/09/2020 01:41:48 PM smarter_cells: 79.25548243522644
+11/09/2020 01:41:48 PM Constructing a joint matrix...
+11/09/2020 01:41:48 PM Imputing into snatac_gene space...
+11/09/2020 01:41:48 PM for snatac_gene cells...
+11/09/2020 01:41:48 PM for smarter_cells cells...
+11/09/2020 01:47:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.1
+11/09/2020 01:47:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.1
+11/09/2020 01:47:01 PM Done integration into a common PC space
+11/09/2020 01:47:01 PM Subsampling 3/3
+11/09/2020 01:47:04 PM snatac_gene (43982, 13) (6345, 43982)
+11/09/2020 01:47:05 PM smarter_cells (4960, 129) (5743, 4960)
+11/09/2020 01:47:05 PM Smoothing within modalities...
+11/09/2020 02:06:54 PM snatac_gene: 1189.1808080673218
+11/09/2020 02:08:20 PM smarter_cells: 86.16629147529602
+11/09/2020 02:08:20 PM Constructing a joint matrix...
+11/09/2020 02:08:20 PM Imputing into snatac_gene space...
+11/09/2020 02:08:20 PM for snatac_gene cells...
+11/09/2020 02:08:20 PM for smarter_cells cells...
+11/09/2020 02:12:55 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.2
+11/09/2020 02:12:55 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_smarter_cells_snatac_gene_ka500_knn500_201108.npy.2
+11/09/2020 02:12:55 PM Done integration into a common PC space
+Time used to build kNN map 0.6910772323608398
+Time used to get kNN 64.19783353805542
+Time used to build kNN map 0.11606240272521973
+Time used to get kNN 5.73071026802063
+Time used to build kNN map 0.7525961399078369
+Time used to get kNN 70.72435808181763
+Time used to build kNN map 0.2035377025604248
+Time used to get kNN 8.464150428771973
+Time used to build kNN map 1.2563297748565674
+Time used to get kNN 137.12806582450867
+Time used to build kNN map 0.2279980182647705
+Time used to get kNN 9.708691596984863
+11/09/2020 02:12:59 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka500_knn500_201108
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 02:13:00 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka500_knn500_201108
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 02:13:00 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka500_knn500_201108
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/09/2020 02:13:00 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5272, in __getattr__
+    if self._info_axis._can_hold_identifiers_and_holds_name(name):
+  [Previous line repeated 993 more times]
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 493, in _info_axis
+    return getattr(self, self._info_axis_name)
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+  File "pandas/_libs/properties.pyx", line 63, in pandas._libs.properties.AxisProperty.__get__
+  File "/cndd/fangming/venvs/scf_lite/lib/python3.8/site-packages/pandas/core/generic.py", line 5270, in __getattr__
+    return object.__getattribute__(self, name)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+1000, 1000
+11/09/2020 02:13:04 PM  config_mop_10x_cells_v3_snatac_gene_ka1000_knn1000_201108.py
+11/09/2020 02:13:04 PM * Begin integration
+11/09/2020 02:13:04 PM Metadata snatac_gene (54844, 13)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 02:13:04 PM Metadata smarter_cells (6244, 129)
+11/09/2020 02:13:07 PM Feature matrix snatac_gene (6345, 54844)
+11/09/2020 02:13:08 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 02:13:08 PM Done reading data
+11/09/2020 02:13:08 PM Subsampling 1/3
+11/09/2020 02:13:11 PM snatac_gene (43924, 13) (6345, 43924)
+11/09/2020 02:13:12 PM smarter_cells (4968, 129) (5743, 4968)
+11/09/2020 02:13:12 PM Smoothing within modalities...
