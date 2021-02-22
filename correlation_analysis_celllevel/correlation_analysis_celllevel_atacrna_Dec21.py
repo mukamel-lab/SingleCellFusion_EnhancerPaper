@@ -112,7 +112,7 @@ def pipe_corr_analysis_atac(
 
 def wrap_corr_analysis_atac(
         mod_x, mod_y, 
-        input_nme_tag, i_sub,
+        input_name_tag, i_sub,
         corr_type='pearsonr',
         force=False,
         num_metacell_limit=0,
