@@ -35,6 +35,8 @@ def pipe_corr_analysis_mc(
         corr_type='pearsonr',
         force=False,
         num_metacell_limit=0,
+        num_metacell_limit_low=0,
+        shuff_enhs=False,
     ):
     """
     """
@@ -69,6 +71,10 @@ def pipe_corr_analysis_mc(
         logging.info("Number of metacells: {}".format(len(uniq_labels)))
         if num_metacell_limit > 0 and len(uniq_labels) > num_metacell_limit:
             logging.info("skip {}, exceeding max num_metacell_limit...".format(len(uniq_labels)))
+            continue
+        if num_metacell_limit_low > 0 and len(uniq_labels) < num_metacell_limit_low:
+            logging.info("skip {}, below min num_metacell_limit...".format(len(uniq_labels)))
+            continue
 
         knn_xz = enhancer_gene_utils.turn_cluster_labels_to_knn(modx_clsts[clst_col].values, 
                                             uniq_labels,
@@ -98,26 +104,33 @@ def pipe_corr_analysis_mc(
         logging.info("{}".format(ec_mccg.shape))
 
         # corr analysis
-        (to_correlate, corrs, corrs_shuffled, corrs_shuffled_cells) = enhancer_gene_utils.compute_enh_gene_corrs(
+        output = enhancer_gene_utils.compute_enh_gene_corrs(
             gc_rna, ec_mccg, 
             common_genes, ec_mccg.index.values,
             enhancer_gene_to_eval['gene'].values, 
             enhancer_gene_to_eval['ens'].values, 
             output_file=output_corr, corr_type=corr_type, chunksize=100000, verbose_level=0,
+            shuff_enhs=shuff_enhs,
             )
-    return
+    return output # last of the kind
 
 def wrap_corr_analysis_mc(
         mod_x, mod_y, 
-        input_nme_tag, i_sub,
+        input_name_tag, i_sub,
         corr_type='pearsonr',
         force=False,
         num_metacell_limit=0,
+        num_metacell_limit_low=0,
+        shuff_enhs=False,
+        save_todisk=True,
     ):
     """
     """
     # (i, k, --r)
-    output_corrs = '/cndd2/fangming/projects/scf_enhancers/results/{}_{}_{{}}_{}_corrs.pkl'.format(input_name_tag, i_sub, corr_type)
+    if save_todisk:
+        output_corrs = '/cndd2/fangming/projects/scf_enhancers/results/{}_{}_{{}}_{}_corrs.pkl'.format(input_name_tag, i_sub, corr_type)
+    else:
+        output_corrs = ''
 
     # input enh-gene tables, gene-by-cell, enhancer-by-cell matrices
     input_enh_gene_table = '/cndd2/fangming/projects/scf_enhancers/results/200521_to_evals.tsv' 
@@ -197,6 +210,8 @@ def wrap_corr_analysis_mc(
         corr_type=corr_type,
         force=force,
         num_metacell_limit=num_metacell_limit,
+        num_metacell_limit_low=num_metacell_limit_low,
+        shuff_enhs=shuff_enhs,
     )
     return 
 
@@ -243,4 +258,3 @@ if __name__ == "__main__":
         force=force,
         num_metacell_limit=num_metacell_limit,
     )
-
