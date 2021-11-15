@@ -26,7 +26,7 @@ git clone https://github.com/FangmingXie/scf_enhancer_paper.git
 cd SingleCellFusion_EnhancerPaper
 conda env create -f env.yml
 ```
-The installation of the conda environment takes about xx minutes. After installation, activate the environment using
+The installation of the conda environment takes less than 20 minutes. After installation, activate the environment using
 ```bash
 conda activate conda_enhancer
 ```
