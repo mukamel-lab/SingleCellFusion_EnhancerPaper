@@ -24,7 +24,7 @@ git clone https://github.com/FangmingXie/scf_enhancer_paper.git
 
 # create an conda env and install dependancies.
 cd scf_enhancer_paper
-conda create -f environment_enhancer.yml
+conda env create -f environment_enhancer.yml
 ```
 **Demo**
 
