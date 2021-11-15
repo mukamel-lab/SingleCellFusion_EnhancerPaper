@@ -26,6 +26,8 @@ git clone https://github.com/FangmingXie/scf_enhancer_paper.git
 cd scf_enhancer_paper
 conda env create -f environment_enhancer.yml
 ```
+The installation of the conda environment takes about xx minutes.
+
 **Demo**
 
 TBD
