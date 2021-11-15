@@ -30,10 +30,11 @@ The installation of the conda environment takes about xx minutes.
 
 **Demo**
 
-TBD
-
+`demo/data`
+`demo/script`
+The whole demo takes about xx minutes to run through.
 
 
 **Instructions for use**
 
-TBD
+- how to run your data
