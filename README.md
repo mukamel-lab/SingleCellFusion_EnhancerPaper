@@ -23,10 +23,13 @@ After pre-installing Anaconda, run the following command to clone this repo and 
 git clone https://github.com/FangmingXie/scf_enhancer_paper.git
 
 # create an conda env and install dependancies.
-cd scf_enhancer_paper
-conda env create -f environment_enhancer.yml
+cd SingleCellFusion_EnhancerPaper
+conda env create -f env.yml
 ```
-The installation of the conda environment takes about xx minutes.
+The installation of the conda environment takes about xx minutes. After installation, activate the environment using
+```bash
+conda activate conda_enhancer
+```
 
 **Demo**
 
