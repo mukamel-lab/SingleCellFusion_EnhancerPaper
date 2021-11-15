@@ -1,4 +1,4 @@
-# scf
+# Robust enhancer-gene association prediction using single cell transcriptomes and epigenomes
 
 
 This is the repository that hosted customized scripts for the analysis of enhancer-gene associations in neurons from mouse primary motor cortex.
