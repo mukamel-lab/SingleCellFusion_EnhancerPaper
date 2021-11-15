@@ -12,11 +12,11 @@ Correspondence: [Eran A. Mukamel](mailto:emukamel@ucsd.edu) and [Fangming Xie](m
 **System requirements**
 
 This package is tested using a Ubuntu 18.04.6 LTS (Bionic Beaver) server. However, we expect it can be operated under a wide range of systems, with some tweaking of dependencies.
-We recommend users to use a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to install dependencies.
+We recommend users to use a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to install dependencies. This requires users to preinstall [Anaconda](https://www.anaconda.com/products/individual)
 
 **Installation**
 
-After pre-installing Anaconda, run the following command to clone this repo and install dependencies.
+Run the following command to clone this repo and install dependencies.
 ```bash
 
 # clone this repo
