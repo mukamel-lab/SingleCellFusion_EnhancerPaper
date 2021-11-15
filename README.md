@@ -11,7 +11,7 @@ Correspondence: [Eran A. Mukamel](mailto:emukamel@ucsd.edu) and [Fangming Xie](m
 # Getting started
 **System requirements**
 
-This package is tested using a Ubuntu 18.04.6 LTS (Bionic Beaver) server. However, we expect it can be operated under a wide range of systems.
+This package is tested using a Ubuntu 18.04.6 LTS (Bionic Beaver) server. However, we expect it can be operated under a wide range of systems, with some tweaking of dependencies.
 We recommend users to use a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to install dependencies.
 
 **Installation**
