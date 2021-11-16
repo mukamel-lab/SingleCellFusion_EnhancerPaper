@@ -33,11 +33,34 @@ conda activate env_enhancer
 
 **Demo**
 
-`demo/data`
-`demo/script`
-The whole demo takes about xx minutes to run through.
+First download demo data, which includes mC, ATAC, and RNA profiles for >70,000 neurons from mouse primary motor cortex:
+- Use [this]() link to download.
+
+Put `data.tar.gz` under the `demo` directory of this repo, and decompress it:
+```bash
+mv data.tar.gz ./demo
+tar -zxvf data.tar.gz 
+```
+
+Now you can run our enhancer-gene association analysis using a single command:
+```
+cd demo
+ ./run_pipe_mc.sh & ./run_pipe_atac.sh
+```
+This will generate a result folder that includes metacells, kNN graphs between modalities, and the correlations of all enhancer-gene pairs within 1Mb for mC-RNA and ATAC-RNA, respectively. For speed, this demo uses only 10% of cells for each dataset based on random sampling.
+
+To visualize the results, then run through the `visualize_correlation.ipynb` jupyter notebook. This will generate results that recapitulates the key findings of the paper.
+
+![](./doc/result_dist.png)
+
+The whole demo takes about 5 minutes to run through.
 
 
-**Instructions for use**
+**Run your datae**
+You need to replace our example data `demo/data` with your own data. As in `demo/data`, you would need:
+- a gene list
+- an enhancer list
+- a list of enhancer and gene pairs to examine (default uses all pairs within 1Mbp)
+- count matrices (cell-by-gene for RNA; cell-by-enhancer for mC and ATAC)
+- feature matrices (cell-by-gene for RNA, mC and ATAC; preprocessed and normalized; this is used to generate metacells)
 
-- how to run your data

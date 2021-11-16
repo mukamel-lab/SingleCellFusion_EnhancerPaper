@@ -23,7 +23,7 @@ knns=(30)
 corr_type='spearmanr'
 subsample_frac=0.1
 subsample_times=1
-resolutions=(1) # Leiden clustering resolutions used to generate metacells -- just 1 for demo
+resolutions=(10) # Leiden clustering resolutions used to generate metacells -- just 1 for demo
 
 # 1.
 for knn in ${knns[@]}; do

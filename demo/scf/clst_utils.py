@@ -2,7 +2,6 @@
 """
 
 from __init__ import *
-# from sklearn.decomposition import PCA
 import igraph as ig
 from scipy import sparse
 from annoy import AnnoyIndex

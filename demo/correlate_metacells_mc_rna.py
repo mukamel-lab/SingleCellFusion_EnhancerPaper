@@ -10,10 +10,6 @@ import logging
 import pandas as pd
 import numpy as np
 
-# sys.path.insert(0, "/cndd/fangming/CEMBA/snmcseq_dev")
-# from __init__ import *
-# from __init__jupyterlab import *
-
 sys.path.insert(0, "../")
 import utils
 import enhancer_gene_utils

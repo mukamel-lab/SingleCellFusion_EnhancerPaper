@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import sys
 from multiprocessing import Pool,cpu_count
 import argparse
 
-# from __init__ import *
-# from __init__jupyterlab import *
 import numpy as np
 import logging
-
 import fbpca
 import itertools
 import argparse
 
+import sys
 sys.path.insert(0, "../")
 import utils
 sys.path.insert(0, "./scf/")

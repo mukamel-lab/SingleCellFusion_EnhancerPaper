@@ -1,11 +1,5 @@
 """
-Fangming Xie, Chris Keown
-Many functions are adopted from Chris's mypy
 """
-
-# from __init__ import *
-
-
 import logging
 import numpy as np
 import pandas as pd
