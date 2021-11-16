@@ -20,7 +20,7 @@ Run the following command to clone this repo and install dependencies.
 ```bash
 
 # clone this repo
-git clone https://github.com/FangmingXie/scf_enhancer_paper.git
+git clone https://github.com/mukamel-lab/SingleCellFusion_EnhancerPaper.git
 
 # create an conda env and install dependancies.
 cd SingleCellFusion_EnhancerPaper
@@ -28,7 +28,7 @@ conda env create -f env.yml
 ```
 The installation of the conda environment takes less than 20 minutes. After installation, activate the environment using
 ```bash
-conda activate conda_enhancer
+conda activate env_enhancer
 ```
 
 **Demo**
