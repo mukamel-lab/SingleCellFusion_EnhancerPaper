@@ -6,7 +6,7 @@ This repository hosts customized scripts for the analysis of enhancer-gene assoc
 Reference:
 - [Xie, Armand et al. 2021; Robust enhancer-gene regulation identified by single-cell transcriptomes and epigenomes](https://www.biorxiv.org/content/10.1101/2021.10.25.465795v1)
 
-Correspondence: [Eran A. Mukamel](mailto:emukamel@ucsd.edu) and [Fangming Xie](mailto:f7xie@ucsd.edu)
+Correspondence: [Fangming Xie](mailto:f7xie@ucsd.edu) and [Eran A. Mukamel](mailto:emukamel@ucsd.edu)
 
 # Getting started
 **System requirements**
