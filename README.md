@@ -56,7 +56,8 @@ To visualize the results, then run through the `visualize_correlation.ipynb` jup
 The whole demo takes about 5 minutes to run through.
 
 
-**Run your datae**
+**Run your data**
+
 You need to replace our example data `demo/data` with your own data. As in `demo/data`, you would need:
 - a gene list
 - an enhancer list
