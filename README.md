@@ -61,7 +61,7 @@ The whole demo takes about 5 minutes to run through.
 You need to replace our example data folder `demo/data` with your own data. As in `demo/data`, you would need:
 - a gene list
 - an enhancer list
-- a list of enhancer and gene pairs to examine (default uses all pairs within 1Mbp)
+- a list of enhancer-gene pairs to examine (default uses all pairs within 1Mbp)
 - count matrices (cell-by-gene for RNA; cell-by-enhancer for mC and ATAC)
 - feature matrices (cell-by-gene for RNA, mC and ATAC; preprocessed and normalized; this is used to generate metacells)
 
