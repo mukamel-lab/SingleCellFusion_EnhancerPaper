@@ -1,7 +1,0 @@
-08/03/2020 02:59:21 PM corr_analysis_smarter_cells_snmcseq_gene_ka2_k2_200803_2020-08-03
-08/03/2020 02:59:21 PM <class 'numpy.ndarray'>_(6244,)_cell_smarter_cells.txt
-08/03/2020 02:59:21 PM <class 'numpy.ndarray'>_(9364,)_cell_snmcseq_gene.txt
-08/03/2020 02:59:21 PM <class 'numpy.ndarray'>_(32324,)_gene_smarter_cells.txt
-08/03/2020 02:59:21 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh_snmcseq_gene.tsv
-08/03/2020 02:59:21 PM <class 'scipy.sparse.csc.csc_matrix'>_(32324, 6244)_mat_smarter_cells.npz
-08/03/2020 02:59:23 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9364)_mat_mcg_snmcseq_gene.npz

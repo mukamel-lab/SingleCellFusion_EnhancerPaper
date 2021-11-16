@@ -1,0 +1,563 @@
+nohup: ignoring input
+2 5 10 20 50 100 200 500 1000
+2, 2
+11/09/2020 01:30:33 PM  config_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108.py
+11/09/2020 01:30:33 PM * Begin integration
+11/09/2020 01:30:33 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:30:33 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:30:56 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:30:56 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:30:56 PM Done reading data
+11/09/2020 01:30:56 PM Subsampling 1/3
+11/09/2020 01:30:56 PM snmcseq_gene (7510, 32) (4754, 7510)
+11/09/2020 01:30:57 PM smarter_cells (5002, 129) (5743, 5002)
+11/09/2020 01:30:57 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 73938 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:31:01 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108
+11/09/2020 01:31:01 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108
+11/09/2020 01:31:01 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:31:01 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:31:01 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:31:01 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:31:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:31:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:31:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:31:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:31:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:31:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:32:05 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:32:05 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:32:05 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka2_knn2_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+5, 5
+11/09/2020 01:32:10 PM  config_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108.py
+11/09/2020 01:32:10 PM * Begin integration
+11/09/2020 01:32:10 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:32:10 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:32:33 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:32:33 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:32:33 PM Done reading data
+11/09/2020 01:32:33 PM Subsampling 1/3
+11/09/2020 01:32:33 PM snmcseq_gene (7544, 32) (4754, 7544)
+11/09/2020 01:32:34 PM smarter_cells (5026, 129) (5743, 5026)
+11/09/2020 01:32:34 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74039 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:32:36 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108
+11/09/2020 01:32:36 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:32:36 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:32:36 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:32:36 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:32:36 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:32:39 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:32:39 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:32:39 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:32:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:32:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:32:41 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:32:43 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+11/09/2020 01:32:43 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+11/09/2020 01:32:43 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka5_knn5_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+10, 10
+11/09/2020 01:32:46 PM  config_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108.py
+11/09/2020 01:32:47 PM * Begin integration
+11/09/2020 01:32:47 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:32:47 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:33:09 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:33:10 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:33:10 PM Done reading data
+11/09/2020 01:33:10 PM Subsampling 1/3
+11/09/2020 01:33:10 PM snmcseq_gene (7482, 32) (4754, 7482)
+11/09/2020 01:33:11 PM smarter_cells (4982, 129) (5743, 4982)
+11/09/2020 01:33:11 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74092 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:33:14 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108
+11/09/2020 01:33:14 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:14 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:14 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:14 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:14 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108
+11/09/2020 01:33:14 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:15 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:15 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:15 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:17 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:17 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:17 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:19 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:19 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:19 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:21 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+11/09/2020 01:33:21 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+11/09/2020 01:33:21 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka10_knn10_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+20, 20
+11/09/2020 01:33:24 PM  config_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108.py
+11/09/2020 01:33:24 PM * Begin integration
+11/09/2020 01:33:24 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:33:25 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:33:48 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:33:48 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:33:48 PM Done reading data
+11/09/2020 01:33:48 PM Subsampling 1/3
+11/09/2020 01:33:48 PM snmcseq_gene (7522, 32) (4754, 7522)
+11/09/2020 01:33:49 PM smarter_cells (5006, 129) (5743, 5006)
+11/09/2020 01:33:49 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74205 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:33:52 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108
+11/09/2020 01:33:52 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108
+11/09/2020 01:33:52 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:33:52 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:52 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:52 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:33:52 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:33:55 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:55 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:55 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:33:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:57 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:33:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:33:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+11/09/2020 01:33:59 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka20_knn20_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+50, 50
+11/09/2020 01:34:03 PM  config_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108.py
+11/09/2020 01:34:03 PM * Begin integration
+11/09/2020 01:34:03 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:34:03 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:34:26 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:34:26 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:34:26 PM Done reading data
+11/09/2020 01:34:26 PM Subsampling 1/3
+11/09/2020 01:34:26 PM snmcseq_gene (7584, 32) (4754, 7584)
+11/09/2020 01:34:27 PM smarter_cells (5035, 129) (5743, 5035)
+11/09/2020 01:34:27 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74257 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:34:31 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108
+11/09/2020 01:34:31 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:34:31 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:34:31 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:34:31 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:34:31 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:34:33 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:34:33 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:34:34 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:34:35 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:34:35 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:34:35 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:34:37 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:34:37 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+11/09/2020 01:34:37 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka50_knn50_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+100, 100
+11/09/2020 01:34:40 PM  config_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108.py
+11/09/2020 01:34:40 PM * Begin integration
+11/09/2020 01:34:40 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:34:41 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:35:03 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:35:04 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:35:04 PM Done reading data
+11/09/2020 01:35:04 PM Subsampling 1/3
+11/09/2020 01:35:04 PM snmcseq_gene (7441, 32) (4754, 7441)
+11/09/2020 01:35:04 PM smarter_cells (5041, 129) (5743, 5041)
+11/09/2020 01:35:05 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74312 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:35:07 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108
+11/09/2020 01:35:07 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108
+11/09/2020 01:35:07 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:07 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:07 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:10 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:10 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:10 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:11 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:11 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:12 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:14 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+11/09/2020 01:35:14 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+11/09/2020 01:35:14 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka100_knn100_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+200, 200
+11/09/2020 01:35:16 PM  config_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108.py
+11/09/2020 01:35:17 PM * Begin integration
+11/09/2020 01:35:17 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:35:17 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:35:39 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:35:40 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:35:40 PM Done reading data
+11/09/2020 01:35:40 PM Subsampling 1/3
+11/09/2020 01:35:40 PM snmcseq_gene (7524, 32) (4754, 7524)
+11/09/2020 01:35:41 PM smarter_cells (4988, 129) (5743, 4988)
+11/09/2020 01:35:41 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74366 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:35:44 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108
+11/09/2020 01:35:44 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:44 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:44 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:44 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:35:44 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:35:44 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:35:47 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:47 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:47 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:35:49 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:49 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:49 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:35:51 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+11/09/2020 01:35:51 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+11/09/2020 01:35:51 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka200_knn200_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+500, 500
+11/09/2020 01:35:55 PM  config_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108.py
+11/09/2020 01:35:55 PM * Begin integration
+11/09/2020 01:35:55 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:35:55 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:36:19 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:36:19 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:36:19 PM Done reading data
+11/09/2020 01:36:19 PM Subsampling 1/3
+11/09/2020 01:36:19 PM snmcseq_gene (7426, 32) (4754, 7426)
+11/09/2020 01:36:20 PM smarter_cells (5006, 129) (5743, 5006)
+11/09/2020 01:36:20 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74420 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:36:25 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108
+11/09/2020 01:36:25 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108
+11/09/2020 01:36:25 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:36:25 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:36:25 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:36:25 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:36:28 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:36:28 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:36:28 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:36:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:36:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:36:30 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:36:32 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+11/09/2020 01:36:32 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+11/09/2020 01:36:32 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka500_knn500_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+1000, 1000
+11/09/2020 01:36:36 PM  config_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108.py
+11/09/2020 01:36:36 PM * Begin integration
+11/09/2020 01:36:36 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types.Specify dtype option on import or set low_memory=False.
+11/09/2020 01:36:37 PM Metadata smarter_cells (6244, 129)
+11/09/2020 01:36:59 PM Feature matrix snmcseq_gene (4754, 9366)
+11/09/2020 01:37:00 PM Feature matrix smarter_cells (5743, 6244)
+11/09/2020 01:37:00 PM Done reading data
+11/09/2020 01:37:00 PM Subsampling 1/3
+11/09/2020 01:37:00 PM snmcseq_gene (7564, 32) (4754, 7564)
+11/09/2020 01:37:00 PM smarter_cells (4968, 129) (5743, 4968)
+11/09/2020 01:37:00 PM Smoothing within modalities...
+./01.run_mc_nov9.sh: line 25: 74479 Illegal instruction     (core dumped) /cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py -c ${scf_config} -s ${subsample_frac} -sn ${subsample_times}
+11/09/2020 01:37:04 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:37:04 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108
+11/09/2020 01:37:04 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/09/2020 01:37:04 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:37:04 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/09/2020 01:37:07 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:37:07 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:37:07 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/09/2020 01:37:08 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:37:08 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:37:08 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/09/2020 01:37:11 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:37:11 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/09/2020 01:37:11 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108_10x_cells_v3_snmcseq_gene.npz.0.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108_10x_cells_v3_snmcseq_gene.npz.1.npz'
+Traceback (most recent call last):
+  File "../correlation_analysis_celllevel_mc_nov9.py", line 111, in <module>
+    knn_xy = sparse.load_npz(input_knn_xy)  
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/sparse/_matrix_io.py", line 123, in load_npz
+    with np.load(file, **PICKLE_KWARGS) as loaded:
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cndd2/fangming/projects/miniatlas/results/knn_across_mop_10x_cells_v3_snmcseq_gene_ka1000_knn1000_201108_10x_cells_v3_snmcseq_gene.npz.2.npz'
+Command exited with non-zero status 123
+376.32user 233.99system 6:41.81elapsed 151%CPU (0avgtext+0avgdata 13922268maxresident)k
+27539856inputs+11136outputs (0major+98785752minor)pagefaults 0swaps

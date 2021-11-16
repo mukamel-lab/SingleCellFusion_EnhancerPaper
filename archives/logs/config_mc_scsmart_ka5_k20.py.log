@@ -1,0 +1,30 @@
+08/03/2020 11:59:21 AM  config_mc_scsmart_ka5_k20.py
+08/03/2020 11:59:21 AM * Begin integration
+08/03/2020 11:59:21 AM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/03/2020 11:59:21 AM Metadata smarter_cells (6244, 129)
+08/03/2020 11:59:46 AM Feature matrix snmcseq_gene (4754, 9366)
+08/03/2020 11:59:48 AM Feature matrix smarter_cells (5743, 6244)
+08/03/2020 11:59:48 AM Done reading data
+08/03/2020 11:59:48 AM Smoothing within modalities...
+08/03/2020 11:59:50 AM snmcseq_gene: 2.2587692737579346
+08/03/2020 11:59:52 AM smarter_cells: 1.6684203147888184
+08/03/2020 11:59:52 AM Constructing a joint matrix...
+08/03/2020 11:59:52 AM Imputing into snmcseq_gene space...
+08/03/2020 11:59:52 AM for snmcseq_gene cells...
+08/03/2020 11:59:52 AM for smarter_cells cells...
+08/03/2020 12:00:23 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200803_ka5_k20.npy
+08/03/2020 12:00:23 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200803_ka5_k20.npy
+08/03/2020 12:00:23 PM Done integration into a common PC space
+08/03/2020 12:00:23 PM resolution r: 0.1
+08/03/2020 12:00:24 PM resolution r: 1
+08/03/2020 12:00:26 PM resolution r: 2
+08/03/2020 12:00:27 PM resolution r: 4
+08/03/2020 12:00:30 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (15610, 50)
+08/03/2020 12:01:16 PM Done. running time: 46.345502614974976 seconds.
+08/03/2020 12:01:16 PM Done clustering and UMAP
+Time used to build kNN map 0.20269489288330078
+Time used to get kNN 0.2608063220977783
+Time used to build kNN map 0.0962209701538086
+Time used to get kNN 0.2284679412841797

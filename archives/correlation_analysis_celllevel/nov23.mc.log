@@ -1,0 +1,503 @@
+nohup: ignoring input
+11/23/2020 11:20:28 PM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201120
+11/23/2020 11:20:28 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/23/2020 11:20:28 PM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/23/2020 11:20:28 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/23/2020 11:20:28 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/23/2020 11:20:31 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/23/2020 11:20:32 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/23/2020 11:20:34 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/23/2020 11:20:51 PM (69727, 9364)_(69727, 34)_(31053, 69727)_(233514, 9364)_(233514, 9364)
+11/23/2020 11:21:00 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/23/2020 11:21:00 PM NumExpr defaulting to 8 threads.
+11/23/2020 11:21:00 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:09 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:18 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:27 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:37 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:47 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:21:58 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:22:11 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:22:25 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:22:38 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:22:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:23:12 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:23:32 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:23:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:24:17 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:24:42 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:25:09 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:25:42 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:26:18 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:26:58 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:27:44 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:28:34 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:29:34 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:30:39 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:31:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:33:19 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:34:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:36:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:39:32 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:42:59 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:47:22 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:52:58 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/23/2020 11:59:54 PM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:08:17 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:12:44 AM corr_analysis_10x_cells_v3_snmcseq_gene_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201120
+11/24/2020 12:12:45 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/24/2020 12:12:45 AM <class 'numpy.ndarray'>_(9931,)_cell_snmcseq_gene.txt
+11/24/2020 12:12:45 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/24/2020 12:12:45 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/24/2020 12:12:48 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/24/2020 12:12:49 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_mcg_snmcseq_gene.npz
+11/24/2020 12:12:51 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 9931)_mat_cg_snmcseq_gene.npz
+11/24/2020 12:13:07 AM (69727, 9364)_(69727, 34)_(31053, 69727)_(233514, 9364)_(233514, 9364)
+11/24/2020 12:13:15 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:13:24 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:13:33 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:13:43 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:13:53 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:14:03 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:14:15 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:14:27 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:14:40 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:14:54 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:15:10 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:15:28 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:15:49 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:16:14 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:16:41 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:17:10 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:17:42 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:18:17 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:19:00 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:19:49 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:20:46 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:21:55 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:23:14 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:24:48 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:26:33 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:28:39 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:31:01 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:34:10 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:38:29 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:44:28 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 12:52:39 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 01:03:43 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 01:17:45 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 01:35:39 AM Imputing data... (No effect if sufficient_coverage_fraction=1)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+5*********
+(69727, 34) (69727, 9366) (69727,) (9366,)
+cluster_n8
+Number of metacells: 8
+(31053, 8) (233514, 8) (233514, 8)
+(31657, 8)
+cluster_n9
+Number of metacells: 9
+(31053, 9) (233514, 9) (233514, 9)
+(30662, 9)
+cluster_n12
+Number of metacells: 12
+(31053, 12) (233514, 12) (233514, 12)
+(31007, 12)
+cluster_n13
+Number of metacells: 13
+(31053, 13) (233514, 13) (233514, 13)
+(30194, 13)
+cluster_n14
+Number of metacells: 14
+(31053, 14) (233514, 14) (233514, 14)
+(29849, 14)
+cluster_n16
+Number of metacells: 16
+(31053, 16) (233514, 16) (233514, 16)
+(30974, 16)
+cluster_n17
+Number of metacells: 17
+(31053, 17) (233514, 17) (233514, 17)
+(30490, 17)
+cluster_n20
+Number of metacells: 20
+(31053, 20) (233514, 20) (233514, 20)
+(30382, 20)
+cluster_n24
+Number of metacells: 24
+(31053, 24) (233514, 24) (233514, 24)
+(29808, 24)
+cluster_n29
+Number of metacells: 29
+(31053, 29) (233514, 29) (233514, 29)
+(29867, 29)
+cluster_n34
+Number of metacells: 34
+(31053, 34) (233514, 34) (233514, 34)
+(29983, 34)
+cluster_n40
+Number of metacells: 40
+(31053, 40) (233514, 40) (233514, 40)
+(30467, 40)
+cluster_n51
+Number of metacells: 51
+(31053, 51) (233514, 51) (233514, 51)
+(30018, 51)
+cluster_n63
+Number of metacells: 63
+(31053, 63) (233514, 63) (233514, 63)
+(29724, 63)
+cluster_n75
+Number of metacells: 75
+(31053, 75) (233514, 75) (233514, 75)
+(29794, 75)
+cluster_n88
+Number of metacells: 88
+(31053, 88) (233514, 88) (233514, 88)
+(29409, 88)
+cluster_n108
+Number of metacells: 108
+(31053, 108) (233514, 108) (233514, 108)
+(29362, 108)
+cluster_n134
+Number of metacells: 134
+(31053, 134) (233514, 134) (233514, 134)
+(29173, 134)
+cluster_n164
+Number of metacells: 164
+(31053, 164) (233514, 164) (233514, 164)
+(28991, 164)
+cluster_n205
+Number of metacells: 205
+(31053, 205) (233514, 205) (233514, 205)
+(28930, 205)
+cluster_n256
+Number of metacells: 256
+(31053, 256) (233514, 256) (233514, 256)
+(28585, 256)
+cluster_n319
+Number of metacells: 319
+(31053, 319) (233514, 319) (233514, 319)
+(28246, 319)
+cluster_n398
+Number of metacells: 398
+(31053, 398) (233514, 398) (233514, 398)
+(28035, 398)
+cluster_n488
+Number of metacells: 488
+(31053, 488) (233514, 488) (233514, 488)
+(27623, 488)
+cluster_n611
+Number of metacells: 611
+(31053, 611) (233514, 611) (233514, 611)
+(27320, 611)
+cluster_n749
+Number of metacells: 749
+(31053, 749) (233514, 749) (233514, 749)
+(26967, 749)
+cluster_n938
+Number of metacells: 938
+(31053, 938) (233514, 938) (233514, 938)
+(26499, 938)
+cluster_n1180
+Number of metacells: 1180
+(31053, 1180) (233514, 1180) (233514, 1180)
+(26064, 1180)
+cluster_n1485
+Number of metacells: 1485
+(31053, 1485) (233514, 1485) (233514, 1485)
+(25341, 1485)
+cluster_n1884
+Number of metacells: 1884
+(31053, 1884) (233514, 1884) (233514, 1884)
+(24617, 1884)
+cluster_n2365
+Number of metacells: 2365
+(31053, 2365) (233514, 2365) (233514, 2365)
+(23813, 2365)
+cluster_n3038
+Number of metacells: 3038
+(31053, 3038) (233514, 3038) (233514, 3038)
+(22819, 3038)
+cluster_n3914
+Number of metacells: 3914
+(31053, 3914) (233514, 3914) (233514, 3914)
+(21548, 3914)
+cluster_n5010
+Number of metacells: 5010
+(31053, 5010) (233514, 5010) (233514, 5010)
+(20344, 5010)
+10*********
+(69727, 34) (69727, 9366) (69727,) (9366,)
+cluster_n8
+Number of metacells: 8
+(31053, 8) (233514, 8) (233514, 8)
+(84254, 8)
+cluster_n9
+Number of metacells: 9
+(31053, 9) (233514, 9) (233514, 9)
+(82462, 9)
+cluster_n12
+Number of metacells: 12
+(31053, 12) (233514, 12) (233514, 12)
+(83301, 12)
+cluster_n13
+Number of metacells: 13
+(31053, 13) (233514, 13) (233514, 13)
+(80573, 13)
+cluster_n14
+Number of metacells: 14
+(31053, 14) (233514, 14) (233514, 14)
+(80014, 14)
+cluster_n16
+Number of metacells: 16
+(31053, 16) (233514, 16) (233514, 16)
+(82630, 16)
+cluster_n17
+Number of metacells: 17
+(31053, 17) (233514, 17) (233514, 17)
+(81782, 17)
+cluster_n20
+Number of metacells: 20
+(31053, 20) (233514, 20) (233514, 20)
+(82071, 20)
+cluster_n24
+Number of metacells: 24
+(31053, 24) (233514, 24) (233514, 24)
+(81113, 24)
+cluster_n29
+Number of metacells: 29
+(31053, 29) (233514, 29) (233514, 29)
+(81463, 29)
+cluster_n34
+Number of metacells: 34
+(31053, 34) (233514, 34) (233514, 34)
+(81580, 34)
+cluster_n40
+Number of metacells: 40
+(31053, 40) (233514, 40) (233514, 40)
+(82636, 40)
+cluster_n51
+Number of metacells: 51
+(31053, 51) (233514, 51) (233514, 51)
+(81944, 51)
+cluster_n63
+Number of metacells: 63
+(31053, 63) (233514, 63) (233514, 63)
+(81504, 63)
+cluster_n75
+Number of metacells: 75
+(31053, 75) (233514, 75) (233514, 75)
+(81668, 75)
+cluster_n88
+Number of metacells: 88
+(31053, 88) (233514, 88) (233514, 88)
+(81067, 88)
+cluster_n108
+Number of metacells: 108
+(31053, 108) (233514, 108) (233514, 108)
+(81184, 108)
+cluster_n134
+Number of metacells: 134
+(31053, 134) (233514, 134) (233514, 134)
+(80942, 134)
+cluster_n164
+Number of metacells: 164
+(31053, 164) (233514, 164) (233514, 164)
+(80931, 164)
+cluster_n205
+Number of metacells: 205
+(31053, 205) (233514, 205) (233514, 205)
+(80781, 205)
+cluster_n256
+Number of metacells: 256
+(31053, 256) (233514, 256) (233514, 256)
+(80390, 256)
+cluster_n319
+Number of metacells: 319
+(31053, 319) (233514, 319) (233514, 319)
+(79932, 319)
+cluster_n398
+Number of metacells: 398
+(31053, 398) (233514, 398) (233514, 398)
+(79719, 398)
+cluster_n488
+Number of metacells: 488
+(31053, 488) (233514, 488) (233514, 488)
+(79192, 488)
+cluster_n611
+Number of metacells: 611
+(31053, 611) (233514, 611) (233514, 611)
+(78842, 611)
+cluster_n749
+Number of metacells: 749
+(31053, 749) (233514, 749) (233514, 749)
+(78352, 749)
+cluster_n938
+Number of metacells: 938
+(31053, 938) (233514, 938) (233514, 938)
+(77879, 938)
+cluster_n1180
+Number of metacells: 1180
+(31053, 1180) (233514, 1180) (233514, 1180)
+(77198, 1180)
+cluster_n1485
+Number of metacells: 1485
+(31053, 1485) (233514, 1485) (233514, 1485)
+(76367, 1485)
+cluster_n1884
+Number of metacells: 1884
+(31053, 1884) (233514, 1884) (233514, 1884)
+(75425, 1884)
+cluster_n2365
+Number of metacells: 2365
+(31053, 2365) (233514, 2365) (233514, 2365)
+(74482, 2365)
+cluster_n3038
+Number of metacells: 3038
+(31053, 3038) (233514, 3038) (233514, 3038)
+(73047, 3038)
+cluster_n3914
+Number of metacells: 3914
+(31053, 3914) (233514, 3914) (233514, 3914)
+(71421, 3914)
+cluster_n5010
+Number of metacells: 5010
+(31053, 5010) (233514, 5010) (233514, 5010)
+(69853, 5010)
+7740.20user 1413.74system 2:31:24elapsed 100%CPU (0avgtext+0avgdata 76096420maxresident)k
+368inputs+3174240outputs (0major+1343685664minor)pagefaults 0swaps

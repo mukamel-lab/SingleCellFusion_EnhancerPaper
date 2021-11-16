@@ -1,0 +1,48 @@
+2 5 10 20 50 100 200 500 1000
+2, 2
+Traceback (most recent call last):
+  File "/cndd2/fangming/projects/SCF_package/SingleCellFusion/scripts/SCF_main_repeat_subsampling.py", line 4, in <module>
+    from __init__ import *
+  File "/cndd2/fangming/projects/SCF_package/v2_dev/SingleCellFusion/scripts/__init__.py", line 23, in <module>
+    import seaborn as sns
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/seaborn/__init__.py", line 9, in <module>
+    from .relational import *
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/seaborn/relational.py", line 16, in <module>
+    from .axisgrid import FacetGrid, _facet_docs
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/seaborn/axisgrid.py", line 14, in <module>
+    from .distributions import distplot, kdeplot,  _freedman_diaconis_bins
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/seaborn/distributions.py", line 12, in <module>
+    import statsmodels.nonparametric.api as smnp
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/statsmodels/nonparametric/api.py", line 11, in <module>
+    from .kernel_density import \
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/statsmodels/nonparametric/kernel_density.py", line 34, in <module>
+    from ._kernel_base import GenericKDE, EstimatorSettings, gpke, \
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/statsmodels/nonparametric/_kernel_base.py", line 12, in <module>
+    import joblib
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/joblib/__init__.py", line 113, in <module>
+    from .memory import Memory, MemorizedResult, register_store_backend
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1342, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1314, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1469, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 101, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 93, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 87, in _path_stat
+KeyboardInterrupt
+Command terminated by signal 2
+1.13user 0.22system 0:02.33elapsed 58%CPU (0avgtext+0avgdata 121820maxresident)k
+456inputs+48outputs (0major+30017minor)pagefaults 0swaps
+Traceback (most recent call last):
+  File "../generate_rna_dataset_clustering.py", line 19, in <module>
+    import CEMBA_clst_utils
+  File "/cndd/fangming/CEMBA/snmcseq_dev/CEMBA_clst_utils.py", line 10, in <module>
+    from sklearn.neighbors import NearestNeighbors
+  File "/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/sklearn/neighbors/__init__.py", line 7, in <module>
+    from ._kd_tree import KDTree
+  File "<frozen importlib._bootstrap>", line 389, in parent
+KeyboardInterrupt
+Command terminated by signal 2
+2.56user 0.67system 0:04.66elapsed 69%CPU (0avgtext+0avgdata 183368maxresident)k
+376inputs+136outputs (0major+43932minor)pagefaults 0swaps

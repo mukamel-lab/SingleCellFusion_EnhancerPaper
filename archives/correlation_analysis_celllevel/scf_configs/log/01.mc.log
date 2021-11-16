@@ -1,0 +1,81 @@
+nohup: ignoring input
+10x_cells_v3, snmcseq_gene, 30, 2
+11/23/2020 08:33:29 PM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn2_201120.py
+11/23/2020 08:33:29 PM Adding ./configs to python path
+11/23/2020 08:33:29 PM * Begin integration
+11/23/2020 08:33:29 PM Metadata snmcseq_gene (9366, 32)
+11/23/2020 08:33:29 PM Metadata 10x_cells_v3 (69727, 8)
+11/23/2020 08:33:52 PM Feature matrix snmcseq_gene (4754, 9366)
+11/23/2020 08:33:59 PM Feature matrix 10x_cells_v3 (4694, 69727)
+11/23/2020 08:33:59 PM Done reading data
+11/23/2020 08:33:59 PM Subsampling 1/1
+11/23/2020 08:33:59 PM Smoothing within modalities...
+11/23/2020 08:34:07 PM snmcseq_gene: 7.7234978675842285
+11/23/2020 08:35:08 PM 10x_cells_v3: 61.2942430973053
+11/23/2020 08:35:08 PM Constructing a joint matrix...
+11/23/2020 08:35:08 PM Imputing into snmcseq_gene space...
+11/23/2020 08:35:08 PM for snmcseq_gene cells...
+11/23/2020 08:35:09 PM for 10x_cells_v3 cells...
+11/23/2020 08:35:14 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/23/2020 08:35:14 PM NumExpr defaulting to 8 threads.
+11/23/2020 08:37:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn2_201120.npy.0
+11/23/2020 08:37:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn2_201120.npy.0
+11/23/2020 08:37:03 PM Done integration into a common PC space
+Time used to build kNN map 0.22055411338806152
+Time used to get kNN 0.8251688480377197
+Time used to build kNN map 1.0338044166564941
+Time used to get kNN 6.775286674499512
+10x_cells_v3, snmcseq_gene, 30, 5
+11/23/2020 08:37:07 PM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201120.py
+11/23/2020 08:37:07 PM Adding ./configs to python path
+11/23/2020 08:37:07 PM * Begin integration
+11/23/2020 08:37:08 PM Metadata snmcseq_gene (9366, 32)
+11/23/2020 08:37:08 PM Metadata 10x_cells_v3 (69727, 8)
+11/23/2020 08:37:25 PM Feature matrix snmcseq_gene (4754, 9366)
+11/23/2020 08:37:32 PM Feature matrix 10x_cells_v3 (4694, 69727)
+11/23/2020 08:37:32 PM Done reading data
+11/23/2020 08:37:32 PM Subsampling 1/1
+11/23/2020 08:37:32 PM Smoothing within modalities...
+11/23/2020 08:37:40 PM snmcseq_gene: 7.780903577804565
+11/23/2020 08:38:44 PM 10x_cells_v3: 63.84491682052612
+11/23/2020 08:38:44 PM Constructing a joint matrix...
+11/23/2020 08:38:44 PM Imputing into snmcseq_gene space...
+11/23/2020 08:38:44 PM for snmcseq_gene cells...
+11/23/2020 08:38:44 PM for 10x_cells_v3 cells...
+11/23/2020 08:38:49 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/23/2020 08:38:49 PM NumExpr defaulting to 8 threads.
+11/23/2020 08:40:39 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201120.npy.0
+11/23/2020 08:40:39 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn5_201120.npy.0
+11/23/2020 08:40:39 PM Done integration into a common PC space
+Time used to build kNN map 0.21285343170166016
+Time used to get kNN 0.8238909244537354
+Time used to build kNN map 1.043041706085205
+Time used to get kNN 7.676259994506836
+10x_cells_v3, snmcseq_gene, 30, 10
+11/23/2020 08:40:43 PM ./configs config_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201120.py
+11/23/2020 08:40:43 PM Adding ./configs to python path
+11/23/2020 08:40:43 PM * Begin integration
+11/23/2020 08:40:43 PM Metadata snmcseq_gene (9366, 32)
+11/23/2020 08:40:43 PM Metadata 10x_cells_v3 (69727, 8)
+11/23/2020 08:41:01 PM Feature matrix snmcseq_gene (4754, 9366)
+11/23/2020 08:41:08 PM Feature matrix 10x_cells_v3 (4694, 69727)
+11/23/2020 08:41:08 PM Done reading data
+11/23/2020 08:41:08 PM Subsampling 1/1
+11/23/2020 08:41:08 PM Smoothing within modalities...
+11/23/2020 08:41:15 PM snmcseq_gene: 7.833290100097656
+11/23/2020 08:42:18 PM 10x_cells_v3: 62.384926080703735
+11/23/2020 08:42:18 PM Constructing a joint matrix...
+11/23/2020 08:42:18 PM Imputing into snmcseq_gene space...
+11/23/2020 08:42:18 PM for snmcseq_gene cells...
+11/23/2020 08:42:18 PM for 10x_cells_v3 cells...
+11/23/2020 08:42:23 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+11/23/2020 08:42:23 PM NumExpr defaulting to 8 threads.
+11/23/2020 08:44:26 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201120.npy.0
+11/23/2020 08:44:26 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_10x_cells_v3_snmcseq_gene_ka30_knn10_201120.npy.0
+11/23/2020 08:44:27 PM Done integration into a common PC space
+Time used to build kNN map 0.21889400482177734
+Time used to get kNN 0.8199667930603027
+Time used to build kNN map 1.059494972229004
+Time used to get kNN 6.8504319190979
+1530.86user 429.60system 11:01.48elapsed 296%CPU (0avgtext+0avgdata 13447872maxresident)k
+1575688inputs+18399376outputs (0major+41889639minor)pagefaults 0swaps

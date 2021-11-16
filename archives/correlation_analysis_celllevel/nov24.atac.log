@@ -1,0 +1,363 @@
+nohup: ignoring input
+11/24/2020 11:13:16 AM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka30_knn50_201120
+11/24/2020 11:13:16 AM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/24/2020 11:13:16 AM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/24/2020 11:13:16 AM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/24/2020 11:13:16 AM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/24/2020 11:13:19 AM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/24/2020 11:13:19 AM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_snatac_gene.npz
+11/24/2020 11:13:30 AM (69727, 54844)_(69727, 34)_(31053, 69727)_(233514, 54844)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+11/24/2020 02:00:45 PM corr_analysis_10x_cells_v3_snatac_gene_mop_10x_cells_v3_snatac_gene_ka30_knn100_201120
+11/24/2020 02:00:45 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+11/24/2020 02:00:45 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+11/24/2020 02:00:45 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+11/24/2020 02:00:45 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+11/24/2020 02:00:48 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+11/24/2020 02:00:49 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_snatac_gene.npz
+11/24/2020 02:01:02 PM (69727, 54844)_(69727, 34)_(31053, 69727)_(233514, 54844)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+50*********
+(69727, 34) (69727, 54844) (69727,) (54844,)
+cluster_n8
+Number of metacells: 8
+(31053, 8) (233514, 8)
+cluster_n9
+Number of metacells: 9
+(31053, 9) (233514, 9)
+cluster_n12
+Number of metacells: 12
+(31053, 12) (233514, 12)
+cluster_n13
+Number of metacells: 13
+(31053, 13) (233514, 13)
+cluster_n14
+Number of metacells: 14
+(31053, 14) (233514, 14)
+cluster_n16
+Number of metacells: 16
+(31053, 16) (233514, 16)
+cluster_n17
+Number of metacells: 17
+(31053, 17) (233514, 17)
+cluster_n20
+Number of metacells: 20
+(31053, 20) (233514, 20)
+cluster_n24
+Number of metacells: 24
+(31053, 24) (233514, 24)
+cluster_n29
+Number of metacells: 29
+(31053, 29) (233514, 29)
+cluster_n34
+Number of metacells: 34
+(31053, 34) (233514, 34)
+cluster_n40
+Number of metacells: 40
+(31053, 40) (233514, 40)
+cluster_n51
+Number of metacells: 51
+(31053, 51) (233514, 51)
+cluster_n63
+Number of metacells: 63
+(31053, 63) (233514, 63)
+cluster_n75
+Number of metacells: 75
+(31053, 75) (233514, 75)
+cluster_n88
+Number of metacells: 88
+(31053, 88) (233514, 88)
+cluster_n108
+Number of metacells: 108
+(31053, 108) (233514, 108)
+cluster_n134
+Number of metacells: 134
+(31053, 134) (233514, 134)
+cluster_n164
+Number of metacells: 164
+(31053, 164) (233514, 164)
+cluster_n205
+Number of metacells: 205
+(31053, 205) (233514, 205)
+cluster_n256
+Number of metacells: 256
+(31053, 256) (233514, 256)
+cluster_n319
+Number of metacells: 319
+(31053, 319) (233514, 319)
+cluster_n398
+Number of metacells: 398
+(31053, 398) (233514, 398)
+cluster_n488
+Number of metacells: 488
+(31053, 488) (233514, 488)
+cluster_n611
+Number of metacells: 611
+(31053, 611) (233514, 611)
+cluster_n749
+Number of metacells: 749
+(31053, 749) (233514, 749)
+cluster_n938
+Number of metacells: 938
+(31053, 938) (233514, 938)
+cluster_n1180
+Number of metacells: 1180
+(31053, 1180) (233514, 1180)
+cluster_n1485
+Number of metacells: 1485
+(31053, 1485) (233514, 1485)
+cluster_n1884
+Number of metacells: 1884
+(31053, 1884) (233514, 1884)
+cluster_n2365
+Number of metacells: 2365
+(31053, 2365) (233514, 2365)
+cluster_n3038
+Number of metacells: 3038
+(31053, 3038) (233514, 3038)
+cluster_n3914
+Number of metacells: 3914
+(31053, 3914) (233514, 3914)
+cluster_n5010
+Number of metacells: 5010
+(31053, 5010) (233514, 5010)
+100*********
+(69727, 34) (69727, 54844) (69727,) (54844,)
+cluster_n8
+Number of metacells: 8
+(31053, 8) (233514, 8)
+cluster_n9
+Number of metacells: 9
+(31053, 9) (233514, 9)
+cluster_n12
+Number of metacells: 12
+(31053, 12) (233514, 12)
+cluster_n13
+Number of metacells: 13
+(31053, 13) (233514, 13)
+cluster_n14
+Number of metacells: 14
+(31053, 14) (233514, 14)
+cluster_n16
+Number of metacells: 16
+(31053, 16) (233514, 16)
+cluster_n17
+Number of metacells: 17
+(31053, 17) (233514, 17)
+cluster_n20
+Number of metacells: 20
+(31053, 20) (233514, 20)
+cluster_n24
+Number of metacells: 24
+(31053, 24) (233514, 24)
+cluster_n29
+Number of metacells: 29
+(31053, 29) (233514, 29)
+cluster_n34
+Number of metacells: 34
+(31053, 34) (233514, 34)
+cluster_n40
+Number of metacells: 40
+(31053, 40) (233514, 40)
+cluster_n51
+Number of metacells: 51
+(31053, 51) (233514, 51)
+cluster_n63
+Number of metacells: 63
+(31053, 63) (233514, 63)
+cluster_n75
+Number of metacells: 75
+(31053, 75) (233514, 75)
+cluster_n88
+Number of metacells: 88
+(31053, 88) (233514, 88)
+cluster_n108
+Number of metacells: 108
+(31053, 108) (233514, 108)
+cluster_n134
+Number of metacells: 134
+(31053, 134) (233514, 134)
+cluster_n164
+Number of metacells: 164
+(31053, 164) (233514, 164)
+cluster_n205
+Number of metacells: 205
+(31053, 205) (233514, 205)
+cluster_n256
+Number of metacells: 256
+(31053, 256) (233514, 256)
+cluster_n319
+Number of metacells: 319
+(31053, 319) (233514, 319)
+cluster_n398
+Number of metacells: 398
+(31053, 398) (233514, 398)
+cluster_n488
+Number of metacells: 488
+(31053, 488) (233514, 488)
+cluster_n611
+Number of metacells: 611
+(31053, 611) (233514, 611)
+cluster_n749
+Number of metacells: 749
+(31053, 749) (233514, 749)
+cluster_n938
+Number of metacells: 938
+(31053, 938) (233514, 938)
+cluster_n1180
+Number of metacells: 1180
+(31053, 1180) (233514, 1180)
+cluster_n1485
+Number of metacells: 1485
+(31053, 1485) (233514, 1485)
+cluster_n1884
+Number of metacells: 1884
+(31053, 1884) (233514, 1884)
+cluster_n2365
+Number of metacells: 2365
+(31053, 2365) (233514, 2365)
+cluster_n3038
+Number of metacells: 3038
+(31053, 3038) (233514, 3038)
+cluster_n3914
+Number of metacells: 3914
+(31053, 3914) (233514, 3914)
+cluster_n5010
+Number of metacells: 5010
+(31053, 5010) (233514, 5010)
+15649.68user 3985.92system 5:27:45elapsed 99%CPU (0avgtext+0avgdata 52772396maxresident)k
+376inputs+7804904outputs (0major+3702045236minor)pagefaults 0swaps

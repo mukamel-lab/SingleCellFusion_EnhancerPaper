@@ -1,0 +1,309 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+import sys
+sys.path.insert(0, "/cndd/fangming/CEMBA/snmcseq_dev")
+from multiprocessing import Pool,cpu_count
+from functools import partial
+from scipy import sparse
+from scipy import stats
+import pickle
+import datetime
+import argparse
+import logging
+
+import snmcseq_utils
+from __init__ import *
+from __init__jupyterlab import *
+
+import CEMBA_clst_utils
+import fbpca
+
+sys.path.insert(0, "/cndd2/fangming/projects/scf_enhancers/scripts/scf_enhancer_paper")
+import enhancer_gene_utils
+
+logger = snmcseq_utils.create_logger()
+
+def pipe_corr_analysis_mc(
+        common_rna_cells, common_mc_cells,
+        cell_cell_knn_xaxis, cell_cell_knn_yaxis,
+        common_genes, common_enhancer_regions,
+        X, Y_cg, Y_mcg, 
+        modx_clsts, knn_xy, 
+        enhancer_gene_to_eval,
+        output_corrs,
+        corr_type='pearsonr',
+        force=False,
+        num_metacell_limit=0,
+    ):
+    """
+    """
+    # new cells  
+    common_rna_cells_updated = np.intersect1d(common_rna_cells, cell_cell_knn_xaxis)
+    common_mc_cells_updated = np.intersect1d(common_mc_cells, cell_cell_knn_yaxis)
+
+    # make sure the original matrices have the correct index
+    x_idx = snmcseq_utils.get_index_from_array(common_rna_cells, common_rna_cells_updated)
+    y_idx = snmcseq_utils.get_index_from_array(common_mc_cells, common_mc_cells_updated)
+    X = X.tocsc()[:, x_idx] 
+    Y_cg = Y_cg.tocsc()[:, y_idx]
+    Y_mcg = Y_mcg.tocsc()[:, y_idx] 
+
+    # make sure knn_xy, knn_xx have the right cell index
+    cell_idx_xaxis = snmcseq_utils.get_index_from_array(cell_cell_knn_xaxis, common_rna_cells_updated)
+    cell_idx_yaxis = snmcseq_utils.get_index_from_array(cell_cell_knn_yaxis, common_mc_cells_updated)
+    knn_xy = knn_xy.tocsr()[cell_idx_xaxis,:].tocsc()[:,cell_idx_yaxis] # x-by-y
+    modx_clsts = modx_clsts.reindex(common_rna_cells_updated)
+
+    logging.info("{}_{}_{}_{}_{}".format(knn_xy.shape, modx_clsts.shape, X.shape, Y_cg.shape, Y_mcg.shape))
+
+    for clst_col in modx_clsts.columns: 
+        logging.info(clst_col)
+        output_corr = output_corrs.format(clst_col)
+        if not force and os.path.isfile(output_corr):
+            logging.info("skip {}, already exists...".format(output_corr))
+            continue # skip the existing file
+        else:
+            logging.info("{}".format(output_corr))
+
+        # choose one clustering to proceed
+        uniq_labels = np.sort(modx_clsts[clst_col].unique()) 
+        logging.info("Number of metacells: {}".format(len(uniq_labels)))
+        if num_metacell_limit > 0 and len(uniq_labels) > num_metacell_limit:
+            logging.info("skip {}, exceeding max num_metacell_limit...".format(len(uniq_labels)))
+            continue
+
+        knn_xz = enhancer_gene_utils.turn_cluster_labels_to_knn(modx_clsts[clst_col].values, 
+                                            uniq_labels,
+                                           )
+
+        # gene by metacell (counts)
+        gc_rna = X.dot(knn_xz).todense() 
+        # normalization (logCPM)
+        gc_rna = snmcseq_utils.logcpm(pd.DataFrame(gc_rna)).values
+
+        # enhancer by metacell (counts cg, mcg)
+        knn_yz = knn_xy.T.dot(knn_xz)
+        ec_cg = Y_cg.dot(knn_yz).todense() 
+        ec_mcg = Y_mcg.dot(knn_yz).todense()  
+        logging.info("{} {} {}".format(gc_rna.shape, ec_cg.shape, ec_mcg.shape))
+
+        # mC
+        ec_mccg = snmcseq_utils.get_mcc_lite_v4(
+               pd.DataFrame(ec_cg, index=common_enhancer_regions.index).astype(np.float32), 
+               pd.DataFrame(ec_mcg, index=common_enhancer_regions.index).astype(np.float32), 
+               base_call_cutoff=5, sufficient_coverage_fraction=0.8, fillna=True)
+        logging.info("{}".format(ec_mccg.shape))
+
+        # corr analysis
+        (to_correlate, corrs, corrs_shuffled, corrs_shuffled_cells) = enhancer_gene_utils.compute_enh_gene_corrs(
+            gc_rna, ec_mccg, 
+            common_genes, ec_mccg.index.values,
+            enhancer_gene_to_eval['gene'].values, 
+            enhancer_gene_to_eval['ens'].values, 
+            output_file=output_corr, corr_type=corr_type, chunksize=100000, verbose_level=0,
+            )
+    return
+
+def wrap_corr_analysis_mc(
+        mod_x, mod_y, 
+        input_nme_tag, i_sub, i_fsub,
+        corr_type='pearsonr',
+        force=False,
+        num_metacell_limit=0,
+    ):
+    """
+    """
+    # gene chrom lookup
+    input_gene_annot = '/cndd2/fangming/references/gencode.vM16.annotation_genes_19x.bed'
+
+    # input enh-gene tables, gene-by-cell, enhancer-by-cell matrices
+    input_enh_gene_table = '/cndd2/fangming/projects/scf_enhancers/results/200521_to_evals.tsv' 
+    input_bundle_dirc = '/cndd2/fangming/projects/scf_enhancers/data/organized_cell_level/version_nov9'
+    bundle_fnames = (
+        'cell_10x_cells_v3.txt',
+        'cell_snmcseq_gene.txt',
+
+        'gene_10x_cells_v3.txt',
+        'enh.tsv',
+
+        'mat_10x_cells_v3.npz',
+        'mat_mcg_snmcseq_gene.npz',
+        'mat_cg_snmcseq_gene.npz',
+    )
+
+    # for knn_xx
+    input_knn_dirc = '/cndd2/fangming/projects/miniatlas/results'
+    input_modx_clsts = [
+        'clusterings_{}_{}_sub{}.tsv.gz'.format(mod_x, input_name_tag, i_sub),
+    ]
+
+    # for knn_xy
+    input_knn_xy = 'knn_across_{}_{}_{}.npz.{}.f{}.npz'.format(input_name_tag, mod_x, mod_y, i_sub, i_fsub) 
+    input_knn_cells_xaxis = 'cells_{}_{}.npy.{}.npy'.format(mod_x, input_name_tag, i_sub,)
+    input_knn_cells_yaxis = 'cells_{}_{}.npy.{}.npy'.format(mod_y, input_name_tag, i_sub,)
+
+    # chrom list
+    input_chrom_list = 'chroms_{}.txt.{}.f{}'.format(input_name_tag, i_sub, i_fsub) 
+
+    # # Load data 
+    # input_bundle
+    with snmcseq_utils.cd(input_bundle_dirc):
+        bundle = []
+        for fname in bundle_fnames:
+            #  save all as pickle file
+            with open(fname, "rb") as fh:
+                item = pickle.load(fh)
+            bundle.append(item)
+            logging.info("{}_{}_{}".format(type(item), item.shape, fname))
+
+    (common_rna_cells, common_mc_cells, 
+     common_genes, common_enhancer_regions,
+     X, Y_mcg, Y_cg, 
+    ) = bundle
+
+    # input knn networks 
+    with snmcseq_utils.cd(input_knn_dirc):
+        # for knn_xx 
+        modx_clsts = pd.concat([
+            pd.read_csv(fname, sep='\t',index_col=0)
+            for fname in input_modx_clsts
+        ], axis=1)
+        # for knn_xy 
+        knn_xy = sparse.load_npz(input_knn_xy)  
+        cell_cell_knn_xaxis = np.load(input_knn_cells_xaxis, allow_pickle=True)
+        cell_cell_knn_yaxis = np.load(input_knn_cells_yaxis, allow_pickle=True)
+
+        # for chrom list
+        chroms_used = snmcseq_utils.import_single_textcol(input_chrom_list)
+
+        logging.info("{} {} {} {} {}".format(
+              modx_clsts.shape, 
+              knn_xy.shape, 
+              cell_cell_knn_xaxis.shape, 
+              cell_cell_knn_yaxis.shape,
+              chroms_used.shape,
+              )
+             )
+
+    # gene chrom lookup
+    gene_chrom_lookup = pd.read_csv(input_gene_annot, sep='\t', header=None)[[0, 3]]
+    gene_chrom_lookup['gid'] = gene_chrom_lookup[3].apply(lambda x: x.split('.')[0])
+    gene_chrom_lookup = gene_chrom_lookup.set_index('gid')[0]
+
+    # enhancer chrom lookup
+    enh_chrom_lookup = common_enhancer_regions['chr']
+    if not enh_chrom_lookup.iloc[0].startswith('chr'):
+        enh_chrom_lookup = enh_chrom_lookup.apply(lambda x: "chr"+str(x))
+
+    print(gene_chrom_lookup.head())
+    print(enh_chrom_lookup.head())
+    print(gene_chrom_lookup.shape)
+    print(enh_chrom_lookup.shape)
+
+    # enhancer-gene linkage
+    enhancer_gene_to_eval = pd.read_csv(input_enh_gene_table, sep='\t')
+
+    # in-sample 
+    # limit common_genes, common_enhancer_regions, X, Y,
+    cond_genes = [chrom in chroms_used for chrom in gene_chrom_lookup.reindex(common_genes).values]
+    cond_enhs = [chrom in chroms_used for chrom in enh_chrom_lookup.reindex(common_enhancer_regions.index).values]
+    common_genes_sub = common_genes[np.nonzero(cond_genes)].copy() # select in nmupy array
+    common_enhancer_regions_sub = common_enhancer_regions[cond_enhs].copy() # select rows in the dataframe
+    X_sub = X.tocsr()[np.nonzero(cond_genes)].copy()
+    Y_cg_sub = Y_cg.tocsr()[np.nonzero(cond_enhs)].copy()
+    Y_mcg_sub = Y_mcg.tocsr()[np.nonzero(cond_enhs)].copy()
+    # (i, if, k, --r)
+    output_corrs = ('/cndd2/fangming/projects/scf_enhancers/results/{}_{}_f{}_{{}}_{}_insample_corrs.pkl'
+                        .format(input_name_tag, i_sub, i_fsub, corr_type)
+                   )
+    logging.info('insample corr...')
+    logging.info('{} {} {}'.format(X_sub.shape, Y_cg_sub.shape, Y_mcg_sub.shape))
+    pipe_corr_analysis_mc(
+        common_rna_cells, common_mc_cells,
+        cell_cell_knn_xaxis, cell_cell_knn_yaxis,
+        common_genes_sub, common_enhancer_regions_sub,
+        X_sub, Y_cg_sub, Y_mcg_sub, 
+        modx_clsts, knn_xy, 
+        enhancer_gene_to_eval,
+        output_corrs,
+        corr_type=corr_type,
+        force=force,
+        num_metacell_limit=num_metacell_limit,
+    )
+
+    # out-sample 
+    # limit common_genes, common_enhancer_regions, X, Y,
+    cond_genes = [chrom not in chroms_used for chrom in gene_chrom_lookup.reindex(common_genes).values]
+    cond_enhs = [chrom not in chroms_used for chrom in enh_chrom_lookup.reindex(common_enhancer_regions.index).values]
+    common_genes_sub = common_genes[np.nonzero(cond_genes)].copy() # select in nmupy array
+    common_enhancer_regions_sub = common_enhancer_regions[cond_enhs].copy() # select rows in the dataframe
+    X_sub = X.tocsr()[np.nonzero(cond_genes)].copy()
+    Y_cg_sub = Y_cg.tocsr()[np.nonzero(cond_enhs)].copy()
+    Y_mcg_sub = Y_mcg.tocsr()[np.nonzero(cond_enhs)].copy()
+    # (i, if, k, --r)
+    output_corrs = ('/cndd2/fangming/projects/scf_enhancers/results/{}_{}_f{}_{{}}_{}_outsample_corrs.pkl'
+                        .format(input_name_tag, i_sub, i_fsub, corr_type)
+                   )
+    logging.info('outsample corr...')
+    logging.info('{} {} {}'.format(X_sub.shape, Y_cg_sub.shape, Y_mcg_sub.shape))
+    pipe_corr_analysis_mc(
+        common_rna_cells, common_mc_cells,
+        cell_cell_knn_xaxis, cell_cell_knn_yaxis,
+        common_genes_sub, common_enhancer_regions_sub,
+        X_sub, Y_cg_sub, Y_mcg_sub, 
+        modx_clsts, knn_xy, 
+        enhancer_gene_to_eval,
+        output_corrs,
+        corr_type=corr_type,
+        force=force,
+        num_metacell_limit=num_metacell_limit,
+    )
+
+    return 
+
+def create_parser():
+    """
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-modx', '--mod_x', required=True, type=str)
+    parser.add_argument('-mody', '--mod_y', required=True, type=str)
+    parser.add_argument('-tag', '--input_name_tag', required=True, type=str)
+    parser.add_argument('-isub', '--i_sub', type=str, help="[0-9]")
+    parser.add_argument('-ifsub', '--i_feature_sub', type=str, help="[0-9]")
+    parser.add_argument('-ct', '--corr_type', choices=['pearsonr', 'spearmanr'],  
+                                              default='pearsonr',
+                                              help="choose from pearsonr or spearmanr")
+    parser.add_argument('-f', '--force', action='store_true', help='to overwrite existing file')
+    parser.add_argument('-n', '--num_metacell_limit', default=0, type=int, help='max num of metacells')
+    return parser
+
+
+if __name__ == "__main__":
+    # 
+    logging.basicConfig(level=logging.INFO)
+    parser = create_parser()
+    args = parser.parse_args()
+
+    # output setting
+    # run this with each combination of (i_sub, knn)
+    mod_x = args.mod_x
+    mod_y = args.mod_y
+    input_name_tag = args.input_name_tag
+    i_sub = args.i_sub
+    i_fsub = args.i_feature_sub
+    corr_type = args.corr_type
+    force = args.force
+    num_metacell_limit = args.num_metacell_limit
+
+    logging.info(",".join([mod_x, mod_y, input_name_tag, str(i_sub), corr_type, str(force), str(num_metacell_limit)]))
+
+    # run
+    wrap_corr_analysis_mc(
+        mod_x, mod_y, 
+        input_name_tag, i_sub, i_fsub,
+        corr_type=corr_type,
+        force=force,
+        num_metacell_limit=num_metacell_limit,
+    )
+

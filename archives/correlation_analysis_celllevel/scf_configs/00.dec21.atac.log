@@ -1,0 +1,200 @@
+nohup: ignoring input
+12/21/2020 10:13:41 PM 10x_cells_v3,snatac_gene,mop_10x_cells_v3_snatac_gene_ka30_knn30_201206,0,spearmanr,False,1001
+12/21/2020 10:13:41 PM <class 'numpy.ndarray'>_(69727,)_cell_10x_cells_v3.txt
+12/21/2020 10:13:41 PM <class 'numpy.ndarray'>_(135665,)_cell_snatac_gene.txt
+12/21/2020 10:13:41 PM <class 'numpy.ndarray'>_(31053,)_gene_10x_cells_v3.txt
+12/21/2020 10:13:41 PM <class 'pandas.core.frame.DataFrame'>_(233514, 3)_enh.tsv
+12/21/2020 10:13:44 PM <class 'scipy.sparse.csc.csc_matrix'>_(31053, 69727)_mat_10x_cells_v3.npz
+12/21/2020 10:13:44 PM <class 'scipy.sparse.csc.csc_matrix'>_(233514, 135665)_mat_snatac_gene.npz
+12/21/2020 10:13:45 PM (69727, 41) (69727, 54844) (69727,) (54844,)
+12/21/2020 10:13:57 PM (69727, 54844)_(69727, 41)_(31053, 69727)_(233514, 54844)
+12/21/2020 10:13:57 PM cluster_r1.0
+12/21/2020 10:13:57 PM Number of metacells: 16
+12/21/2020 10:13:59 PM Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/21/2020 10:13:59 PM NumExpr defaulting to 8 threads.
+12/21/2020 10:14:01 PM (31053, 16) (233514, 16)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:03 PM cluster_r1.2589254117941673
+12/21/2020 10:14:03 PM Number of metacells: 18
+12/21/2020 10:14:08 PM (31053, 18) (233514, 18)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:11 PM cluster_r1.5848931924611136
+12/21/2020 10:14:11 PM Number of metacells: 22
+12/21/2020 10:14:15 PM (31053, 22) (233514, 22)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:17 PM cluster_r1.9952623149688797
+12/21/2020 10:14:17 PM Number of metacells: 28
+12/21/2020 10:14:23 PM (31053, 28) (233514, 28)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:26 PM cluster_r2.51188643150958
+12/21/2020 10:14:26 PM Number of metacells: 34
+12/21/2020 10:14:32 PM (31053, 34) (233514, 34)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:35 PM cluster_r3.1622776601683795
+12/21/2020 10:14:35 PM Number of metacells: 39
+12/21/2020 10:14:42 PM (31053, 39) (233514, 39)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:14:46 PM cluster_r3.981071705534973
+12/21/2020 10:14:46 PM Number of metacells: 52
+12/21/2020 10:14:54 PM (31053, 52) (233514, 52)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:15:00 PM cluster_r5.011872336272724
+12/21/2020 10:15:00 PM Number of metacells: 62
+12/21/2020 10:15:10 PM (31053, 62) (233514, 62)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:15:16 PM cluster_r6.309573444801933
+12/21/2020 10:15:16 PM Number of metacells: 75
+12/21/2020 10:15:27 PM (31053, 75) (233514, 75)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:15:36 PM cluster_r7.943282347242816
+12/21/2020 10:15:36 PM Number of metacells: 90
+12/21/2020 10:15:46 PM (31053, 90) (233514, 90)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:15:56 PM cluster_r10.0
+12/21/2020 10:15:56 PM Number of metacells: 109
+12/21/2020 10:16:08 PM (31053, 109) (233514, 109)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:16:20 PM cluster_r12.589254117941675
+12/21/2020 10:16:20 PM Number of metacells: 130
+12/21/2020 10:16:33 PM (31053, 130) (233514, 130)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:16:46 PM cluster_r15.848931924611142
+12/21/2020 10:16:46 PM Number of metacells: 166
+12/21/2020 10:17:01 PM (31053, 166) (233514, 166)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:17:19 PM cluster_r19.952623149688797
+12/21/2020 10:17:19 PM Number of metacells: 199
+12/21/2020 10:17:37 PM (31053, 199) (233514, 199)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:17:58 PM cluster_r25.11886431509581
+12/21/2020 10:17:58 PM Number of metacells: 256
+12/21/2020 10:18:19 PM (31053, 256) (233514, 256)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:18:47 PM cluster_r31.622776601683793
+12/21/2020 10:18:47 PM Number of metacells: 316
+12/21/2020 10:19:09 PM (31053, 316) (233514, 316)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:19:44 PM cluster_r39.810717055349734
+12/21/2020 10:19:44 PM Number of metacells: 405
+12/21/2020 10:20:10 PM (31053, 405) (233514, 405)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:20:55 PM cluster_r50.11872336272725
+12/21/2020 10:20:55 PM Number of metacells: 494
+12/21/2020 10:21:26 PM (31053, 494) (233514, 494)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:22:21 PM cluster_r63.09573444801933
+12/21/2020 10:22:21 PM Number of metacells: 607
+12/21/2020 10:22:55 PM (31053, 607) (233514, 607)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:24:01 PM cluster_r79.43282347242817
+12/21/2020 10:24:01 PM Number of metacells: 760
+12/21/2020 10:24:40 PM (31053, 760) (233514, 760)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:26:05 PM cluster_r100.0
+12/21/2020 10:26:05 PM Number of metacells: 935
+12/21/2020 10:26:50 PM (31053, 935) (233514, 935)
+/cndd2/fangming/venvs/routine/lib/python3.8/site-packages/scipy/stats/stats.py:2500: RuntimeWarning: invalid value encountered in true_divide
+  return (a - mns) / sstd
+12/21/2020 10:28:35 PM cluster_r125.89254117941675
+12/21/2020 10:28:35 PM Number of metacells: 1164
+12/21/2020 10:28:35 PM skip 1164, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r158.48931924611142
+12/21/2020 10:28:35 PM Number of metacells: 1472
+12/21/2020 10:28:35 PM skip 1472, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r199.52623149688807
+12/21/2020 10:28:35 PM Number of metacells: 1881
+12/21/2020 10:28:35 PM skip 1881, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r251.18864315095823
+12/21/2020 10:28:35 PM Number of metacells: 2384
+12/21/2020 10:28:35 PM skip 2384, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r316.22776601683796
+12/21/2020 10:28:35 PM Number of metacells: 3033
+12/21/2020 10:28:35 PM skip 3033, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r398.1071705534973
+12/21/2020 10:28:35 PM Number of metacells: 3879
+12/21/2020 10:28:35 PM skip 3879, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r501.18723362727246
+12/21/2020 10:28:35 PM Number of metacells: 5006
+12/21/2020 10:28:35 PM skip 5006, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r630.9573444801937
+12/21/2020 10:28:35 PM Number of metacells: 6483
+12/21/2020 10:28:35 PM skip 6483, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r794.3282347242822
+12/21/2020 10:28:35 PM Number of metacells: 8504
+12/21/2020 10:28:35 PM skip 8504, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r1000.0
+12/21/2020 10:28:35 PM Number of metacells: 11394
+12/21/2020 10:28:35 PM skip 11394, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r1258.9254117941675
+12/21/2020 10:28:35 PM Number of metacells: 15905
+12/21/2020 10:28:35 PM skip 15905, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r1584.893192461114
+12/21/2020 10:28:35 PM Number of metacells: 22853
+12/21/2020 10:28:35 PM skip 22853, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r1995.262314968881
+12/21/2020 10:28:35 PM Number of metacells: 31892
+12/21/2020 10:28:35 PM skip 31892, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r2511.886431509582
+12/21/2020 10:28:35 PM Number of metacells: 41509
+12/21/2020 10:28:35 PM skip 41509, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r3162.2776601683795
+12/21/2020 10:28:35 PM Number of metacells: 50248
+12/21/2020 10:28:35 PM skip 50248, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r3981.0717055349733
+12/21/2020 10:28:35 PM Number of metacells: 57193
+12/21/2020 10:28:35 PM skip 57193, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r5011.872336272725
+12/21/2020 10:28:35 PM Number of metacells: 62577
+12/21/2020 10:28:35 PM skip 62577, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r6309.573444801937
+12/21/2020 10:28:35 PM Number of metacells: 65429
+12/21/2020 10:28:35 PM skip 65429, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r7943.282347242822
+12/21/2020 10:28:35 PM Number of metacells: 67553
+12/21/2020 10:28:35 PM skip 67553, exceeding max num_metacell_limit...
+12/21/2020 10:28:35 PM cluster_r10000.0
+12/21/2020 10:28:35 PM Number of metacells: 68739
+12/21/2020 10:28:35 PM skip 68739, exceeding max num_metacell_limit...
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+spearmanr chosen!
+633.17user 308.37system 14:59.31elapsed 104%CPU (0avgtext+0avgdata 24503008maxresident)k
+24408inputs+2410776outputs (0major+222653388minor)pagefaults 0swaps

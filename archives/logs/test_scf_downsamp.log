@@ -1,0 +1,1815 @@
+2, 2
+08/07/2020 05:34:23 PM  config_mc_scsmart_ka2_k2_200807.py
+08/07/2020 05:34:23 PM * Begin integration
+08/07/2020 05:34:23 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 05:34:23 PM Metadata smarter_cells (6244, 129)
+08/07/2020 05:34:49 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 05:34:50 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 05:34:50 PM Done reading data
+08/07/2020 05:34:50 PM Subsampling 1/10
+08/07/2020 05:34:50 PM snmcseq_gene (7469, 32) (4754, 7469)
+08/07/2020 05:34:51 PM smarter_cells (5014, 129) (5743, 5014)
+08/07/2020 05:34:51 PM Smoothing within modalities...
+08/07/2020 05:34:52 PM snmcseq_gene: 1.216594934463501
+08/07/2020 05:34:53 PM smarter_cells: 0.8822357654571533
+08/07/2020 05:34:53 PM Constructing a joint matrix...
+08/07/2020 05:34:53 PM Imputing into snmcseq_gene space...
+08/07/2020 05:34:53 PM for snmcseq_gene cells...
+08/07/2020 05:34:53 PM for smarter_cells cells...
+08/07/2020 05:35:17 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.0
+08/07/2020 05:35:17 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.0
+08/07/2020 05:35:17 PM Done integration into a common PC space
+08/07/2020 05:35:17 PM resolution r: 0.1
+08/07/2020 05:35:17 PM resolution r: 1
+08/07/2020 05:35:18 PM resolution r: 2
+08/07/2020 05:35:18 PM resolution r: 4
+08/07/2020 05:35:20 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12483, 50)
+08/07/2020 05:35:58 PM Done. running time: 38.11504673957825 seconds.
+08/07/2020 05:35:58 PM Done clustering and UMAP
+08/07/2020 05:35:58 PM Subsampling 2/10
+08/07/2020 05:35:58 PM snmcseq_gene (7467, 32) (4754, 7467)
+08/07/2020 05:35:59 PM smarter_cells (5001, 129) (5743, 5001)
+08/07/2020 05:35:59 PM Smoothing within modalities...
+08/07/2020 05:36:00 PM snmcseq_gene: 1.096022605895996
+08/07/2020 05:36:01 PM smarter_cells: 0.728222131729126
+08/07/2020 05:36:01 PM Constructing a joint matrix...
+08/07/2020 05:36:01 PM Imputing into snmcseq_gene space...
+08/07/2020 05:36:01 PM for snmcseq_gene cells...
+08/07/2020 05:36:01 PM for smarter_cells cells...
+08/07/2020 05:36:24 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.1
+08/07/2020 05:36:24 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.1
+08/07/2020 05:36:24 PM Done integration into a common PC space
+08/07/2020 05:36:24 PM resolution r: 0.1
+08/07/2020 05:36:25 PM resolution r: 1
+08/07/2020 05:36:25 PM resolution r: 2
+08/07/2020 05:36:26 PM resolution r: 4
+08/07/2020 05:36:26 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12468, 50)
+08/07/2020 05:36:59 PM Done. running time: 32.80356764793396 seconds.
+08/07/2020 05:36:59 PM Done clustering and UMAP
+08/07/2020 05:36:59 PM Subsampling 3/10
+08/07/2020 05:36:59 PM snmcseq_gene (7537, 32) (4754, 7537)
+08/07/2020 05:37:00 PM smarter_cells (4999, 129) (5743, 4999)
+08/07/2020 05:37:00 PM Smoothing within modalities...
+08/07/2020 05:37:01 PM snmcseq_gene: 1.1196727752685547
+08/07/2020 05:37:02 PM smarter_cells: 0.7489523887634277
+08/07/2020 05:37:02 PM Constructing a joint matrix...
+08/07/2020 05:37:02 PM Imputing into snmcseq_gene space...
+08/07/2020 05:37:02 PM for snmcseq_gene cells...
+08/07/2020 05:37:02 PM for smarter_cells cells...
+08/07/2020 05:37:25 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.2
+08/07/2020 05:37:25 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.2
+08/07/2020 05:37:25 PM Done integration into a common PC space
+08/07/2020 05:37:25 PM resolution r: 0.1
+08/07/2020 05:37:26 PM resolution r: 1
+08/07/2020 05:37:27 PM resolution r: 2
+08/07/2020 05:37:27 PM resolution r: 4
+08/07/2020 05:37:27 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12536, 50)
+08/07/2020 05:38:00 PM Done. running time: 32.94919943809509 seconds.
+08/07/2020 05:38:01 PM Done clustering and UMAP
+08/07/2020 05:38:01 PM Subsampling 4/10
+08/07/2020 05:38:01 PM snmcseq_gene (7539, 32) (4754, 7539)
+08/07/2020 05:38:01 PM smarter_cells (5040, 129) (5743, 5040)
+08/07/2020 05:38:01 PM Smoothing within modalities...
+08/07/2020 05:38:02 PM snmcseq_gene: 1.025846242904663
+08/07/2020 05:38:03 PM smarter_cells: 0.7406933307647705
+08/07/2020 05:38:03 PM Constructing a joint matrix...
+08/07/2020 05:38:03 PM Imputing into snmcseq_gene space...
+08/07/2020 05:38:03 PM for snmcseq_gene cells...
+08/07/2020 05:38:03 PM for smarter_cells cells...
+08/07/2020 05:38:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.3
+08/07/2020 05:38:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.3
+08/07/2020 05:38:27 PM Done integration into a common PC space
+08/07/2020 05:38:27 PM resolution r: 0.1
+08/07/2020 05:38:28 PM resolution r: 1
+08/07/2020 05:38:28 PM resolution r: 2
+08/07/2020 05:38:29 PM resolution r: 4
+08/07/2020 05:38:29 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12579, 50)
+08/07/2020 05:39:03 PM Done. running time: 33.47633719444275 seconds.
+08/07/2020 05:39:03 PM Done clustering and UMAP
+08/07/2020 05:39:03 PM Subsampling 5/10
+08/07/2020 05:39:03 PM snmcseq_gene (7463, 32) (4754, 7463)
+08/07/2020 05:39:04 PM smarter_cells (5006, 129) (5743, 5006)
+08/07/2020 05:39:04 PM Smoothing within modalities...
+08/07/2020 05:39:05 PM snmcseq_gene: 1.0594911575317383
+08/07/2020 05:39:05 PM smarter_cells: 0.7364730834960938
+08/07/2020 05:39:05 PM Constructing a joint matrix...
+08/07/2020 05:39:05 PM Imputing into snmcseq_gene space...
+08/07/2020 05:39:05 PM for snmcseq_gene cells...
+08/07/2020 05:39:05 PM for smarter_cells cells...
+08/07/2020 05:39:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.4
+08/07/2020 05:39:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.4
+08/07/2020 05:39:29 PM Done integration into a common PC space
+08/07/2020 05:39:29 PM resolution r: 0.1
+08/07/2020 05:39:30 PM resolution r: 1
+08/07/2020 05:39:30 PM resolution r: 2
+08/07/2020 05:39:31 PM resolution r: 4
+08/07/2020 05:39:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12469, 50)
+08/07/2020 05:40:05 PM Done. running time: 33.32925271987915 seconds.
+08/07/2020 05:40:05 PM Done clustering and UMAP
+08/07/2020 05:40:05 PM Subsampling 6/10
+08/07/2020 05:40:05 PM snmcseq_gene (7526, 32) (4754, 7526)
+08/07/2020 05:40:05 PM smarter_cells (4973, 129) (5743, 4973)
+08/07/2020 05:40:05 PM Smoothing within modalities...
+08/07/2020 05:40:06 PM snmcseq_gene: 1.0589582920074463
+08/07/2020 05:40:07 PM smarter_cells: 0.7308638095855713
+08/07/2020 05:40:07 PM Constructing a joint matrix...
+08/07/2020 05:40:07 PM Imputing into snmcseq_gene space...
+08/07/2020 05:40:07 PM for snmcseq_gene cells...
+08/07/2020 05:40:07 PM for smarter_cells cells...
+08/07/2020 05:40:31 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.5
+08/07/2020 05:40:31 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.5
+08/07/2020 05:40:31 PM Done integration into a common PC space
+08/07/2020 05:40:31 PM resolution r: 0.1
+08/07/2020 05:40:31 PM resolution r: 1
+08/07/2020 05:40:32 PM resolution r: 2
+08/07/2020 05:40:32 PM resolution r: 4
+08/07/2020 05:40:33 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12499, 50)
+08/07/2020 05:41:06 PM Done. running time: 33.22845244407654 seconds.
+08/07/2020 05:41:06 PM Done clustering and UMAP
+08/07/2020 05:41:06 PM Subsampling 7/10
+08/07/2020 05:41:06 PM snmcseq_gene (7459, 32) (4754, 7459)
+08/07/2020 05:41:07 PM smarter_cells (4991, 129) (5743, 4991)
+08/07/2020 05:41:07 PM Smoothing within modalities...
+08/07/2020 05:41:08 PM snmcseq_gene: 1.0957190990447998
+08/07/2020 05:41:09 PM smarter_cells: 0.6957225799560547
+08/07/2020 05:41:09 PM Constructing a joint matrix...
+08/07/2020 05:41:09 PM Imputing into snmcseq_gene space...
+08/07/2020 05:41:09 PM for snmcseq_gene cells...
+08/07/2020 05:41:09 PM for smarter_cells cells...
+08/07/2020 05:41:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.6
+08/07/2020 05:41:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.6
+08/07/2020 05:41:32 PM Done integration into a common PC space
+08/07/2020 05:41:32 PM resolution r: 0.1
+08/07/2020 05:41:32 PM resolution r: 1
+08/07/2020 05:41:33 PM resolution r: 2
+08/07/2020 05:41:33 PM resolution r: 4
+08/07/2020 05:41:34 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12450, 50)
+08/07/2020 05:42:07 PM Done. running time: 33.52222299575806 seconds.
+08/07/2020 05:42:08 PM Done clustering and UMAP
+08/07/2020 05:42:08 PM Subsampling 8/10
+08/07/2020 05:42:08 PM snmcseq_gene (7471, 32) (4754, 7471)
+08/07/2020 05:42:08 PM smarter_cells (4993, 129) (5743, 4993)
+08/07/2020 05:42:08 PM Smoothing within modalities...
+08/07/2020 05:42:09 PM snmcseq_gene: 1.0617966651916504
+08/07/2020 05:42:10 PM smarter_cells: 0.7452726364135742
+08/07/2020 05:42:10 PM Constructing a joint matrix...
+08/07/2020 05:42:10 PM Imputing into snmcseq_gene space...
+08/07/2020 05:42:10 PM for snmcseq_gene cells...
+08/07/2020 05:42:10 PM for smarter_cells cells...
+08/07/2020 05:42:33 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.7
+08/07/2020 05:42:33 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.7
+08/07/2020 05:42:33 PM Done integration into a common PC space
+08/07/2020 05:42:33 PM resolution r: 0.1
+08/07/2020 05:42:34 PM resolution r: 1
+08/07/2020 05:42:34 PM resolution r: 2
+08/07/2020 05:42:35 PM resolution r: 4
+08/07/2020 05:42:35 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12464, 50)
+08/07/2020 05:43:09 PM Done. running time: 33.361947536468506 seconds.
+08/07/2020 05:43:09 PM Done clustering and UMAP
+08/07/2020 05:43:09 PM Subsampling 9/10
+08/07/2020 05:43:09 PM snmcseq_gene (7539, 32) (4754, 7539)
+08/07/2020 05:43:09 PM smarter_cells (4945, 129) (5743, 4945)
+08/07/2020 05:43:09 PM Smoothing within modalities...
+08/07/2020 05:43:11 PM snmcseq_gene: 1.1621935367584229
+08/07/2020 05:43:11 PM smarter_cells: 0.8077578544616699
+08/07/2020 05:43:11 PM Constructing a joint matrix...
+08/07/2020 05:43:11 PM Imputing into snmcseq_gene space...
+08/07/2020 05:43:11 PM for snmcseq_gene cells...
+08/07/2020 05:43:11 PM for smarter_cells cells...
+08/07/2020 05:43:36 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.8
+08/07/2020 05:43:36 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.8
+08/07/2020 05:43:36 PM Done integration into a common PC space
+08/07/2020 05:43:36 PM resolution r: 0.1
+08/07/2020 05:43:37 PM resolution r: 1
+08/07/2020 05:43:37 PM resolution r: 2
+08/07/2020 05:43:38 PM resolution r: 4
+08/07/2020 05:43:38 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12484, 50)
+08/07/2020 05:44:12 PM Done. running time: 33.71425461769104 seconds.
+08/07/2020 05:44:12 PM Done clustering and UMAP
+08/07/2020 05:44:12 PM Subsampling 10/10
+08/07/2020 05:44:12 PM snmcseq_gene (7574, 32) (4754, 7574)
+08/07/2020 05:44:13 PM smarter_cells (5036, 129) (5743, 5036)
+08/07/2020 05:44:13 PM Smoothing within modalities...
+08/07/2020 05:44:14 PM snmcseq_gene: 1.0513815879821777
+08/07/2020 05:44:15 PM smarter_cells: 0.8206274509429932
+08/07/2020 05:44:15 PM Constructing a joint matrix...
+08/07/2020 05:44:15 PM Imputing into snmcseq_gene space...
+08/07/2020 05:44:15 PM for snmcseq_gene cells...
+08/07/2020 05:44:15 PM for smarter_cells cells...
+08/07/2020 05:44:40 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka2_k2.npy.9
+08/07/2020 05:44:40 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka2_k2.npy.9
+08/07/2020 05:44:40 PM Done integration into a common PC space
+08/07/2020 05:44:40 PM resolution r: 0.1
+08/07/2020 05:44:40 PM resolution r: 1
+08/07/2020 05:44:41 PM resolution r: 2
+08/07/2020 05:44:41 PM resolution r: 4
+08/07/2020 05:44:42 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12610, 50)
+08/07/2020 05:45:15 PM Done. running time: 33.38021111488342 seconds.
+08/07/2020 05:45:15 PM Done clustering and UMAP
+Time used to build kNN map 0.16489744186401367
+Time used to get kNN 0.13773345947265625
+Time used to build kNN map 0.07610297203063965
+Time used to get kNN 0.17688465118408203
+Time used to build kNN map 0.12098526954650879
+Time used to get kNN 0.13758301734924316
+Time used to build kNN map 0.07555103302001953
+Time used to get kNN 0.08428263664245605
+Time used to build kNN map 0.1222686767578125
+Time used to get kNN 0.13978290557861328
+Time used to build kNN map 0.07614612579345703
+Time used to get kNN 0.08240556716918945
+Time used to build kNN map 0.12407326698303223
+Time used to get kNN 0.14325451850891113
+Time used to build kNN map 0.07619166374206543
+Time used to get kNN 0.08317923545837402
+Time used to build kNN map 0.12080931663513184
+Time used to get kNN 0.13956022262573242
+Time used to build kNN map 0.07660269737243652
+Time used to get kNN 0.08187699317932129
+Time used to build kNN map 0.14117431640625
+Time used to get kNN 0.14246010780334473
+Time used to build kNN map 0.08349013328552246
+Time used to get kNN 0.11605596542358398
+Time used to build kNN map 0.12198019027709961
+Time used to get kNN 0.22471332550048828
+Time used to build kNN map 0.07550621032714844
+Time used to get kNN 0.08265471458435059
+Time used to build kNN map 0.12260913848876953
+Time used to get kNN 0.14345693588256836
+Time used to build kNN map 0.07643485069274902
+Time used to get kNN 0.08272933959960938
+Time used to build kNN map 0.1253662109375
+Time used to get kNN 0.14598822593688965
+Time used to build kNN map 0.08098387718200684
+Time used to get kNN 0.10919737815856934
+Time used to build kNN map 0.15802717208862305
+Time used to get kNN 0.1501021385192871
+Time used to build kNN map 0.12524771690368652
+Time used to get kNN 0.11324834823608398
+5, 5
+08/07/2020 05:45:20 PM  config_mc_scsmart_ka5_k5_200807.py
+08/07/2020 05:45:20 PM * Begin integration
+08/07/2020 05:45:20 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 05:45:21 PM Metadata smarter_cells (6244, 129)
+08/07/2020 05:45:45 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 05:45:47 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 05:45:47 PM Done reading data
+08/07/2020 05:45:47 PM Subsampling 1/10
+08/07/2020 05:45:47 PM snmcseq_gene (7480, 32) (4754, 7480)
+08/07/2020 05:45:47 PM smarter_cells (5058, 129) (5743, 5058)
+08/07/2020 05:45:47 PM Smoothing within modalities...
+08/07/2020 05:45:49 PM snmcseq_gene: 1.82926607131958
+08/07/2020 05:45:50 PM smarter_cells: 1.3402433395385742
+08/07/2020 05:45:50 PM Constructing a joint matrix...
+08/07/2020 05:45:50 PM Imputing into snmcseq_gene space...
+08/07/2020 05:45:50 PM for snmcseq_gene cells...
+08/07/2020 05:45:50 PM for smarter_cells cells...
+08/07/2020 05:46:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.0
+08/07/2020 05:46:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.0
+08/07/2020 05:46:14 PM Done integration into a common PC space
+08/07/2020 05:46:14 PM resolution r: 0.1
+08/07/2020 05:46:15 PM resolution r: 1
+08/07/2020 05:46:16 PM resolution r: 2
+08/07/2020 05:46:16 PM resolution r: 4
+08/07/2020 05:46:18 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12538, 50)
+08/07/2020 05:46:56 PM Done. running time: 37.978020668029785 seconds.
+08/07/2020 05:46:56 PM Done clustering and UMAP
+08/07/2020 05:46:56 PM Subsampling 2/10
+08/07/2020 05:46:56 PM snmcseq_gene (7488, 32) (4754, 7488)
+08/07/2020 05:46:57 PM smarter_cells (5040, 129) (5743, 5040)
+08/07/2020 05:46:57 PM Smoothing within modalities...
+08/07/2020 05:46:59 PM snmcseq_gene: 2.008105754852295
+08/07/2020 05:47:00 PM smarter_cells: 1.2442197799682617
+08/07/2020 05:47:00 PM Constructing a joint matrix...
+08/07/2020 05:47:00 PM Imputing into snmcseq_gene space...
+08/07/2020 05:47:00 PM for snmcseq_gene cells...
+08/07/2020 05:47:00 PM for smarter_cells cells...
+08/07/2020 05:47:24 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.1
+08/07/2020 05:47:24 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.1
+08/07/2020 05:47:24 PM Done integration into a common PC space
+08/07/2020 05:47:24 PM resolution r: 0.1
+08/07/2020 05:47:25 PM resolution r: 1
+08/07/2020 05:47:26 PM resolution r: 2
+08/07/2020 05:47:26 PM resolution r: 4
+08/07/2020 05:47:27 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12528, 50)
+08/07/2020 05:48:01 PM Done. running time: 34.37590408325195 seconds.
+08/07/2020 05:48:01 PM Done clustering and UMAP
+08/07/2020 05:48:01 PM Subsampling 3/10
+08/07/2020 05:48:01 PM snmcseq_gene (7467, 32) (4754, 7467)
+08/07/2020 05:48:02 PM smarter_cells (5008, 129) (5743, 5008)
+08/07/2020 05:48:02 PM Smoothing within modalities...
+08/07/2020 05:48:04 PM snmcseq_gene: 1.6924920082092285
+08/07/2020 05:48:05 PM smarter_cells: 1.2509849071502686
+08/07/2020 05:48:05 PM Constructing a joint matrix...
+08/07/2020 05:48:05 PM Imputing into snmcseq_gene space...
+08/07/2020 05:48:05 PM for snmcseq_gene cells...
+08/07/2020 05:48:05 PM for smarter_cells cells...
+08/07/2020 05:48:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.2
+08/07/2020 05:48:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.2
+08/07/2020 05:48:29 PM Done integration into a common PC space
+08/07/2020 05:48:29 PM resolution r: 0.1
+08/07/2020 05:48:29 PM resolution r: 1
+08/07/2020 05:48:30 PM resolution r: 2
+08/07/2020 05:48:31 PM resolution r: 4
+08/07/2020 05:48:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12475, 50)
+08/07/2020 05:49:04 PM Done. running time: 32.68054962158203 seconds.
+08/07/2020 05:49:04 PM Done clustering and UMAP
+08/07/2020 05:49:04 PM Subsampling 4/10
+08/07/2020 05:49:04 PM snmcseq_gene (7462, 32) (4754, 7462)
+08/07/2020 05:49:05 PM smarter_cells (4983, 129) (5743, 4983)
+08/07/2020 05:49:05 PM Smoothing within modalities...
+08/07/2020 05:49:06 PM snmcseq_gene: 1.7070367336273193
+08/07/2020 05:49:08 PM smarter_cells: 1.053990125656128
+08/07/2020 05:49:08 PM Constructing a joint matrix...
+08/07/2020 05:49:08 PM Imputing into snmcseq_gene space...
+08/07/2020 05:49:08 PM for snmcseq_gene cells...
+08/07/2020 05:49:08 PM for smarter_cells cells...
+08/07/2020 05:49:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.3
+08/07/2020 05:49:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.3
+08/07/2020 05:49:32 PM Done integration into a common PC space
+08/07/2020 05:49:32 PM resolution r: 0.1
+08/07/2020 05:49:33 PM resolution r: 1
+08/07/2020 05:49:34 PM resolution r: 2
+08/07/2020 05:49:34 PM resolution r: 4
+08/07/2020 05:49:35 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12445, 50)
+08/07/2020 05:50:08 PM Done. running time: 32.64517951011658 seconds.
+08/07/2020 05:50:08 PM Done clustering and UMAP
+08/07/2020 05:50:08 PM Subsampling 5/10
+08/07/2020 05:50:08 PM snmcseq_gene (7527, 32) (4754, 7527)
+08/07/2020 05:50:08 PM smarter_cells (5027, 129) (5743, 5027)
+08/07/2020 05:50:08 PM Smoothing within modalities...
+08/07/2020 05:50:10 PM snmcseq_gene: 1.7229795455932617
+08/07/2020 05:50:11 PM smarter_cells: 1.176009178161621
+08/07/2020 05:50:11 PM Constructing a joint matrix...
+08/07/2020 05:50:11 PM Imputing into snmcseq_gene space...
+08/07/2020 05:50:11 PM for snmcseq_gene cells...
+08/07/2020 05:50:11 PM for smarter_cells cells...
+08/07/2020 05:50:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.4
+08/07/2020 05:50:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.4
+08/07/2020 05:50:35 PM Done integration into a common PC space
+08/07/2020 05:50:35 PM resolution r: 0.1
+08/07/2020 05:50:36 PM resolution r: 1
+08/07/2020 05:50:37 PM resolution r: 2
+08/07/2020 05:50:37 PM resolution r: 4
+08/07/2020 05:50:38 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12554, 50)
+08/07/2020 05:51:13 PM Done. running time: 35.445074796676636 seconds.
+08/07/2020 05:51:14 PM Done clustering and UMAP
+08/07/2020 05:51:14 PM Subsampling 6/10
+08/07/2020 05:51:14 PM snmcseq_gene (7485, 32) (4754, 7485)
+08/07/2020 05:51:14 PM smarter_cells (4970, 129) (5743, 4970)
+08/07/2020 05:51:14 PM Smoothing within modalities...
+08/07/2020 05:51:16 PM snmcseq_gene: 1.853935718536377
+08/07/2020 05:51:17 PM smarter_cells: 1.1326699256896973
+08/07/2020 05:51:17 PM Constructing a joint matrix...
+08/07/2020 05:51:17 PM Imputing into snmcseq_gene space...
+08/07/2020 05:51:17 PM for snmcseq_gene cells...
+08/07/2020 05:51:17 PM for smarter_cells cells...
+08/07/2020 05:51:41 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.5
+08/07/2020 05:51:41 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.5
+08/07/2020 05:51:41 PM Done integration into a common PC space
+08/07/2020 05:51:41 PM resolution r: 0.1
+08/07/2020 05:51:41 PM resolution r: 1
+08/07/2020 05:51:42 PM resolution r: 2
+08/07/2020 05:51:43 PM resolution r: 4
+08/07/2020 05:51:43 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12455, 50)
+08/07/2020 05:52:17 PM Done. running time: 33.65984869003296 seconds.
+08/07/2020 05:52:17 PM Done clustering and UMAP
+08/07/2020 05:52:17 PM Subsampling 7/10
+08/07/2020 05:52:17 PM snmcseq_gene (7466, 32) (4754, 7466)
+08/07/2020 05:52:18 PM smarter_cells (5002, 129) (5743, 5002)
+08/07/2020 05:52:18 PM Smoothing within modalities...
+08/07/2020 05:52:20 PM snmcseq_gene: 1.9357407093048096
+08/07/2020 05:52:21 PM smarter_cells: 1.0955824851989746
+08/07/2020 05:52:21 PM Constructing a joint matrix...
+08/07/2020 05:52:21 PM Imputing into snmcseq_gene space...
+08/07/2020 05:52:21 PM for snmcseq_gene cells...
+08/07/2020 05:52:21 PM for smarter_cells cells...
+08/07/2020 05:52:45 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.6
+08/07/2020 05:52:45 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.6
+08/07/2020 05:52:45 PM Done integration into a common PC space
+08/07/2020 05:52:45 PM resolution r: 0.1
+08/07/2020 05:52:46 PM resolution r: 1
+08/07/2020 05:52:46 PM resolution r: 2
+08/07/2020 05:52:47 PM resolution r: 4
+08/07/2020 05:52:48 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12468, 50)
+08/07/2020 05:53:22 PM Done. running time: 33.952749729156494 seconds.
+08/07/2020 05:53:22 PM Done clustering and UMAP
+08/07/2020 05:53:22 PM Subsampling 8/10
+08/07/2020 05:53:22 PM snmcseq_gene (7495, 32) (4754, 7495)
+08/07/2020 05:53:22 PM smarter_cells (4930, 129) (5743, 4930)
+08/07/2020 05:53:22 PM Smoothing within modalities...
+08/07/2020 05:53:24 PM snmcseq_gene: 1.9342329502105713
+08/07/2020 05:53:26 PM smarter_cells: 1.3485422134399414
+08/07/2020 05:53:26 PM Constructing a joint matrix...
+08/07/2020 05:53:26 PM Imputing into snmcseq_gene space...
+08/07/2020 05:53:26 PM for snmcseq_gene cells...
+08/07/2020 05:53:26 PM for smarter_cells cells...
+08/07/2020 05:53:50 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.7
+08/07/2020 05:53:50 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.7
+08/07/2020 05:53:50 PM Done integration into a common PC space
+08/07/2020 05:53:50 PM resolution r: 0.1
+08/07/2020 05:53:50 PM resolution r: 1
+08/07/2020 05:53:51 PM resolution r: 2
+08/07/2020 05:53:52 PM resolution r: 4
+08/07/2020 05:53:52 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12425, 50)
+08/07/2020 05:54:26 PM Done. running time: 33.19822955131531 seconds.
+08/07/2020 05:54:26 PM Done clustering and UMAP
+08/07/2020 05:54:26 PM Subsampling 9/10
+08/07/2020 05:54:26 PM snmcseq_gene (7399, 32) (4754, 7399)
+08/07/2020 05:54:26 PM smarter_cells (5071, 129) (5743, 5071)
+08/07/2020 05:54:26 PM Smoothing within modalities...
+08/07/2020 05:54:28 PM snmcseq_gene: 1.9363136291503906
+08/07/2020 05:54:30 PM smarter_cells: 1.1380834579467773
+08/07/2020 05:54:30 PM Constructing a joint matrix...
+08/07/2020 05:54:30 PM Imputing into snmcseq_gene space...
+08/07/2020 05:54:30 PM for snmcseq_gene cells...
+08/07/2020 05:54:30 PM for smarter_cells cells...
+08/07/2020 05:54:53 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.8
+08/07/2020 05:54:53 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.8
+08/07/2020 05:54:53 PM Done integration into a common PC space
+08/07/2020 05:54:53 PM resolution r: 0.1
+08/07/2020 05:54:54 PM resolution r: 1
+08/07/2020 05:54:55 PM resolution r: 2
+08/07/2020 05:54:55 PM resolution r: 4
+08/07/2020 05:54:56 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12470, 50)
+08/07/2020 05:55:30 PM Done. running time: 33.855080127716064 seconds.
+08/07/2020 05:55:30 PM Done clustering and UMAP
+08/07/2020 05:55:30 PM Subsampling 10/10
+08/07/2020 05:55:30 PM snmcseq_gene (7483, 32) (4754, 7483)
+08/07/2020 05:55:31 PM smarter_cells (4989, 129) (5743, 4989)
+08/07/2020 05:55:31 PM Smoothing within modalities...
+08/07/2020 05:55:33 PM snmcseq_gene: 2.0127060413360596
+08/07/2020 05:55:34 PM smarter_cells: 1.1062281131744385
+08/07/2020 05:55:34 PM Constructing a joint matrix...
+08/07/2020 05:55:34 PM Imputing into snmcseq_gene space...
+08/07/2020 05:55:34 PM for snmcseq_gene cells...
+08/07/2020 05:55:34 PM for smarter_cells cells...
+08/07/2020 05:55:57 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka5_k5.npy.9
+08/07/2020 05:55:57 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka5_k5.npy.9
+08/07/2020 05:55:57 PM Done integration into a common PC space
+08/07/2020 05:55:57 PM resolution r: 0.1
+08/07/2020 05:55:58 PM resolution r: 1
+08/07/2020 05:55:59 PM resolution r: 2
+08/07/2020 05:55:59 PM resolution r: 4
+08/07/2020 05:56:00 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12472, 50)
+08/07/2020 05:56:34 PM Done. running time: 34.22975277900696 seconds.
+08/07/2020 05:56:34 PM Done clustering and UMAP
+Time used to build kNN map 0.12407946586608887
+Time used to get kNN 0.21345734596252441
+Time used to build kNN map 0.14518094062805176
+Time used to get kNN 0.23285484313964844
+Time used to build kNN map 0.1239466667175293
+Time used to get kNN 0.21404480934143066
+Time used to build kNN map 0.13167738914489746
+Time used to get kNN 0.26909685134887695
+Time used to build kNN map 0.12330412864685059
+Time used to get kNN 0.20753908157348633
+Time used to build kNN map 0.10019254684448242
+Time used to get kNN 0.18491768836975098
+Time used to build kNN map 0.12612581253051758
+Time used to get kNN 0.20892024040222168
+Time used to build kNN map 0.07714653015136719
+Time used to get kNN 0.12607288360595703
+Time used to build kNN map 0.12457990646362305
+Time used to get kNN 0.20874643325805664
+Time used to build kNN map 0.07749557495117188
+Time used to get kNN 0.12671875953674316
+Time used to build kNN map 0.14225244522094727
+Time used to get kNN 0.29163217544555664
+Time used to build kNN map 0.10365796089172363
+Time used to get kNN 0.12912344932556152
+Time used to build kNN map 0.12360596656799316
+Time used to get kNN 0.2576711177825928
+Time used to build kNN map 0.07777523994445801
+Time used to get kNN 0.12750864028930664
+Time used to build kNN map 0.12473726272583008
+Time used to get kNN 0.2161562442779541
+Time used to build kNN map 0.11229205131530762
+Time used to get kNN 0.16730022430419922
+Time used to build kNN map 0.12240767478942871
+Time used to get kNN 0.20619821548461914
+Time used to build kNN map 0.0776519775390625
+Time used to get kNN 0.12799763679504395
+Time used to build kNN map 0.15816497802734375
+Time used to get kNN 0.21742677688598633
+Time used to build kNN map 0.07651138305664062
+Time used to get kNN 0.150956392288208
+10, 10
+08/07/2020 05:56:39 PM  config_mc_scsmart_ka10_k10_200807.py
+08/07/2020 05:56:39 PM * Begin integration
+08/07/2020 05:56:39 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 05:56:39 PM Metadata smarter_cells (6244, 129)
+08/07/2020 05:57:05 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 05:57:07 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 05:57:07 PM Done reading data
+08/07/2020 05:57:07 PM Subsampling 1/10
+08/07/2020 05:57:07 PM snmcseq_gene (7476, 32) (4754, 7476)
+08/07/2020 05:57:07 PM smarter_cells (4992, 129) (5743, 4992)
+08/07/2020 05:57:07 PM Smoothing within modalities...
+08/07/2020 05:57:10 PM snmcseq_gene: 2.9326374530792236
+08/07/2020 05:57:12 PM smarter_cells: 1.821155071258545
+08/07/2020 05:57:12 PM Constructing a joint matrix...
+08/07/2020 05:57:12 PM Imputing into snmcseq_gene space...
+08/07/2020 05:57:12 PM for snmcseq_gene cells...
+08/07/2020 05:57:12 PM for smarter_cells cells...
+08/07/2020 05:57:37 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.0
+08/07/2020 05:57:37 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.0
+08/07/2020 05:57:37 PM Done integration into a common PC space
+08/07/2020 05:57:37 PM resolution r: 0.1
+08/07/2020 05:57:38 PM resolution r: 1
+08/07/2020 05:57:39 PM resolution r: 2
+08/07/2020 05:57:40 PM resolution r: 4
+08/07/2020 05:57:42 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12468, 50)
+08/07/2020 05:58:21 PM Done. running time: 39.2533495426178 seconds.
+08/07/2020 05:58:21 PM Done clustering and UMAP
+08/07/2020 05:58:21 PM Subsampling 2/10
+08/07/2020 05:58:21 PM snmcseq_gene (7549, 32) (4754, 7549)
+08/07/2020 05:58:22 PM smarter_cells (4985, 129) (5743, 4985)
+08/07/2020 05:58:22 PM Smoothing within modalities...
+08/07/2020 05:58:25 PM snmcseq_gene: 3.3642873764038086
+08/07/2020 05:58:27 PM smarter_cells: 1.6650314331054688
+08/07/2020 05:58:27 PM Constructing a joint matrix...
+08/07/2020 05:58:27 PM Imputing into snmcseq_gene space...
+08/07/2020 05:58:27 PM for snmcseq_gene cells...
+08/07/2020 05:58:27 PM for smarter_cells cells...
+08/07/2020 05:58:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.1
+08/07/2020 05:58:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.1
+08/07/2020 05:58:52 PM Done integration into a common PC space
+08/07/2020 05:58:52 PM resolution r: 0.1
+08/07/2020 05:58:53 PM resolution r: 1
+08/07/2020 05:58:54 PM resolution r: 2
+08/07/2020 05:58:54 PM resolution r: 4
+08/07/2020 05:58:55 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12534, 50)
+08/07/2020 05:59:30 PM Done. running time: 35.158127546310425 seconds.
+08/07/2020 05:59:30 PM Done clustering and UMAP
+08/07/2020 05:59:30 PM Subsampling 3/10
+08/07/2020 05:59:31 PM snmcseq_gene (7511, 32) (4754, 7511)
+08/07/2020 05:59:31 PM smarter_cells (4940, 129) (5743, 4940)
+08/07/2020 05:59:31 PM Smoothing within modalities...
+08/07/2020 05:59:34 PM snmcseq_gene: 2.893383741378784
+08/07/2020 05:59:36 PM smarter_cells: 1.601010799407959
+08/07/2020 05:59:36 PM Constructing a joint matrix...
+08/07/2020 05:59:36 PM Imputing into snmcseq_gene space...
+08/07/2020 05:59:36 PM for snmcseq_gene cells...
+08/07/2020 05:59:36 PM for smarter_cells cells...
+08/07/2020 05:59:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.2
+08/07/2020 05:59:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.2
+08/07/2020 05:59:59 PM Done integration into a common PC space
+08/07/2020 05:59:59 PM resolution r: 0.1
+08/07/2020 06:00:00 PM resolution r: 1
+08/07/2020 06:00:01 PM resolution r: 2
+08/07/2020 06:00:02 PM resolution r: 4
+08/07/2020 06:00:02 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12451, 50)
+08/07/2020 06:00:36 PM Done. running time: 33.96580386161804 seconds.
+08/07/2020 06:00:36 PM Done clustering and UMAP
+08/07/2020 06:00:36 PM Subsampling 4/10
+08/07/2020 06:00:37 PM snmcseq_gene (7466, 32) (4754, 7466)
+08/07/2020 06:00:37 PM smarter_cells (4994, 129) (5743, 4994)
+08/07/2020 06:00:37 PM Smoothing within modalities...
+08/07/2020 06:00:40 PM snmcseq_gene: 2.9373393058776855
+08/07/2020 06:00:42 PM smarter_cells: 1.5881283283233643
+08/07/2020 06:00:42 PM Constructing a joint matrix...
+08/07/2020 06:00:42 PM Imputing into snmcseq_gene space...
+08/07/2020 06:00:42 PM for snmcseq_gene cells...
+08/07/2020 06:00:42 PM for smarter_cells cells...
+08/07/2020 06:01:06 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.3
+08/07/2020 06:01:06 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.3
+08/07/2020 06:01:06 PM Done integration into a common PC space
+08/07/2020 06:01:06 PM resolution r: 0.1
+08/07/2020 06:01:07 PM resolution r: 1
+08/07/2020 06:01:08 PM resolution r: 2
+08/07/2020 06:01:08 PM resolution r: 4
+08/07/2020 06:01:09 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12460, 50)
+08/07/2020 06:01:43 PM Done. running time: 33.50360918045044 seconds.
+08/07/2020 06:01:43 PM Done clustering and UMAP
+08/07/2020 06:01:43 PM Subsampling 5/10
+08/07/2020 06:01:43 PM snmcseq_gene (7501, 32) (4754, 7501)
+08/07/2020 06:01:43 PM smarter_cells (4923, 129) (5743, 4923)
+08/07/2020 06:01:43 PM Smoothing within modalities...
+08/07/2020 06:01:46 PM snmcseq_gene: 2.878460645675659
+08/07/2020 06:01:48 PM smarter_cells: 1.574425220489502
+08/07/2020 06:01:48 PM Constructing a joint matrix...
+08/07/2020 06:01:48 PM Imputing into snmcseq_gene space...
+08/07/2020 06:01:48 PM for snmcseq_gene cells...
+08/07/2020 06:01:48 PM for smarter_cells cells...
+08/07/2020 06:02:13 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.4
+08/07/2020 06:02:13 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.4
+08/07/2020 06:02:13 PM Done integration into a common PC space
+08/07/2020 06:02:13 PM resolution r: 0.1
+08/07/2020 06:02:13 PM resolution r: 1
+08/07/2020 06:02:14 PM resolution r: 2
+08/07/2020 06:02:15 PM resolution r: 4
+08/07/2020 06:02:16 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12424, 50)
+08/07/2020 06:02:50 PM Done. running time: 33.83704900741577 seconds.
+08/07/2020 06:02:50 PM Done clustering and UMAP
+08/07/2020 06:02:50 PM Subsampling 6/10
+08/07/2020 06:02:50 PM snmcseq_gene (7455, 32) (4754, 7455)
+08/07/2020 06:02:51 PM smarter_cells (4998, 129) (5743, 4998)
+08/07/2020 06:02:51 PM Smoothing within modalities...
+08/07/2020 06:02:53 PM snmcseq_gene: 2.8328287601470947
+08/07/2020 06:02:55 PM smarter_cells: 1.5938160419464111
+08/07/2020 06:02:55 PM Constructing a joint matrix...
+08/07/2020 06:02:55 PM Imputing into snmcseq_gene space...
+08/07/2020 06:02:55 PM for snmcseq_gene cells...
+08/07/2020 06:02:55 PM for smarter_cells cells...
+08/07/2020 06:03:20 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.5
+08/07/2020 06:03:20 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.5
+08/07/2020 06:03:20 PM Done integration into a common PC space
+08/07/2020 06:03:20 PM resolution r: 0.1
+08/07/2020 06:03:21 PM resolution r: 1
+08/07/2020 06:03:22 PM resolution r: 2
+08/07/2020 06:03:22 PM resolution r: 4
+08/07/2020 06:03:23 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12453, 50)
+08/07/2020 06:03:57 PM Done. running time: 33.7360737323761 seconds.
+08/07/2020 06:03:57 PM Done clustering and UMAP
+08/07/2020 06:03:57 PM Subsampling 7/10
+08/07/2020 06:03:57 PM snmcseq_gene (7484, 32) (4754, 7484)
+08/07/2020 06:03:58 PM smarter_cells (4942, 129) (5743, 4942)
+08/07/2020 06:03:58 PM Smoothing within modalities...
+08/07/2020 06:04:01 PM snmcseq_gene: 2.862736463546753
+08/07/2020 06:04:02 PM smarter_cells: 1.544158935546875
+08/07/2020 06:04:02 PM Constructing a joint matrix...
+08/07/2020 06:04:02 PM Imputing into snmcseq_gene space...
+08/07/2020 06:04:02 PM for snmcseq_gene cells...
+08/07/2020 06:04:02 PM for smarter_cells cells...
+08/07/2020 06:04:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.6
+08/07/2020 06:04:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.6
+08/07/2020 06:04:27 PM Done integration into a common PC space
+08/07/2020 06:04:27 PM resolution r: 0.1
+08/07/2020 06:04:28 PM resolution r: 1
+08/07/2020 06:04:29 PM resolution r: 2
+08/07/2020 06:04:30 PM resolution r: 4
+08/07/2020 06:04:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12426, 50)
+08/07/2020 06:05:04 PM Done. running time: 33.71723771095276 seconds.
+08/07/2020 06:05:05 PM Done clustering and UMAP
+08/07/2020 06:05:05 PM Subsampling 8/10
+08/07/2020 06:05:05 PM snmcseq_gene (7519, 32) (4754, 7519)
+08/07/2020 06:05:05 PM smarter_cells (5002, 129) (5743, 5002)
+08/07/2020 06:05:05 PM Smoothing within modalities...
+08/07/2020 06:05:08 PM snmcseq_gene: 2.878939390182495
+08/07/2020 06:05:10 PM smarter_cells: 1.747361183166504
+08/07/2020 06:05:10 PM Constructing a joint matrix...
+08/07/2020 06:05:10 PM Imputing into snmcseq_gene space...
+08/07/2020 06:05:10 PM for snmcseq_gene cells...
+08/07/2020 06:05:10 PM for smarter_cells cells...
+08/07/2020 06:05:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.7
+08/07/2020 06:05:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.7
+08/07/2020 06:05:35 PM Done integration into a common PC space
+08/07/2020 06:05:35 PM resolution r: 0.1
+08/07/2020 06:05:36 PM resolution r: 1
+08/07/2020 06:05:37 PM resolution r: 2
+08/07/2020 06:05:38 PM resolution r: 4
+08/07/2020 06:05:38 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12521, 50)
+08/07/2020 06:06:13 PM Done. running time: 34.38078784942627 seconds.
+08/07/2020 06:06:13 PM Done clustering and UMAP
+08/07/2020 06:06:13 PM Subsampling 9/10
+08/07/2020 06:06:13 PM snmcseq_gene (7559, 32) (4754, 7559)
+08/07/2020 06:06:14 PM smarter_cells (4976, 129) (5743, 4976)
+08/07/2020 06:06:14 PM Smoothing within modalities...
+08/07/2020 06:06:17 PM snmcseq_gene: 3.077960252761841
+08/07/2020 06:06:18 PM smarter_cells: 1.5788891315460205
+08/07/2020 06:06:18 PM Constructing a joint matrix...
+08/07/2020 06:06:18 PM Imputing into snmcseq_gene space...
+08/07/2020 06:06:18 PM for snmcseq_gene cells...
+08/07/2020 06:06:18 PM for smarter_cells cells...
+08/07/2020 06:06:44 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.8
+08/07/2020 06:06:44 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.8
+08/07/2020 06:06:44 PM Done integration into a common PC space
+08/07/2020 06:06:44 PM resolution r: 0.1
+08/07/2020 06:06:44 PM resolution r: 1
+08/07/2020 06:06:45 PM resolution r: 2
+08/07/2020 06:06:46 PM resolution r: 4
+08/07/2020 06:06:47 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12535, 50)
+08/07/2020 06:07:21 PM Done. running time: 34.008862257003784 seconds.
+08/07/2020 06:07:21 PM Done clustering and UMAP
+08/07/2020 06:07:21 PM Subsampling 10/10
+08/07/2020 06:07:21 PM snmcseq_gene (7544, 32) (4754, 7544)
+08/07/2020 06:07:22 PM smarter_cells (5025, 129) (5743, 5025)
+08/07/2020 06:07:22 PM Smoothing within modalities...
+08/07/2020 06:07:25 PM snmcseq_gene: 3.1924357414245605
+08/07/2020 06:07:27 PM smarter_cells: 1.7059640884399414
+08/07/2020 06:07:27 PM Constructing a joint matrix...
+08/07/2020 06:07:27 PM Imputing into snmcseq_gene space...
+08/07/2020 06:07:27 PM for snmcseq_gene cells...
+08/07/2020 06:07:27 PM for smarter_cells cells...
+08/07/2020 06:07:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka10_k10.npy.9
+08/07/2020 06:07:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka10_k10.npy.9
+08/07/2020 06:07:52 PM Done integration into a common PC space
+08/07/2020 06:07:52 PM resolution r: 0.1
+08/07/2020 06:07:53 PM resolution r: 1
+08/07/2020 06:07:54 PM resolution r: 2
+08/07/2020 06:07:55 PM resolution r: 4
+08/07/2020 06:07:55 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12569, 50)
+08/07/2020 06:08:29 PM Done. running time: 33.7580361366272 seconds.
+08/07/2020 06:08:29 PM Done clustering and UMAP
+Time used to build kNN map 0.1876842975616455
+Time used to get kNN 0.2979278564453125
+Time used to build kNN map 0.13089203834533691
+Time used to get kNN 0.3455357551574707
+Time used to build kNN map 0.12366032600402832
+Time used to get kNN 0.4462704658508301
+Time used to build kNN map 0.08170771598815918
+Time used to get kNN 0.21670103073120117
+Time used to build kNN map 0.17895984649658203
+Time used to get kNN 0.3085787296295166
+Time used to build kNN map 0.07529306411743164
+Time used to get kNN 0.1924118995666504
+Time used to build kNN map 0.12160062789916992
+Time used to get kNN 0.3933601379394531
+Time used to build kNN map 0.07563328742980957
+Time used to get kNN 0.19502973556518555
+Time used to build kNN map 0.12194108963012695
+Time used to get kNN 0.30956578254699707
+Time used to build kNN map 0.07601785659790039
+Time used to get kNN 0.1922764778137207
+Time used to build kNN map 0.12833786010742188
+Time used to get kNN 0.3148620128631592
+Time used to build kNN map 0.07593536376953125
+Time used to get kNN 0.1930842399597168
+Time used to build kNN map 0.12167882919311523
+Time used to get kNN 0.31101274490356445
+Time used to build kNN map 0.07614850997924805
+Time used to get kNN 0.1995830535888672
+Time used to build kNN map 0.16618561744689941
+Time used to get kNN 0.39791369438171387
+Time used to build kNN map 0.07648110389709473
+Time used to get kNN 0.25436854362487793
+Time used to build kNN map 0.1241297721862793
+Time used to get kNN 0.39839911460876465
+Time used to build kNN map 0.0768280029296875
+Time used to get kNN 0.18749308586120605
+Time used to build kNN map 0.12383508682250977
+Time used to get kNN 0.3257129192352295
+Time used to build kNN map 0.07936215400695801
+Time used to get kNN 0.1964864730834961
+20, 20
+08/07/2020 06:08:34 PM  config_mc_scsmart_ka20_k20_200807.py
+08/07/2020 06:08:34 PM * Begin integration
+08/07/2020 06:08:34 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 06:08:34 PM Metadata smarter_cells (6244, 129)
+08/07/2020 06:08:58 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 06:09:00 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 06:09:00 PM Done reading data
+08/07/2020 06:09:00 PM Subsampling 1/10
+08/07/2020 06:09:00 PM snmcseq_gene (7489, 32) (4754, 7489)
+08/07/2020 06:09:00 PM smarter_cells (4940, 129) (5743, 4940)
+08/07/2020 06:09:00 PM Smoothing within modalities...
+08/07/2020 06:09:05 PM snmcseq_gene: 4.940854787826538
+08/07/2020 06:09:08 PM smarter_cells: 2.755218744277954
+08/07/2020 06:09:08 PM Constructing a joint matrix...
+08/07/2020 06:09:08 PM Imputing into snmcseq_gene space...
+08/07/2020 06:09:08 PM for snmcseq_gene cells...
+08/07/2020 06:09:08 PM for smarter_cells cells...
+08/07/2020 06:09:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.0
+08/07/2020 06:09:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.0
+08/07/2020 06:09:32 PM Done integration into a common PC space
+08/07/2020 06:09:32 PM resolution r: 0.1
+08/07/2020 06:09:33 PM resolution r: 1
+08/07/2020 06:09:34 PM resolution r: 2
+08/07/2020 06:09:35 PM resolution r: 4
+08/07/2020 06:09:37 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12429, 50)
+08/07/2020 06:10:15 PM Done. running time: 38.00883483886719 seconds.
+08/07/2020 06:10:16 PM Done clustering and UMAP
+08/07/2020 06:10:16 PM Subsampling 2/10
+08/07/2020 06:10:16 PM snmcseq_gene (7548, 32) (4754, 7548)
+08/07/2020 06:10:16 PM smarter_cells (4953, 129) (5743, 4953)
+08/07/2020 06:10:16 PM Smoothing within modalities...
+08/07/2020 06:10:22 PM snmcseq_gene: 5.404755592346191
+08/07/2020 06:10:24 PM smarter_cells: 2.5955281257629395
+08/07/2020 06:10:24 PM Constructing a joint matrix...
+08/07/2020 06:10:24 PM Imputing into snmcseq_gene space...
+08/07/2020 06:10:24 PM for snmcseq_gene cells...
+08/07/2020 06:10:24 PM for smarter_cells cells...
+08/07/2020 06:10:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.1
+08/07/2020 06:10:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.1
+08/07/2020 06:10:48 PM Done integration into a common PC space
+08/07/2020 06:10:48 PM resolution r: 0.1
+08/07/2020 06:10:49 PM resolution r: 1
+08/07/2020 06:10:50 PM resolution r: 2
+08/07/2020 06:10:51 PM resolution r: 4
+08/07/2020 06:10:53 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12501, 50)
+08/07/2020 06:11:26 PM Done. running time: 33.18559765815735 seconds.
+08/07/2020 06:11:26 PM Done clustering and UMAP
+08/07/2020 06:11:26 PM Subsampling 3/10
+08/07/2020 06:11:26 PM snmcseq_gene (7470, 32) (4754, 7470)
+08/07/2020 06:11:26 PM smarter_cells (5028, 129) (5743, 5028)
+08/07/2020 06:11:26 PM Smoothing within modalities...
+08/07/2020 06:11:31 PM snmcseq_gene: 4.86810564994812
+08/07/2020 06:11:34 PM smarter_cells: 2.6497628688812256
+08/07/2020 06:11:34 PM Constructing a joint matrix...
+08/07/2020 06:11:34 PM Imputing into snmcseq_gene space...
+08/07/2020 06:11:34 PM for snmcseq_gene cells...
+08/07/2020 06:11:34 PM for smarter_cells cells...
+08/07/2020 06:11:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.2
+08/07/2020 06:11:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.2
+08/07/2020 06:11:59 PM Done integration into a common PC space
+08/07/2020 06:11:59 PM resolution r: 0.1
+08/07/2020 06:12:00 PM resolution r: 1
+08/07/2020 06:12:01 PM resolution r: 2
+08/07/2020 06:12:02 PM resolution r: 4
+08/07/2020 06:12:03 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12498, 50)
+08/07/2020 06:12:37 PM Done. running time: 33.5465145111084 seconds.
+08/07/2020 06:12:37 PM Done clustering and UMAP
+08/07/2020 06:12:37 PM Subsampling 4/10
+08/07/2020 06:12:37 PM snmcseq_gene (7494, 32) (4754, 7494)
+08/07/2020 06:12:38 PM smarter_cells (4970, 129) (5743, 4970)
+08/07/2020 06:12:38 PM Smoothing within modalities...
+08/07/2020 06:12:42 PM snmcseq_gene: 4.818476915359497
+08/07/2020 06:12:45 PM smarter_cells: 2.6023669242858887
+08/07/2020 06:12:45 PM Constructing a joint matrix...
+08/07/2020 06:12:45 PM Imputing into snmcseq_gene space...
+08/07/2020 06:12:45 PM for snmcseq_gene cells...
+08/07/2020 06:12:45 PM for smarter_cells cells...
+08/07/2020 06:13:09 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.3
+08/07/2020 06:13:09 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.3
+08/07/2020 06:13:09 PM Done integration into a common PC space
+08/07/2020 06:13:09 PM resolution r: 0.1
+08/07/2020 06:13:10 PM resolution r: 1
+08/07/2020 06:13:11 PM resolution r: 2
+08/07/2020 06:13:13 PM resolution r: 4
+08/07/2020 06:13:14 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12464, 50)
+08/07/2020 06:13:46 PM Done. running time: 32.45537710189819 seconds.
+08/07/2020 06:13:46 PM Done clustering and UMAP
+08/07/2020 06:13:46 PM Subsampling 5/10
+08/07/2020 06:13:46 PM snmcseq_gene (7521, 32) (4754, 7521)
+08/07/2020 06:13:47 PM smarter_cells (5000, 129) (5743, 5000)
+08/07/2020 06:13:47 PM Smoothing within modalities...
+08/07/2020 06:13:52 PM snmcseq_gene: 4.860273361206055
+08/07/2020 06:13:54 PM smarter_cells: 2.6279664039611816
+08/07/2020 06:13:54 PM Constructing a joint matrix...
+08/07/2020 06:13:54 PM Imputing into snmcseq_gene space...
+08/07/2020 06:13:54 PM for snmcseq_gene cells...
+08/07/2020 06:13:54 PM for smarter_cells cells...
+08/07/2020 06:14:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.4
+08/07/2020 06:14:19 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.4
+08/07/2020 06:14:19 PM Done integration into a common PC space
+08/07/2020 06:14:19 PM resolution r: 0.1
+08/07/2020 06:14:20 PM resolution r: 1
+08/07/2020 06:14:21 PM resolution r: 2
+08/07/2020 06:14:22 PM resolution r: 4
+08/07/2020 06:14:23 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12521, 50)
+08/07/2020 06:14:56 PM Done. running time: 33.0167760848999 seconds.
+08/07/2020 06:14:56 PM Done clustering and UMAP
+08/07/2020 06:14:56 PM Subsampling 6/10
+08/07/2020 06:14:56 PM snmcseq_gene (7515, 32) (4754, 7515)
+08/07/2020 06:14:57 PM smarter_cells (5006, 129) (5743, 5006)
+08/07/2020 06:14:57 PM Smoothing within modalities...
+08/07/2020 06:15:02 PM snmcseq_gene: 4.893695116043091
+08/07/2020 06:15:04 PM smarter_cells: 2.6878669261932373
+08/07/2020 06:15:04 PM Constructing a joint matrix...
+08/07/2020 06:15:04 PM Imputing into snmcseq_gene space...
+08/07/2020 06:15:04 PM for snmcseq_gene cells...
+08/07/2020 06:15:04 PM for smarter_cells cells...
+08/07/2020 06:15:30 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.5
+08/07/2020 06:15:30 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.5
+08/07/2020 06:15:30 PM Done integration into a common PC space
+08/07/2020 06:15:30 PM resolution r: 0.1
+08/07/2020 06:15:31 PM resolution r: 1
+08/07/2020 06:15:32 PM resolution r: 2
+08/07/2020 06:15:33 PM resolution r: 4
+08/07/2020 06:15:34 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12521, 50)
+08/07/2020 06:16:08 PM Done. running time: 33.17687010765076 seconds.
+08/07/2020 06:16:08 PM Done clustering and UMAP
+08/07/2020 06:16:08 PM Subsampling 7/10
+08/07/2020 06:16:08 PM snmcseq_gene (7471, 32) (4754, 7471)
+08/07/2020 06:16:08 PM smarter_cells (5019, 129) (5743, 5019)
+08/07/2020 06:16:08 PM Smoothing within modalities...
+08/07/2020 06:16:13 PM snmcseq_gene: 4.87913966178894
+08/07/2020 06:16:16 PM smarter_cells: 2.8037362098693848
+08/07/2020 06:16:16 PM Constructing a joint matrix...
+08/07/2020 06:16:16 PM Imputing into snmcseq_gene space...
+08/07/2020 06:16:16 PM for snmcseq_gene cells...
+08/07/2020 06:16:16 PM for smarter_cells cells...
+08/07/2020 06:16:41 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.6
+08/07/2020 06:16:41 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.6
+08/07/2020 06:16:41 PM Done integration into a common PC space
+08/07/2020 06:16:41 PM resolution r: 0.1
+08/07/2020 06:16:42 PM resolution r: 1
+08/07/2020 06:16:43 PM resolution r: 2
+08/07/2020 06:16:44 PM resolution r: 4
+08/07/2020 06:16:45 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12490, 50)
+08/07/2020 06:17:19 PM Done. running time: 33.32250380516052 seconds.
+08/07/2020 06:17:19 PM Done clustering and UMAP
+08/07/2020 06:17:19 PM Subsampling 8/10
+08/07/2020 06:17:19 PM snmcseq_gene (7449, 32) (4754, 7449)
+08/07/2020 06:17:19 PM smarter_cells (4971, 129) (5743, 4971)
+08/07/2020 06:17:19 PM Smoothing within modalities...
+08/07/2020 06:17:24 PM snmcseq_gene: 4.864074230194092
+08/07/2020 06:17:27 PM smarter_cells: 2.8672358989715576
+08/07/2020 06:17:27 PM Constructing a joint matrix...
+08/07/2020 06:17:27 PM Imputing into snmcseq_gene space...
+08/07/2020 06:17:27 PM for snmcseq_gene cells...
+08/07/2020 06:17:27 PM for smarter_cells cells...
+08/07/2020 06:17:51 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.7
+08/07/2020 06:17:51 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.7
+08/07/2020 06:17:51 PM Done integration into a common PC space
+08/07/2020 06:17:51 PM resolution r: 0.1
+08/07/2020 06:17:52 PM resolution r: 1
+08/07/2020 06:17:53 PM resolution r: 2
+08/07/2020 06:17:55 PM resolution r: 4
+08/07/2020 06:17:56 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12420, 50)
+08/07/2020 06:18:28 PM Done. running time: 32.63272786140442 seconds.
+08/07/2020 06:18:29 PM Done clustering and UMAP
+08/07/2020 06:18:29 PM Subsampling 9/10
+08/07/2020 06:18:29 PM snmcseq_gene (7475, 32) (4754, 7475)
+08/07/2020 06:18:29 PM smarter_cells (5047, 129) (5743, 5047)
+08/07/2020 06:18:29 PM Smoothing within modalities...
+08/07/2020 06:18:34 PM snmcseq_gene: 4.790649890899658
+08/07/2020 06:18:37 PM smarter_cells: 2.66339373588562
+08/07/2020 06:18:37 PM Constructing a joint matrix...
+08/07/2020 06:18:37 PM Imputing into snmcseq_gene space...
+08/07/2020 06:18:37 PM for snmcseq_gene cells...
+08/07/2020 06:18:37 PM for smarter_cells cells...
+08/07/2020 06:19:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.8
+08/07/2020 06:19:01 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.8
+08/07/2020 06:19:01 PM Done integration into a common PC space
+08/07/2020 06:19:01 PM resolution r: 0.1
+08/07/2020 06:19:02 PM resolution r: 1
+08/07/2020 06:19:03 PM resolution r: 2
+08/07/2020 06:19:04 PM resolution r: 4
+08/07/2020 06:19:05 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12522, 50)
+08/07/2020 06:19:39 PM Done. running time: 33.13844585418701 seconds.
+08/07/2020 06:19:39 PM Done clustering and UMAP
+08/07/2020 06:19:39 PM Subsampling 10/10
+08/07/2020 06:19:39 PM snmcseq_gene (7527, 32) (4754, 7527)
+08/07/2020 06:19:39 PM smarter_cells (5077, 129) (5743, 5077)
+08/07/2020 06:19:39 PM Smoothing within modalities...
+08/07/2020 06:19:44 PM snmcseq_gene: 4.857317209243774
+08/07/2020 06:19:47 PM smarter_cells: 2.6113343238830566
+08/07/2020 06:19:47 PM Constructing a joint matrix...
+08/07/2020 06:19:47 PM Imputing into snmcseq_gene space...
+08/07/2020 06:19:47 PM for snmcseq_gene cells...
+08/07/2020 06:19:47 PM for smarter_cells cells...
+08/07/2020 06:20:12 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka20_k20.npy.9
+08/07/2020 06:20:12 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka20_k20.npy.9
+08/07/2020 06:20:12 PM Done integration into a common PC space
+08/07/2020 06:20:12 PM resolution r: 0.1
+08/07/2020 06:20:13 PM resolution r: 1
+08/07/2020 06:20:14 PM resolution r: 2
+08/07/2020 06:20:15 PM resolution r: 4
+08/07/2020 06:20:16 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12604, 50)
+08/07/2020 06:20:51 PM Done. running time: 34.8726646900177 seconds.
+08/07/2020 06:20:51 PM Done clustering and UMAP
+Time used to build kNN map 0.1916966438293457
+Time used to get kNN 0.5085620880126953
+Time used to build kNN map 0.07508182525634766
+Time used to get kNN 0.40223217010498047
+Time used to build kNN map 0.12989330291748047
+Time used to get kNN 0.5206599235534668
+Time used to build kNN map 0.07696127891540527
+Time used to get kNN 0.4294466972351074
+Time used to build kNN map 0.12140321731567383
+Time used to get kNN 0.6100344657897949
+Time used to build kNN map 0.07615089416503906
+Time used to get kNN 0.31711292266845703
+Time used to build kNN map 0.1248016357421875
+Time used to get kNN 0.516427755355835
+Time used to build kNN map 0.07614803314208984
+Time used to get kNN 0.31519484519958496
+Time used to build kNN map 0.12212252616882324
+Time used to get kNN 0.5207245349884033
+Time used to build kNN map 0.07717466354370117
+Time used to get kNN 0.3150136470794678
+Time used to build kNN map 0.1237490177154541
+Time used to get kNN 0.612666130065918
+Time used to build kNN map 0.07586312294006348
+Time used to get kNN 0.3167579174041748
+Time used to build kNN map 0.1225593090057373
+Time used to get kNN 0.5155062675476074
+Time used to build kNN map 0.07747578620910645
+Time used to get kNN 0.42475056648254395
+Time used to build kNN map 0.1636028289794922
+Time used to get kNN 0.5171120166778564
+Time used to build kNN map 0.1467592716217041
+Time used to get kNN 0.3865988254547119
+Time used to build kNN map 0.12210345268249512
+Time used to get kNN 0.5140628814697266
+Time used to build kNN map 0.07705974578857422
+Time used to get kNN 0.31775832176208496
+Time used to build kNN map 0.12229180335998535
+Time used to get kNN 0.6176548004150391
+Time used to build kNN map 0.07688522338867188
+Time used to get kNN 0.31930112838745117
+50, 50
+08/07/2020 06:20:56 PM  config_mc_scsmart_ka50_k50_200807.py
+08/07/2020 06:20:56 PM * Begin integration
+08/07/2020 06:20:57 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 06:20:57 PM Metadata smarter_cells (6244, 129)
+08/07/2020 06:21:21 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 06:21:22 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 06:21:22 PM Done reading data
+08/07/2020 06:21:22 PM Subsampling 1/10
+08/07/2020 06:21:22 PM snmcseq_gene (7457, 32) (4754, 7457)
+08/07/2020 06:21:23 PM smarter_cells (5009, 129) (5743, 5009)
+08/07/2020 06:21:23 PM Smoothing within modalities...
+08/07/2020 06:21:33 PM snmcseq_gene: 10.478602170944214
+08/07/2020 06:21:39 PM smarter_cells: 5.597062349319458
+08/07/2020 06:21:39 PM Constructing a joint matrix...
+08/07/2020 06:21:39 PM Imputing into snmcseq_gene space...
+08/07/2020 06:21:39 PM for snmcseq_gene cells...
+08/07/2020 06:21:39 PM for smarter_cells cells...
+08/07/2020 06:22:04 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.0
+08/07/2020 06:22:04 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.0
+08/07/2020 06:22:04 PM Done integration into a common PC space
+08/07/2020 06:22:04 PM resolution r: 0.1
+08/07/2020 06:22:06 PM resolution r: 1
+08/07/2020 06:22:08 PM resolution r: 2
+08/07/2020 06:22:10 PM resolution r: 4
+08/07/2020 06:22:14 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12466, 50)
+08/07/2020 06:22:51 PM Done. running time: 37.74906039237976 seconds.
+08/07/2020 06:22:52 PM Done clustering and UMAP
+08/07/2020 06:22:52 PM Subsampling 2/10
+08/07/2020 06:22:52 PM snmcseq_gene (7430, 32) (4754, 7430)
+08/07/2020 06:22:52 PM smarter_cells (5040, 129) (5743, 5040)
+08/07/2020 06:22:52 PM Smoothing within modalities...
+08/07/2020 06:23:04 PM snmcseq_gene: 11.81929087638855
+08/07/2020 06:23:10 PM smarter_cells: 5.86725926399231
+08/07/2020 06:23:10 PM Constructing a joint matrix...
+08/07/2020 06:23:10 PM Imputing into snmcseq_gene space...
+08/07/2020 06:23:10 PM for snmcseq_gene cells...
+08/07/2020 06:23:10 PM for smarter_cells cells...
+08/07/2020 06:23:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.1
+08/07/2020 06:23:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.1
+08/07/2020 06:23:35 PM Done integration into a common PC space
+08/07/2020 06:23:35 PM resolution r: 0.1
+08/07/2020 06:23:37 PM resolution r: 1
+08/07/2020 06:23:39 PM resolution r: 2
+08/07/2020 06:23:41 PM resolution r: 4
+08/07/2020 06:23:43 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12470, 50)
+08/07/2020 06:24:17 PM Done. running time: 33.692538261413574 seconds.
+08/07/2020 06:24:17 PM Done clustering and UMAP
+08/07/2020 06:24:17 PM Subsampling 3/10
+08/07/2020 06:24:17 PM snmcseq_gene (7469, 32) (4754, 7469)
+08/07/2020 06:24:18 PM smarter_cells (5057, 129) (5743, 5057)
+08/07/2020 06:24:18 PM Smoothing within modalities...
+08/07/2020 06:24:30 PM snmcseq_gene: 11.816848278045654
+08/07/2020 06:24:35 PM smarter_cells: 5.480545282363892
+08/07/2020 06:24:35 PM Constructing a joint matrix...
+08/07/2020 06:24:35 PM Imputing into snmcseq_gene space...
+08/07/2020 06:24:35 PM for snmcseq_gene cells...
+08/07/2020 06:24:35 PM for smarter_cells cells...
+08/07/2020 06:25:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.2
+08/07/2020 06:25:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.2
+08/07/2020 06:25:00 PM Done integration into a common PC space
+08/07/2020 06:25:00 PM resolution r: 0.1
+08/07/2020 06:25:02 PM resolution r: 1
+08/07/2020 06:25:05 PM resolution r: 2
+08/07/2020 06:25:07 PM resolution r: 4
+08/07/2020 06:25:09 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12526, 50)
+08/07/2020 06:25:41 PM Done. running time: 32.91550636291504 seconds.
+08/07/2020 06:25:42 PM Done clustering and UMAP
+08/07/2020 06:25:42 PM Subsampling 4/10
+08/07/2020 06:25:42 PM snmcseq_gene (7411, 32) (4754, 7411)
+08/07/2020 06:25:42 PM smarter_cells (5004, 129) (5743, 5004)
+08/07/2020 06:25:42 PM Smoothing within modalities...
+08/07/2020 06:25:53 PM snmcseq_gene: 10.81261944770813
+08/07/2020 06:25:59 PM smarter_cells: 5.746831178665161
+08/07/2020 06:25:59 PM Constructing a joint matrix...
+08/07/2020 06:25:59 PM Imputing into snmcseq_gene space...
+08/07/2020 06:25:59 PM for snmcseq_gene cells...
+08/07/2020 06:25:59 PM for smarter_cells cells...
+08/07/2020 06:26:25 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.3
+08/07/2020 06:26:25 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.3
+08/07/2020 06:26:25 PM Done integration into a common PC space
+08/07/2020 06:26:25 PM resolution r: 0.1
+08/07/2020 06:26:27 PM resolution r: 1
+08/07/2020 06:26:29 PM resolution r: 2
+08/07/2020 06:26:31 PM resolution r: 4
+08/07/2020 06:26:33 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12415, 50)
+08/07/2020 06:27:07 PM Done. running time: 33.76251029968262 seconds.
+08/07/2020 06:27:07 PM Done clustering and UMAP
+08/07/2020 06:27:07 PM Subsampling 5/10
+08/07/2020 06:27:08 PM snmcseq_gene (7508, 32) (4754, 7508)
+08/07/2020 06:27:08 PM smarter_cells (4972, 129) (5743, 4972)
+08/07/2020 06:27:08 PM Smoothing within modalities...
+08/07/2020 06:27:19 PM snmcseq_gene: 10.486357688903809
+08/07/2020 06:27:24 PM smarter_cells: 5.460511207580566
+08/07/2020 06:27:24 PM Constructing a joint matrix...
+08/07/2020 06:27:24 PM Imputing into snmcseq_gene space...
+08/07/2020 06:27:24 PM for snmcseq_gene cells...
+08/07/2020 06:27:24 PM for smarter_cells cells...
+08/07/2020 06:27:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.4
+08/07/2020 06:27:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.4
+08/07/2020 06:27:48 PM Done integration into a common PC space
+08/07/2020 06:27:48 PM resolution r: 0.1
+08/07/2020 06:27:50 PM resolution r: 1
+08/07/2020 06:27:52 PM resolution r: 2
+08/07/2020 06:27:54 PM resolution r: 4
+08/07/2020 06:27:57 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12480, 50)
+08/07/2020 06:28:30 PM Done. running time: 33.28868365287781 seconds.
+08/07/2020 06:28:30 PM Done clustering and UMAP
+08/07/2020 06:28:30 PM Subsampling 6/10
+08/07/2020 06:28:30 PM snmcseq_gene (7511, 32) (4754, 7511)
+08/07/2020 06:28:31 PM smarter_cells (4960, 129) (5743, 4960)
+08/07/2020 06:28:31 PM Smoothing within modalities...
+08/07/2020 06:28:43 PM snmcseq_gene: 12.408169269561768
+08/07/2020 06:28:49 PM smarter_cells: 5.72625207901001
+08/07/2020 06:28:49 PM Constructing a joint matrix...
+08/07/2020 06:28:49 PM Imputing into snmcseq_gene space...
+08/07/2020 06:28:49 PM for snmcseq_gene cells...
+08/07/2020 06:28:49 PM for smarter_cells cells...
+08/07/2020 06:29:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.5
+08/07/2020 06:29:14 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.5
+08/07/2020 06:29:14 PM Done integration into a common PC space
+08/07/2020 06:29:14 PM resolution r: 0.1
+08/07/2020 06:29:17 PM resolution r: 1
+08/07/2020 06:29:20 PM resolution r: 2
+08/07/2020 06:29:22 PM resolution r: 4
+08/07/2020 06:29:24 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12471, 50)
+08/07/2020 06:29:57 PM Done. running time: 33.256897926330566 seconds.
+08/07/2020 06:29:57 PM Done clustering and UMAP
+08/07/2020 06:29:57 PM Subsampling 7/10
+08/07/2020 06:29:57 PM snmcseq_gene (7520, 32) (4754, 7520)
+08/07/2020 06:29:58 PM smarter_cells (4996, 129) (5743, 4996)
+08/07/2020 06:29:58 PM Smoothing within modalities...
+08/07/2020 06:30:10 PM snmcseq_gene: 11.834655523300171
+08/07/2020 06:30:15 PM smarter_cells: 5.600991725921631
+08/07/2020 06:30:15 PM Constructing a joint matrix...
+08/07/2020 06:30:15 PM Imputing into snmcseq_gene space...
+08/07/2020 06:30:15 PM for snmcseq_gene cells...
+08/07/2020 06:30:15 PM for smarter_cells cells...
+08/07/2020 06:30:42 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.6
+08/07/2020 06:30:42 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.6
+08/07/2020 06:30:42 PM Done integration into a common PC space
+08/07/2020 06:30:42 PM resolution r: 0.1
+08/07/2020 06:30:44 PM resolution r: 1
+08/07/2020 06:30:46 PM resolution r: 2
+08/07/2020 06:30:49 PM resolution r: 4
+08/07/2020 06:30:51 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12516, 50)
+08/07/2020 06:31:25 PM Done. running time: 34.29176115989685 seconds.
+08/07/2020 06:31:25 PM Done clustering and UMAP
+08/07/2020 06:31:25 PM Subsampling 8/10
+08/07/2020 06:31:25 PM snmcseq_gene (7474, 32) (4754, 7474)
+08/07/2020 06:31:26 PM smarter_cells (5015, 129) (5743, 5015)
+08/07/2020 06:31:26 PM Smoothing within modalities...
+08/07/2020 06:31:37 PM snmcseq_gene: 10.647519588470459
+08/07/2020 06:31:42 PM smarter_cells: 5.5601935386657715
+08/07/2020 06:31:42 PM Constructing a joint matrix...
+08/07/2020 06:31:42 PM Imputing into snmcseq_gene space...
+08/07/2020 06:31:42 PM for snmcseq_gene cells...
+08/07/2020 06:31:42 PM for smarter_cells cells...
+08/07/2020 06:32:08 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.7
+08/07/2020 06:32:08 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.7
+08/07/2020 06:32:08 PM Done integration into a common PC space
+08/07/2020 06:32:08 PM resolution r: 0.1
+08/07/2020 06:32:10 PM resolution r: 1
+08/07/2020 06:32:12 PM resolution r: 2
+08/07/2020 06:32:14 PM resolution r: 4
+08/07/2020 06:32:16 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12489, 50)
+08/07/2020 06:32:49 PM Done. running time: 32.71950888633728 seconds.
+08/07/2020 06:32:49 PM Done clustering and UMAP
+08/07/2020 06:32:49 PM Subsampling 9/10
+08/07/2020 06:32:49 PM snmcseq_gene (7413, 32) (4754, 7413)
+08/07/2020 06:32:49 PM smarter_cells (4994, 129) (5743, 4994)
+08/07/2020 06:32:50 PM Smoothing within modalities...
+08/07/2020 06:33:00 PM snmcseq_gene: 10.156234502792358
+08/07/2020 06:33:05 PM smarter_cells: 5.410829067230225
+08/07/2020 06:33:05 PM Constructing a joint matrix...
+08/07/2020 06:33:05 PM Imputing into snmcseq_gene space...
+08/07/2020 06:33:05 PM for snmcseq_gene cells...
+08/07/2020 06:33:05 PM for smarter_cells cells...
+08/07/2020 06:33:31 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.8
+08/07/2020 06:33:31 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.8
+08/07/2020 06:33:31 PM Done integration into a common PC space
+08/07/2020 06:33:31 PM resolution r: 0.1
+08/07/2020 06:33:33 PM resolution r: 1
+08/07/2020 06:33:35 PM resolution r: 2
+08/07/2020 06:33:37 PM resolution r: 4
+08/07/2020 06:33:39 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12407, 50)
+08/07/2020 06:34:11 PM Done. running time: 32.17275881767273 seconds.
+08/07/2020 06:34:11 PM Done clustering and UMAP
+08/07/2020 06:34:11 PM Subsampling 10/10
+08/07/2020 06:34:11 PM snmcseq_gene (7426, 32) (4754, 7426)
+08/07/2020 06:34:12 PM smarter_cells (4933, 129) (5743, 4933)
+08/07/2020 06:34:12 PM Smoothing within modalities...
+08/07/2020 06:34:22 PM snmcseq_gene: 10.286407232284546
+08/07/2020 06:34:27 PM smarter_cells: 5.502260684967041
+08/07/2020 06:34:27 PM Constructing a joint matrix...
+08/07/2020 06:34:27 PM Imputing into snmcseq_gene space...
+08/07/2020 06:34:27 PM for snmcseq_gene cells...
+08/07/2020 06:34:27 PM for smarter_cells cells...
+08/07/2020 06:34:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka50_k50.npy.9
+08/07/2020 06:34:52 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka50_k50.npy.9
+08/07/2020 06:34:52 PM Done integration into a common PC space
+08/07/2020 06:34:52 PM resolution r: 0.1
+08/07/2020 06:34:54 PM resolution r: 1
+08/07/2020 06:34:56 PM resolution r: 2
+08/07/2020 06:34:58 PM resolution r: 4
+08/07/2020 06:35:00 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12359, 50)
+08/07/2020 06:35:32 PM Done. running time: 32.48523569107056 seconds.
+08/07/2020 06:35:33 PM Done clustering and UMAP
+Time used to build kNN map 0.17076683044433594
+Time used to get kNN 1.1088557243347168
+Time used to build kNN map 0.09250617027282715
+Time used to get kNN 0.786470890045166
+Time used to build kNN map 0.1744859218597412
+Time used to get kNN 1.0838055610656738
+Time used to build kNN map 0.13483285903930664
+Time used to get kNN 0.8316555023193359
+Time used to build kNN map 0.12394261360168457
+Time used to get kNN 1.1156377792358398
+Time used to build kNN map 0.07881593704223633
+Time used to get kNN 0.7029104232788086
+Time used to build kNN map 0.12489628791809082
+Time used to get kNN 1.1414523124694824
+Time used to build kNN map 0.07817983627319336
+Time used to get kNN 0.7472493648529053
+Time used to build kNN map 0.13017487525939941
+Time used to get kNN 1.2141056060791016
+Time used to build kNN map 0.07612109184265137
+Time used to get kNN 0.7014584541320801
+Time used to build kNN map 0.1241157054901123
+Time used to get kNN 1.1556799411773682
+Time used to build kNN map 0.11786580085754395
+Time used to get kNN 0.7985210418701172
+Time used to build kNN map 0.13111162185668945
+Time used to get kNN 1.1628515720367432
+Time used to build kNN map 0.07855629920959473
+Time used to get kNN 0.704784631729126
+Time used to build kNN map 0.12842965126037598
+Time used to get kNN 1.2606463432312012
+Time used to build kNN map 0.08324360847473145
+Time used to get kNN 0.7191026210784912
+Time used to build kNN map 0.12497830390930176
+Time used to get kNN 1.0848491191864014
+Time used to build kNN map 0.07612156867980957
+Time used to get kNN 0.6887738704681396
+Time used to build kNN map 0.12296819686889648
+Time used to get kNN 1.1858558654785156
+Time used to build kNN map 0.12600302696228027
+Time used to get kNN 0.7496447563171387
+100, 100
+08/07/2020 06:35:37 PM  config_mc_scsmart_ka100_k100_200807.py
+08/07/2020 06:35:37 PM * Begin integration
+08/07/2020 06:35:37 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 06:35:38 PM Metadata smarter_cells (6244, 129)
+08/07/2020 06:36:01 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 06:36:03 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 06:36:03 PM Done reading data
+08/07/2020 06:36:03 PM Subsampling 1/10
+08/07/2020 06:36:03 PM snmcseq_gene (7523, 32) (4754, 7523)
+08/07/2020 06:36:03 PM smarter_cells (5018, 129) (5743, 5018)
+08/07/2020 06:36:03 PM Smoothing within modalities...
+08/07/2020 06:36:23 PM snmcseq_gene: 19.362045526504517
+08/07/2020 06:36:33 PM smarter_cells: 10.405822515487671
+08/07/2020 06:36:33 PM Constructing a joint matrix...
+08/07/2020 06:36:33 PM Imputing into snmcseq_gene space...
+08/07/2020 06:36:33 PM for snmcseq_gene cells...
+08/07/2020 06:36:33 PM for smarter_cells cells...
+08/07/2020 06:36:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.0
+08/07/2020 06:36:59 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.0
+08/07/2020 06:36:59 PM Done integration into a common PC space
+08/07/2020 06:36:59 PM resolution r: 0.1
+08/07/2020 06:37:03 PM resolution r: 1
+08/07/2020 06:37:06 PM resolution r: 2
+08/07/2020 06:37:10 PM resolution r: 4
+08/07/2020 06:37:15 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12541, 50)
+08/07/2020 06:37:53 PM Done. running time: 38.18548941612244 seconds.
+08/07/2020 06:37:53 PM Done clustering and UMAP
+08/07/2020 06:37:53 PM Subsampling 2/10
+08/07/2020 06:37:53 PM snmcseq_gene (7533, 32) (4754, 7533)
+08/07/2020 06:37:53 PM smarter_cells (4989, 129) (5743, 4989)
+08/07/2020 06:37:54 PM Smoothing within modalities...
+08/07/2020 06:38:13 PM snmcseq_gene: 19.140288829803467
+08/07/2020 06:38:23 PM smarter_cells: 10.322833061218262
+08/07/2020 06:38:23 PM Constructing a joint matrix...
+08/07/2020 06:38:23 PM Imputing into snmcseq_gene space...
+08/07/2020 06:38:23 PM for snmcseq_gene cells...
+08/07/2020 06:38:23 PM for smarter_cells cells...
+08/07/2020 06:38:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.1
+08/07/2020 06:38:48 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.1
+08/07/2020 06:38:48 PM Done integration into a common PC space
+08/07/2020 06:38:48 PM resolution r: 0.1
+08/07/2020 06:38:52 PM resolution r: 1
+08/07/2020 06:38:56 PM resolution r: 2
+08/07/2020 06:39:00 PM resolution r: 4
+08/07/2020 06:39:03 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12522, 50)
+08/07/2020 06:39:36 PM Done. running time: 32.84402275085449 seconds.
+08/07/2020 06:39:36 PM Done clustering and UMAP
+08/07/2020 06:39:36 PM Subsampling 3/10
+08/07/2020 06:39:37 PM snmcseq_gene (7536, 32) (4754, 7536)
+08/07/2020 06:39:37 PM smarter_cells (4980, 129) (5743, 4980)
+08/07/2020 06:39:37 PM Smoothing within modalities...
+08/07/2020 06:39:56 PM snmcseq_gene: 19.241833448410034
+08/07/2020 06:40:06 PM smarter_cells: 10.172884702682495
+08/07/2020 06:40:06 PM Constructing a joint matrix...
+08/07/2020 06:40:06 PM Imputing into snmcseq_gene space...
+08/07/2020 06:40:06 PM for snmcseq_gene cells...
+08/07/2020 06:40:06 PM for smarter_cells cells...
+08/07/2020 06:40:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.2
+08/07/2020 06:40:32 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.2
+08/07/2020 06:40:32 PM Done integration into a common PC space
+08/07/2020 06:40:32 PM resolution r: 0.1
+08/07/2020 06:40:36 PM resolution r: 1
+08/07/2020 06:40:39 PM resolution r: 2
+08/07/2020 06:40:43 PM resolution r: 4
+08/07/2020 06:40:47 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12516, 50)
+08/07/2020 06:41:20 PM Done. running time: 33.06913924217224 seconds.
+08/07/2020 06:41:20 PM Done clustering and UMAP
+08/07/2020 06:41:20 PM Subsampling 4/10
+08/07/2020 06:41:20 PM snmcseq_gene (7486, 32) (4754, 7486)
+08/07/2020 06:41:20 PM smarter_cells (5008, 129) (5743, 5008)
+08/07/2020 06:41:20 PM Smoothing within modalities...
+08/07/2020 06:41:40 PM snmcseq_gene: 19.20659852027893
+08/07/2020 06:41:50 PM smarter_cells: 10.418612003326416
+08/07/2020 06:41:50 PM Constructing a joint matrix...
+08/07/2020 06:41:50 PM Imputing into snmcseq_gene space...
+08/07/2020 06:41:50 PM for snmcseq_gene cells...
+08/07/2020 06:41:50 PM for smarter_cells cells...
+08/07/2020 06:42:16 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.3
+08/07/2020 06:42:16 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.3
+08/07/2020 06:42:16 PM Done integration into a common PC space
+08/07/2020 06:42:16 PM resolution r: 0.1
+08/07/2020 06:42:20 PM resolution r: 1
+08/07/2020 06:42:24 PM resolution r: 2
+08/07/2020 06:42:28 PM resolution r: 4
+08/07/2020 06:42:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12494, 50)
+08/07/2020 06:43:04 PM Done. running time: 32.63182878494263 seconds.
+08/07/2020 06:43:04 PM Done clustering and UMAP
+08/07/2020 06:43:04 PM Subsampling 5/10
+08/07/2020 06:43:04 PM snmcseq_gene (7568, 32) (4754, 7568)
+08/07/2020 06:43:05 PM smarter_cells (5028, 129) (5743, 5028)
+08/07/2020 06:43:05 PM Smoothing within modalities...
+08/07/2020 06:43:24 PM snmcseq_gene: 19.27983045578003
+08/07/2020 06:43:34 PM smarter_cells: 10.238245248794556
+08/07/2020 06:43:34 PM Constructing a joint matrix...
+08/07/2020 06:43:34 PM Imputing into snmcseq_gene space...
+08/07/2020 06:43:34 PM for snmcseq_gene cells...
+08/07/2020 06:43:34 PM for smarter_cells cells...
+08/07/2020 06:44:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.4
+08/07/2020 06:44:00 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.4
+08/07/2020 06:44:00 PM Done integration into a common PC space
+08/07/2020 06:44:00 PM resolution r: 0.1
+08/07/2020 06:44:04 PM resolution r: 1
+08/07/2020 06:44:07 PM resolution r: 2
+08/07/2020 06:44:11 PM resolution r: 4
+08/07/2020 06:44:15 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12596, 50)
+08/07/2020 06:44:48 PM Done. running time: 33.23725724220276 seconds.
+08/07/2020 06:44:48 PM Done clustering and UMAP
+08/07/2020 06:44:48 PM Subsampling 6/10
+08/07/2020 06:44:48 PM snmcseq_gene (7411, 32) (4754, 7411)
+08/07/2020 06:44:49 PM smarter_cells (4964, 129) (5743, 4964)
+08/07/2020 06:44:49 PM Smoothing within modalities...
+08/07/2020 06:45:08 PM snmcseq_gene: 19.120919704437256
+08/07/2020 06:45:18 PM smarter_cells: 10.336939334869385
+08/07/2020 06:45:18 PM Constructing a joint matrix...
+08/07/2020 06:45:18 PM Imputing into snmcseq_gene space...
+08/07/2020 06:45:18 PM for snmcseq_gene cells...
+08/07/2020 06:45:18 PM for smarter_cells cells...
+08/07/2020 06:45:44 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.5
+08/07/2020 06:45:44 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.5
+08/07/2020 06:45:44 PM Done integration into a common PC space
+08/07/2020 06:45:44 PM resolution r: 0.1
+08/07/2020 06:45:47 PM resolution r: 1
+08/07/2020 06:45:51 PM resolution r: 2
+08/07/2020 06:45:55 PM resolution r: 4
+08/07/2020 06:45:58 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12375, 50)
+08/07/2020 06:46:31 PM Done. running time: 32.995397329330444 seconds.
+08/07/2020 06:46:31 PM Done clustering and UMAP
+08/07/2020 06:46:31 PM Subsampling 7/10
+08/07/2020 06:46:31 PM snmcseq_gene (7527, 32) (4754, 7527)
+08/07/2020 06:46:32 PM smarter_cells (4995, 129) (5743, 4995)
+08/07/2020 06:46:32 PM Smoothing within modalities...
+08/07/2020 06:46:51 PM snmcseq_gene: 19.338295698165894
+08/07/2020 06:47:02 PM smarter_cells: 10.292303085327148
+08/07/2020 06:47:02 PM Constructing a joint matrix...
+08/07/2020 06:47:02 PM Imputing into snmcseq_gene space...
+08/07/2020 06:47:02 PM for snmcseq_gene cells...
+08/07/2020 06:47:02 PM for smarter_cells cells...
+08/07/2020 06:47:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.6
+08/07/2020 06:47:27 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.6
+08/07/2020 06:47:27 PM Done integration into a common PC space
+08/07/2020 06:47:27 PM resolution r: 0.1
+08/07/2020 06:47:31 PM resolution r: 1
+08/07/2020 06:47:35 PM resolution r: 2
+08/07/2020 06:47:39 PM resolution r: 4
+08/07/2020 06:47:42 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12522, 50)
+08/07/2020 06:48:17 PM Done. running time: 34.63256096839905 seconds.
+08/07/2020 06:48:17 PM Done clustering and UMAP
+08/07/2020 06:48:17 PM Subsampling 8/10
+08/07/2020 06:48:17 PM snmcseq_gene (7503, 32) (4754, 7503)
+08/07/2020 06:48:18 PM smarter_cells (4985, 129) (5743, 4985)
+08/07/2020 06:48:18 PM Smoothing within modalities...
+08/07/2020 06:48:37 PM snmcseq_gene: 19.23509192466736
+08/07/2020 06:48:47 PM smarter_cells: 10.396085977554321
+08/07/2020 06:48:47 PM Constructing a joint matrix...
+08/07/2020 06:48:47 PM Imputing into snmcseq_gene space...
+08/07/2020 06:48:47 PM for snmcseq_gene cells...
+08/07/2020 06:48:47 PM for smarter_cells cells...
+08/07/2020 06:49:13 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.7
+08/07/2020 06:49:13 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.7
+08/07/2020 06:49:13 PM Done integration into a common PC space
+08/07/2020 06:49:13 PM resolution r: 0.1
+08/07/2020 06:49:17 PM resolution r: 1
+08/07/2020 06:49:20 PM resolution r: 2
+08/07/2020 06:49:24 PM resolution r: 4
+08/07/2020 06:49:28 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12488, 50)
+08/07/2020 06:50:01 PM Done. running time: 33.1758770942688 seconds.
+08/07/2020 06:50:01 PM Done clustering and UMAP
+08/07/2020 06:50:01 PM Subsampling 9/10
+08/07/2020 06:50:01 PM snmcseq_gene (7411, 32) (4754, 7411)
+08/07/2020 06:50:02 PM smarter_cells (5005, 129) (5743, 5005)
+08/07/2020 06:50:02 PM Smoothing within modalities...
+08/07/2020 06:50:21 PM snmcseq_gene: 18.773240089416504
+08/07/2020 06:50:31 PM smarter_cells: 10.355025053024292
+08/07/2020 06:50:31 PM Constructing a joint matrix...
+08/07/2020 06:50:31 PM Imputing into snmcseq_gene space...
+08/07/2020 06:50:31 PM for snmcseq_gene cells...
+08/07/2020 06:50:31 PM for smarter_cells cells...
+08/07/2020 06:50:56 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.8
+08/07/2020 06:50:56 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.8
+08/07/2020 06:50:56 PM Done integration into a common PC space
+08/07/2020 06:50:56 PM resolution r: 0.1
+08/07/2020 06:51:00 PM resolution r: 1
+08/07/2020 06:51:04 PM resolution r: 2
+08/07/2020 06:51:07 PM resolution r: 4
+08/07/2020 06:51:11 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12416, 50)
+08/07/2020 06:51:44 PM Done. running time: 32.577242851257324 seconds.
+08/07/2020 06:51:44 PM Done clustering and UMAP
+08/07/2020 06:51:44 PM Subsampling 10/10
+08/07/2020 06:51:44 PM snmcseq_gene (7552, 32) (4754, 7552)
+08/07/2020 06:51:44 PM smarter_cells (5011, 129) (5743, 5011)
+08/07/2020 06:51:44 PM Smoothing within modalities...
+08/07/2020 06:52:04 PM snmcseq_gene: 19.300772428512573
+08/07/2020 06:52:14 PM smarter_cells: 10.272605180740356
+08/07/2020 06:52:14 PM Constructing a joint matrix...
+08/07/2020 06:52:14 PM Imputing into snmcseq_gene space...
+08/07/2020 06:52:14 PM for snmcseq_gene cells...
+08/07/2020 06:52:14 PM for smarter_cells cells...
+08/07/2020 06:52:39 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka100_k100.npy.9
+08/07/2020 06:52:39 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka100_k100.npy.9
+08/07/2020 06:52:39 PM Done integration into a common PC space
+08/07/2020 06:52:39 PM resolution r: 0.1
+08/07/2020 06:52:43 PM resolution r: 1
+08/07/2020 06:52:46 PM resolution r: 2
+08/07/2020 06:52:50 PM resolution r: 4
+08/07/2020 06:52:54 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12563, 50)
+08/07/2020 06:53:27 PM Done. running time: 33.47596478462219 seconds.
+08/07/2020 06:53:27 PM Done clustering and UMAP
+Time used to build kNN map 0.20299124717712402
+Time used to get kNN 2.0893447399139404
+Time used to build kNN map 0.07541537284851074
+Time used to get kNN 1.4059391021728516
+Time used to build kNN map 0.12327957153320312
+Time used to get kNN 2.0674355030059814
+Time used to build kNN map 0.07697653770446777
+Time used to get kNN 1.3024728298187256
+Time used to build kNN map 0.1236419677734375
+Time used to get kNN 2.1242010593414307
+Time used to build kNN map 0.07527923583984375
+Time used to get kNN 1.295635461807251
+Time used to build kNN map 0.19228529930114746
+Time used to get kNN 2.098266124725342
+Time used to build kNN map 0.09360623359680176
+Time used to get kNN 1.4010095596313477
+Time used to build kNN map 0.12346982955932617
+Time used to get kNN 2.1003456115722656
+Time used to build kNN map 0.07751679420471191
+Time used to get kNN 1.3170981407165527
+Time used to build kNN map 0.20114946365356445
+Time used to get kNN 2.15058970451355
+Time used to build kNN map 0.10748672485351562
+Time used to get kNN 1.2972486019134521
+Time used to build kNN map 0.18585991859436035
+Time used to get kNN 2.1673130989074707
+Time used to build kNN map 0.07778167724609375
+Time used to get kNN 1.312995433807373
+Time used to build kNN map 0.12176752090454102
+Time used to get kNN 2.1808855533599854
+Time used to build kNN map 0.0784761905670166
+Time used to get kNN 1.3259918689727783
+Time used to build kNN map 0.12072634696960449
+Time used to get kNN 2.0609219074249268
+Time used to build kNN map 0.07609033584594727
+Time used to get kNN 1.3129477500915527
+Time used to build kNN map 0.12415337562561035
+Time used to get kNN 2.0825018882751465
+Time used to build kNN map 0.0980825424194336
+Time used to get kNN 1.303774118423462
+200, 200
+08/07/2020 06:53:32 PM  config_mc_scsmart_ka200_k200_200807.py
+08/07/2020 06:53:32 PM * Begin integration
+08/07/2020 06:53:32 PM Metadata snmcseq_gene (9366, 32)
+sys:1: DtypeWarning: Columns (64) have mixed types. Specify dtype option on import or set low_memory=False.
+08/07/2020 06:53:32 PM Metadata smarter_cells (6244, 129)
+08/07/2020 06:53:58 PM Feature matrix snmcseq_gene (4754, 9366)
+08/07/2020 06:53:59 PM Feature matrix smarter_cells (5743, 6244)
+08/07/2020 06:53:59 PM Done reading data
+08/07/2020 06:53:59 PM Subsampling 1/10
+08/07/2020 06:53:59 PM snmcseq_gene (7456, 32) (4754, 7456)
+08/07/2020 06:54:00 PM smarter_cells (4996, 129) (5743, 4996)
+08/07/2020 06:54:00 PM Smoothing within modalities...
+08/07/2020 06:54:38 PM snmcseq_gene: 37.95960569381714
+08/07/2020 06:55:01 PM smarter_cells: 23.357179880142212
+08/07/2020 06:55:01 PM Constructing a joint matrix...
+08/07/2020 06:55:01 PM Imputing into snmcseq_gene space...
+08/07/2020 06:55:01 PM for snmcseq_gene cells...
+08/07/2020 06:55:01 PM for smarter_cells cells...
+08/07/2020 06:55:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.0
+08/07/2020 06:55:29 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.0
+08/07/2020 06:55:29 PM Done integration into a common PC space
+08/07/2020 06:55:29 PM resolution r: 0.1
+08/07/2020 06:55:37 PM resolution r: 1
+08/07/2020 06:55:44 PM resolution r: 2
+08/07/2020 06:55:51 PM resolution r: 4
+08/07/2020 06:55:59 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12452, 50)
+08/07/2020 06:56:37 PM Done. running time: 38.57172250747681 seconds.
+08/07/2020 06:56:37 PM Done clustering and UMAP
+08/07/2020 06:56:37 PM Subsampling 2/10
+08/07/2020 06:56:37 PM snmcseq_gene (7468, 32) (4754, 7468)
+08/07/2020 06:56:38 PM smarter_cells (4960, 129) (5743, 4960)
+08/07/2020 06:56:38 PM Smoothing within modalities...
+08/07/2020 06:57:15 PM snmcseq_gene: 37.53274393081665
+08/07/2020 06:57:39 PM smarter_cells: 23.145153045654297
+08/07/2020 06:57:39 PM Constructing a joint matrix...
+08/07/2020 06:57:39 PM Imputing into snmcseq_gene space...
+08/07/2020 06:57:39 PM for snmcseq_gene cells...
+08/07/2020 06:57:39 PM for smarter_cells cells...
+08/07/2020 06:58:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.1
+08/07/2020 06:58:03 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.1
+08/07/2020 06:58:03 PM Done integration into a common PC space
+08/07/2020 06:58:03 PM resolution r: 0.1
+08/07/2020 06:58:10 PM resolution r: 1
+08/07/2020 06:58:17 PM resolution r: 2
+08/07/2020 06:58:24 PM resolution r: 4
+08/07/2020 06:58:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12428, 50)
+08/07/2020 06:59:05 PM Done. running time: 33.26286029815674 seconds.
+08/07/2020 06:59:05 PM Done clustering and UMAP
+08/07/2020 06:59:05 PM Subsampling 3/10
+08/07/2020 06:59:05 PM snmcseq_gene (7498, 32) (4754, 7498)
+08/07/2020 06:59:05 PM smarter_cells (5016, 129) (5743, 5016)
+08/07/2020 06:59:05 PM Smoothing within modalities...
+08/07/2020 06:59:43 PM snmcseq_gene: 37.64587140083313
+08/07/2020 07:00:06 PM smarter_cells: 23.269888639450073
+08/07/2020 07:00:06 PM Constructing a joint matrix...
+08/07/2020 07:00:06 PM Imputing into snmcseq_gene space...
+08/07/2020 07:00:06 PM for snmcseq_gene cells...
+08/07/2020 07:00:06 PM for smarter_cells cells...
+08/07/2020 07:00:33 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.2
+08/07/2020 07:00:33 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.2
+08/07/2020 07:00:33 PM Done integration into a common PC space
+08/07/2020 07:00:33 PM resolution r: 0.1
+08/07/2020 07:00:40 PM resolution r: 1
+08/07/2020 07:00:47 PM resolution r: 2
+08/07/2020 07:00:54 PM resolution r: 4
+08/07/2020 07:01:01 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12514, 50)
+08/07/2020 07:01:34 PM Done. running time: 32.8355975151062 seconds.
+08/07/2020 07:01:34 PM Done clustering and UMAP
+08/07/2020 07:01:34 PM Subsampling 4/10
+08/07/2020 07:01:34 PM snmcseq_gene (7516, 32) (4754, 7516)
+08/07/2020 07:01:35 PM smarter_cells (5020, 129) (5743, 5020)
+08/07/2020 07:01:35 PM Smoothing within modalities...
+08/07/2020 07:02:13 PM snmcseq_gene: 38.63444709777832
+08/07/2020 07:02:37 PM smarter_cells: 23.460008144378662
+08/07/2020 07:02:37 PM Constructing a joint matrix...
+08/07/2020 07:02:37 PM Imputing into snmcseq_gene space...
+08/07/2020 07:02:37 PM for snmcseq_gene cells...
+08/07/2020 07:02:37 PM for smarter_cells cells...
+08/07/2020 07:03:02 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.3
+08/07/2020 07:03:02 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.3
+08/07/2020 07:03:02 PM Done integration into a common PC space
+08/07/2020 07:03:02 PM resolution r: 0.1
+08/07/2020 07:03:10 PM resolution r: 1
+08/07/2020 07:03:17 PM resolution r: 2
+08/07/2020 07:03:24 PM resolution r: 4
+08/07/2020 07:03:31 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12536, 50)
+08/07/2020 07:04:04 PM Done. running time: 33.69016671180725 seconds.
+08/07/2020 07:04:05 PM Done clustering and UMAP
+08/07/2020 07:04:05 PM Subsampling 5/10
+08/07/2020 07:04:05 PM snmcseq_gene (7434, 32) (4754, 7434)
+08/07/2020 07:04:05 PM smarter_cells (5059, 129) (5743, 5059)
+08/07/2020 07:04:05 PM Smoothing within modalities...
+08/07/2020 07:04:43 PM snmcseq_gene: 37.52970337867737
+08/07/2020 07:05:07 PM smarter_cells: 23.978883743286133
+08/07/2020 07:05:07 PM Constructing a joint matrix...
+08/07/2020 07:05:07 PM Imputing into snmcseq_gene space...
+08/07/2020 07:05:07 PM for snmcseq_gene cells...
+08/07/2020 07:05:07 PM for smarter_cells cells...
+08/07/2020 07:05:34 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.4
+08/07/2020 07:05:34 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.4
+08/07/2020 07:05:34 PM Done integration into a common PC space
+08/07/2020 07:05:34 PM resolution r: 0.1
+08/07/2020 07:05:41 PM resolution r: 1
+08/07/2020 07:05:48 PM resolution r: 2
+08/07/2020 07:05:55 PM resolution r: 4
+08/07/2020 07:06:02 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12493, 50)
+08/07/2020 07:06:35 PM Done. running time: 33.455867767333984 seconds.
+08/07/2020 07:06:35 PM Done clustering and UMAP
+08/07/2020 07:06:35 PM Subsampling 6/10
+08/07/2020 07:06:35 PM snmcseq_gene (7424, 32) (4754, 7424)
+08/07/2020 07:06:36 PM smarter_cells (5055, 129) (5743, 5055)
+08/07/2020 07:06:36 PM Smoothing within modalities...
+08/07/2020 07:07:14 PM snmcseq_gene: 37.90930438041687
+08/07/2020 07:07:38 PM smarter_cells: 24.009500741958618
+08/07/2020 07:07:38 PM Constructing a joint matrix...
+08/07/2020 07:07:38 PM Imputing into snmcseq_gene space...
+08/07/2020 07:07:38 PM for snmcseq_gene cells...
+08/07/2020 07:07:38 PM for smarter_cells cells...
+08/07/2020 07:08:04 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.5
+08/07/2020 07:08:04 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.5
+08/07/2020 07:08:04 PM Done integration into a common PC space
+08/07/2020 07:08:04 PM resolution r: 0.1
+08/07/2020 07:08:11 PM resolution r: 1
+08/07/2020 07:08:18 PM resolution r: 2
+08/07/2020 07:08:25 PM resolution r: 4
+08/07/2020 07:08:32 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12479, 50)
+08/07/2020 07:09:06 PM Done. running time: 33.34130930900574 seconds.
+08/07/2020 07:09:06 PM Done clustering and UMAP
+08/07/2020 07:09:06 PM Subsampling 7/10
+08/07/2020 07:09:06 PM snmcseq_gene (7482, 32) (4754, 7482)
+08/07/2020 07:09:06 PM smarter_cells (5001, 129) (5743, 5001)
+08/07/2020 07:09:06 PM Smoothing within modalities...
+08/07/2020 07:09:45 PM snmcseq_gene: 38.103495359420776
+08/07/2020 07:10:08 PM smarter_cells: 23.53206515312195
+08/07/2020 07:10:08 PM Constructing a joint matrix...
+08/07/2020 07:10:08 PM Imputing into snmcseq_gene space...
+08/07/2020 07:10:08 PM for snmcseq_gene cells...
+08/07/2020 07:10:08 PM for smarter_cells cells...
+08/07/2020 07:10:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.6
+08/07/2020 07:10:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.6
+08/07/2020 07:10:35 PM Done integration into a common PC space
+08/07/2020 07:10:35 PM resolution r: 0.1
+08/07/2020 07:10:42 PM resolution r: 1
+08/07/2020 07:10:49 PM resolution r: 2
+08/07/2020 07:10:56 PM resolution r: 4
+08/07/2020 07:11:03 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12483, 50)
+08/07/2020 07:11:36 PM Done. running time: 33.11441707611084 seconds.
+08/07/2020 07:11:36 PM Done clustering and UMAP
+08/07/2020 07:11:36 PM Subsampling 8/10
+08/07/2020 07:11:36 PM snmcseq_gene (7535, 32) (4754, 7535)
+08/07/2020 07:11:37 PM smarter_cells (4964, 129) (5743, 4964)
+08/07/2020 07:11:37 PM Smoothing within modalities...
+08/07/2020 07:12:15 PM snmcseq_gene: 38.38244986534119
+08/07/2020 07:12:39 PM smarter_cells: 23.407679319381714
+08/07/2020 07:12:39 PM Constructing a joint matrix...
+08/07/2020 07:12:39 PM Imputing into snmcseq_gene space...
+08/07/2020 07:12:39 PM for snmcseq_gene cells...
+08/07/2020 07:12:39 PM for smarter_cells cells...
+08/07/2020 07:13:05 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.7
+08/07/2020 07:13:05 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.7
+08/07/2020 07:13:05 PM Done integration into a common PC space
+08/07/2020 07:13:05 PM resolution r: 0.1
+08/07/2020 07:13:12 PM resolution r: 1
+08/07/2020 07:13:19 PM resolution r: 2
+08/07/2020 07:13:26 PM resolution r: 4
+08/07/2020 07:13:33 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12499, 50)
+08/07/2020 07:14:08 PM Done. running time: 34.96587371826172 seconds.
+08/07/2020 07:14:08 PM Done clustering and UMAP
+08/07/2020 07:14:08 PM Subsampling 9/10
+08/07/2020 07:14:08 PM snmcseq_gene (7474, 32) (4754, 7474)
+08/07/2020 07:14:09 PM smarter_cells (4975, 129) (5743, 4975)
+08/07/2020 07:14:09 PM Smoothing within modalities...
+08/07/2020 07:14:47 PM snmcseq_gene: 37.85016489028931
+08/07/2020 07:15:10 PM smarter_cells: 22.97117567062378
+08/07/2020 07:15:10 PM Constructing a joint matrix...
+08/07/2020 07:15:10 PM Imputing into snmcseq_gene space...
+08/07/2020 07:15:10 PM for snmcseq_gene cells...
+08/07/2020 07:15:10 PM for smarter_cells cells...
+08/07/2020 07:15:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.8
+08/07/2020 07:15:35 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.8
+08/07/2020 07:15:35 PM Done integration into a common PC space
+08/07/2020 07:15:35 PM resolution r: 0.1
+08/07/2020 07:15:42 PM resolution r: 1
+08/07/2020 07:15:49 PM resolution r: 2
+08/07/2020 07:15:56 PM resolution r: 4
+08/07/2020 07:16:03 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12449, 50)
+08/07/2020 07:16:38 PM Done. running time: 34.7294487953186 seconds.
+08/07/2020 07:16:38 PM Done clustering and UMAP
+08/07/2020 07:16:38 PM Subsampling 10/10
+08/07/2020 07:16:38 PM snmcseq_gene (7536, 32) (4754, 7536)
+08/07/2020 07:16:39 PM smarter_cells (5013, 129) (5743, 5013)
+08/07/2020 07:16:39 PM Smoothing within modalities...
+08/07/2020 07:17:17 PM snmcseq_gene: 37.87053370475769
+08/07/2020 07:17:40 PM smarter_cells: 23.303743362426758
+08/07/2020 07:17:40 PM Constructing a joint matrix...
+08/07/2020 07:17:40 PM Imputing into snmcseq_gene space...
+08/07/2020 07:17:40 PM for snmcseq_gene cells...
+08/07/2020 07:17:40 PM for smarter_cells cells...
+08/07/2020 07:18:06 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/pcX_all_mop_2mods_200807_ka200_k200.npy.9
+08/07/2020 07:18:06 PM Saved output to: /cndd2/fangming/projects/miniatlas/results/cells_all_mop_2mods_200807_ka200_k200.npy.9
+08/07/2020 07:18:06 PM Done integration into a common PC space
+08/07/2020 07:18:06 PM resolution r: 0.1
+08/07/2020 07:18:13 PM resolution r: 1
+08/07/2020 07:18:20 PM resolution r: 2
+08/07/2020 07:18:27 PM resolution r: 4
+08/07/2020 07:18:34 PM Running UMAP: 60 n_neighbors, 0.5 min_dist , 2 dim.
+Input shape: (12549, 50)
+08/07/2020 07:19:07 PM Done. running time: 33.061089515686035 seconds.
+08/07/2020 07:19:08 PM Done clustering and UMAP
+Time used to build kNN map 0.14086008071899414
+Time used to get kNN 4.154723644256592
+Time used to build kNN map 0.07076811790466309
+Time used to get kNN 2.598391532897949
+Time used to build kNN map 0.11727023124694824
+Time used to get kNN 4.032605409622192
+Time used to build kNN map 0.07259535789489746
+Time used to get kNN 2.5872275829315186
+Time used to build kNN map 0.1224362850189209
+Time used to get kNN 4.0537192821502686
+Time used to build kNN map 0.07499146461486816
+Time used to get kNN 2.476081609725952
+Time used to build kNN map 0.12370443344116211
+Time used to get kNN 4.1594483852386475
+Time used to build kNN map 0.07803773880004883
+Time used to get kNN 2.536747932434082
+Time used to build kNN map 0.1995232105255127
+Time used to get kNN 4.11867618560791
+Time used to build kNN map 0.07852554321289062
+Time used to get kNN 2.5521645545959473
+Time used to build kNN map 0.13394474983215332
+Time used to get kNN 4.01898455619812
+Time used to build kNN map 0.07770323753356934
+Time used to get kNN 2.933208465576172
+Time used to build kNN map 0.12258076667785645
+Time used to get kNN 4.280237913131714
+Time used to build kNN map 0.08849525451660156
+Time used to get kNN 2.5498101711273193
+Time used to build kNN map 0.12385964393615723
+Time used to get kNN 4.231051445007324
+Time used to build kNN map 0.0760645866394043
+Time used to get kNN 2.4503707885742188
+Time used to build kNN map 0.1249396800994873
+Time used to get kNN 4.028381586074829
+Time used to build kNN map 0.07593321800231934
+Time used to get kNN 2.4485087394714355
+Time used to build kNN map 0.1255652904510498
+Time used to get kNN 4.1282618045806885
+Time used to build kNN map 0.07553791999816895
+Time used to get kNN 2.487917423248291
+8732.10user 790.88system 1:44:49elapsed 151%CPU (0avgtext+0avgdata 2951772maxresident)k
+5256inputs+73840544outputs (0major+38567262minor)pagefaults 0swaps
