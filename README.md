@@ -49,7 +49,7 @@ cd demo
 ```
 This will generate a result folder that includes metacells, kNN graphs between modalities, and the correlations of all enhancer-gene pairs within 1Mb for mC-RNA and ATAC-RNA, respectively. For speed, this demo uses only 10% of cells for each dataset based on random sampling.
 
-To visualize the results, then run through the `visualize_correlation.ipynb` jupyter notebook. This will generate results that recapitulates the key findings of the paper.
+To visualize the results, then run through the `visualize_correlation.ipynb` jupyter notebook. This will generate results that recapitulate the key findings of the paper.
 
 ![](./doc/result_dist.png)
 
