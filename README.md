@@ -58,7 +58,7 @@ The whole demo takes about 5 minutes to run through.
 
 **Run your data**
 
-You need to replace our example data `demo/data` with your own data. As in `demo/data`, you would need:
+You need to replace our example data folder `demo/data` with your own data. As in `demo/data`, you would need:
 - a gene list
 - an enhancer list
 - a list of enhancer and gene pairs to examine (default uses all pairs within 1Mbp)
