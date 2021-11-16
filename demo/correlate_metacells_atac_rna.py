@@ -7,16 +7,19 @@ from scipy import sparse
 import pickle
 import argparse
 import logging
+import pandas as pd
+import numpy as np
 
-sys.path.insert(0, "/cndd/fangming/CEMBA/snmcseq_dev")
-import snmcseq_utils
-from __init__ import *
-from __init__jupyterlab import *
+# sys.path.insert(0, "/cndd/fangming/CEMBA/snmcseq_dev")
+# import snmcseq_utils
+# from __init__ import *
+# from __init__jupyterlab import *
 
 sys.path.insert(0, "../")
+import utils
 import enhancer_gene_utils
 
-logger = snmcseq_utils.create_logger()
+logger = utils.create_logger()
 
 def pipe_corr_analysis_atac(
         common_modx_cells, common_mody_cells,
@@ -37,14 +40,14 @@ def pipe_corr_analysis_atac(
     common_mody_cells_updated = np.intersect1d(common_mody_cells, cell_cell_knn_yaxis)
 
     # make sure the original matrices have the correct index
-    x_idx = snmcseq_utils.get_index_from_array(common_modx_cells, common_modx_cells_updated)
-    y_idx = snmcseq_utils.get_index_from_array(common_mody_cells, common_mody_cells_updated)
+    x_idx = utils.get_index_from_array(common_modx_cells, common_modx_cells_updated)
+    y_idx = utils.get_index_from_array(common_mody_cells, common_mody_cells_updated)
     X = X.tocsc()[:, x_idx] 
     Y = Y.tocsc()[:, y_idx]
 
     # make sure knn_xy, knn_xx have the right cell index
-    cell_idx_xaxis = snmcseq_utils.get_index_from_array(cell_cell_knn_xaxis, common_modx_cells_updated)
-    cell_idx_yaxis = snmcseq_utils.get_index_from_array(cell_cell_knn_yaxis, common_mody_cells_updated)
+    cell_idx_xaxis = utils.get_index_from_array(cell_cell_knn_xaxis, common_modx_cells_updated)
+    cell_idx_yaxis = utils.get_index_from_array(cell_cell_knn_yaxis, common_mody_cells_updated)
     knn_xy = knn_xy.tocsr()[cell_idx_xaxis,:].tocsc()[:,cell_idx_yaxis] # x-by-y
     modx_clsts = modx_clsts.reindex(common_modx_cells_updated)
 
@@ -72,7 +75,7 @@ def pipe_corr_analysis_atac(
         # gene by metacell (counts)
         gc_rna = X.dot(knn_xz).todense() 
         # normalization (logCPM)
-        gc_rna = snmcseq_utils.logcpm(pd.DataFrame(gc_rna)).values
+        gc_rna = utils.logcpm(pd.DataFrame(gc_rna)).values
 
         # Dec 21,2020
         enh_lengths = pd.Series((common_enhancer_regions['end']-common_enhancer_regions['start']).values)
@@ -80,7 +83,7 @@ def pipe_corr_analysis_atac(
         knn_yz = knn_xy.T.dot(knn_xz)
         ec_atac = Y.dot(knn_yz).todense() 
         # normalization (logTPM)
-        ec_atac = snmcseq_utils.logtpm(pd.DataFrame(ec_atac), enh_lengths).values
+        ec_atac = utils.logtpm(pd.DataFrame(ec_atac), enh_lengths).values
         logging.info("{} {}".format(gc_rna.shape, ec_atac.shape,))
 
         # corr analysis
@@ -134,7 +137,7 @@ def wrap_corr_analysis_atac(
 
     # # Load data 
     # input_bundle
-    with snmcseq_utils.cd(input_bundle_dirc):
+    with utils.cd(input_bundle_dirc):
         bundle = []
         for fname in bundle_fnames:
             #  save all as pickle file
@@ -149,7 +152,7 @@ def wrap_corr_analysis_atac(
     ) = bundle
 
     # input knn networks 
-    with snmcseq_utils.cd(input_knn_dirc):
+    with utils.cd(input_knn_dirc):
         # for knn_xx 
         # modx_clsts = pd.read_csv(input_modx_clsts, sep='\t',index_col=0)
         modx_clsts = pd.concat([

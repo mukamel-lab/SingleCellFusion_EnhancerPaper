@@ -2,18 +2,22 @@
 # coding: utf-8
 
 import sys
-sys.path.insert(0, "/cndd/fangming/CEMBA/snmcseq_dev")
 from multiprocessing import Pool,cpu_count
 import argparse
 
-import snmcseq_utils
-from __init__ import *
-from __init__jupyterlab import *
+# from __init__ import *
+# from __init__jupyterlab import *
+import numpy as np
+import logging
 
-import CEMBA_clst_utils
 import fbpca
 import itertools
 import argparse
+
+sys.path.insert(0, "../")
+import utils
+sys.path.insert(0, "./scf/")
+import clst_utils
 
 def pipe_singlemod_clustering(
         f_gene, f_cell, f_mat, 
@@ -25,21 +29,21 @@ def pipe_singlemod_clustering(
     """
     """
     # read input
-    gc_mat = snmcseq_utils.load_gc_matrix(f_gene, f_cell, f_mat)
+    gc_mat = utils.load_gc_matrix(f_gene, f_cell, f_mat)
 
     for f_selected_cells, f_res in zip(flist_selected_cells, flist_res):
         print("processing {}".format(f_selected_cells))
         selected_cells = np.load(f_selected_cells, allow_pickle=True)
         # trim the matrix
         cg_mat_dense = gc_mat.data.T.todense()
-        cg_mat_dense = cg_mat_dense[snmcseq_utils.get_index_from_array(gc_mat.cell, selected_cells)]
+        cg_mat_dense = cg_mat_dense[utils.get_index_from_array(gc_mat.cell, selected_cells)]
 
         # Louvain clustering for different resolutions
         # X should be selected from highly variable genes and normalized
         U, s, Vt = fbpca.pca(cg_mat_dense, k=npc)
         pcX = U.dot(np.diag(s))
 
-        res_clsts = CEMBA_clst_utils.clustering_routine_multiple_resolutions(
+        res_clsts = clst_utils.clustering_routine_multiple_resolutions(
                             pcX, selected_cells, kforleiden, 
                             seed=1, verbose=True,
                             resolutions=resolutions, metric='euclidean', option='plain', 

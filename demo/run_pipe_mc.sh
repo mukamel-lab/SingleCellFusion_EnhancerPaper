@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-# thoughts 
 # 1. run_scf_repeatedly_ with different knn and downsampling
 # output: knn_xy matrices, and cells (i, knn)
 
@@ -27,6 +25,7 @@ subsample_frac=0.1 # take 10% of all the data -- faster for demo
 subsample_times=1
 resolutions=(1) # Leiden clustering resolutions used to generate metacells -- just 1 for demo
 
+# 1.
 for knn in ${knns[@]}; do
 
 	echo $modx, $mody, $ka, $knn
@@ -51,11 +50,13 @@ for knn in ${knns[@]}; do
 		-sn ${subsample_times}
 done
 
+# 2.
 # run leiden clustering for each (i, knn) 
 # get a list of samples
 inputNameTag="mop_${modx}_${mody}_ka${ka}_knn{}_${date}"
 ./generate_metacells_rna.py --mod $modx --knns ${knns[@]} -sn ${subsample_times} -tag $inputNameTag -r ${resolutions}
 
+# 3.
 # # correlation analysis (i, knn, r)
 for knn in ${knns[@]}; do
 	nameTagInConfigFile="mop_${modx}_${mody}_ka${ka}_knn${knn}_${date}" # 	

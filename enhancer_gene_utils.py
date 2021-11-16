@@ -1,7 +1,5 @@
 #
-
 from scipy import optimize
-import snmcseq_utils
 import matplotlib.pyplot as plt
 import tqdm
 import pickle
@@ -10,9 +8,8 @@ from scipy import sparse
 import pandas as pd
 import numpy as np
 import time
-import sys
-sys.path.insert(0, '/cndd/fangming/CEMBA/snmcseq_dev')
 
+import utils
 
 def set_venn_scale(ax, true_area, ref_area):
     s = np.sqrt(ref_area/true_area)
@@ -20,19 +17,17 @@ def set_venn_scale(ax, true_area, ref_area):
     ax.set_ylim(-s, s)
     return
 
-
 def turn_cluster_labels_to_knn(cluster_labels, uniq_labels):
     """
     """
 
-    clst_idx = snmcseq_utils.get_index_from_array(uniq_labels, cluster_labels)
+    clst_idx = utils.get_index_from_array(uniq_labels, cluster_labels)
     m, n = len(clst_idx), len(uniq_labels)
     _i = np.arange(m)
     _j = clst_idx
     _data = [1]*m
     knn = sparse.coo_matrix((_data, (_i, _j)), shape=(m, n))
     return knn
-
 
 def row_dot_product_norm_by_numcol(X_zscore, Y_zscore, x_idx, y_idx,
                                    chunksize=100000, verbose_level=100000):
@@ -44,7 +39,7 @@ def row_dot_product_norm_by_numcol(X_zscore, Y_zscore, x_idx, y_idx,
     assert len(x_idx) == len(y_idx)
     num_pairs = len(x_idx)
     corrs = []
-    for pair_idx in snmcseq_utils.chunks(np.arange(num_pairs), chunksize):
+    for pair_idx in utils.chunks(np.arange(num_pairs), chunksize):
         if verbose_level and pair_idx[0] % verbose_level == 0:
             print(pair_idx[0], time.time()-ti)
 
@@ -91,8 +86,8 @@ def compute_enh_gene_corrs(gc_rna, ec_mccg,
         np.array(ec_mccg), axis=1, ddof=0, nan_policy='propagate')
 
     # correlate e-g according to a e-g table
-    gene_idx = snmcseq_utils.get_index_from_array(genes, pairs_gene)
-    enh_idx = snmcseq_utils.get_index_from_array(
+    gene_idx = utils.get_index_from_array(genes, pairs_gene)
+    enh_idx = utils.get_index_from_array(
         enhancers, pairs_enh)  # be careful here!
     to_correlate = ~np.logical_or(gene_idx == -1, enh_idx == -1)
 
@@ -494,160 +489,3 @@ def get_corr_stats(iterator_both, enhancer_gene_to_eval, col_orders,
     res = pd.DataFrame(res, index=iterator_both.index)
     print(res.shape)
     return res
-
-
-# old
-           # res_1case = get_significance_stats_old(
-           #     pairs,
-            #     corrs, corrs_shuffled, corrs_shuffled_cells,
-           #     bins=bins,
-           #     distance_threshold=distance_threshold, fdr_threshold=fdr_threshold,
-           #     positive_side=positive_side,
-           #     return_cdf=False,
-           #     r_min=r_min,
-           #     r_max=r_max,
-           # )
-
-# def get_significance_stats_old(
-#         pairs,
-#         corrs, corrs_shuffled, corrs_shuffled_cells,
-#         bins=np.linspace(-1,1,101),
-#         distance_threshold=1e5, fdr_threshold=0.2,
-#         positive_side=False,
-#         return_cdf=False,
-#         r_min=-1,
-#         r_max=0,
-#     ):
-#     """assuming significant negative correlation
-#     pairs should be a df with at least 3 columns: gene, enh, dist
-
-#     applies to 1 side only
-#     """
-
-#     # align all to negative side
-#     if positive_side:
-#         # prevent modifying the original one
-#         corrs = corrs.copy()
-#         corrs_shuffled = corrs_shuffled.copy()
-#         corrs_shuffled_cells = corrs_shuffled_cells.copy()
-
-#         corrs *= (-1)
-#         corrs_shuffled *= (-1)
-#         corrs_shuffled_cells *= (-1)
-
-#     # dists
-#     dists = pairs['dist'].values
-
-#     ## sig numbers
-#     label_cond = dists < distance_threshold
-#     track = corrs[label_cond]
-
-#     ### total numbers with the condition
-#     num_total_pairs = len(pairs[label_cond])
-#     num_total_genes = len(pairs[label_cond]['gene'].unique())
-#     num_total_enhs = len(pairs[label_cond]['enh'].unique())
-
-#     # hist_shuff
-#     hist_shuff, _ = np.histogram(corrs_shuffled, bins=bins, density=True)
-#     cdf_shuff = np.cumsum(hist_shuff)/np.sum(hist_shuff)
-#     # # hist_shuff_cells
-#     # hist_shuff_cells, _ = np.histogram(corrs_shuffled_cells, bins=bins, density=True)
-#     # cdf_shuff_cells = np.cumsum(hist_shuff_cells)/np.sum(hist_shuff_cells)
-#     # hist
-#     hist, _ = np.histogram(track, bins=bins, density=True)
-#     cdf = np.cumsum(hist)/np.sum(hist)
-
-#     # fdr
-#     fdr_linked = (cdf_shuff+1e-7)/(cdf+1e-7)
-#     # fdr_correlated = (cdf_shuff_cells+1e-7)/(cdf+1e-7)
-
-#     # get r_threshold
-#     r_threshold_linked = get_r_threshold_smart(bins, fdr_linked, fdr_threshold,)
-#     # r_threshold_correlated = get_r_threshold_smart(bins, fdr_correlated, fdr_threshold,)
-
-#     # stats
-#     if ~np.isnan(r_threshold_linked):
-#         # all sig info
-#         linked_table = pairs[label_cond][track<r_threshold_linked]
-#         # num_sig
-#         num_linked_pairs = len(linked_table)
-#         num_linked_genes = len(linked_table['gene'].unique())
-#         num_linked_enhs = len(linked_table['enh'].unique())
-#     else:
-#         num_linked_pairs, num_linked_genes, num_linked_enhs = np.nan, np.nan, np.nan
-#         linked_table = np.nan
-
-#     # if ~np.isnan(r_threshold_correlated):
-#     #     # all sig info
-#     #     correlated_table = pairs[label_cond][track<r_threshold_correlated]
-#     #     # num_sig
-#     #     num_correlated_pairs = len(correlated_table)
-#     #     num_correlated_genes = len(correlated_table['gene'].unique())
-#     #     num_correlated_enhs = len(correlated_table['enh'].unique())
-#     # else:
-#     #     num_correlated_pairs, num_correlated_genes, num_correlated_enhs = np.nan, np.nan, np.nan
-#     #     correlated_table = np.nan
-
-#     output = {
-#                 'dist_th': distance_threshold,
-#                 'num_total_pairs': num_total_pairs,
-#                 'num_total_genes': num_total_genes,
-#                 'num_total_enhs': num_total_enhs,
-
-#                 'r_th_linked': r_threshold_linked,
-#                 'num_linked_pairs': num_linked_pairs,
-#                 'num_linked_genes': num_linked_genes,
-#                 'num_linked_enhs': num_linked_enhs,
-#                 'linked_table': linked_table,
-
-#                 # 'r_th_correlated': r_threshold_correlated,
-#                 # 'num_correlated_pairs': num_correlated_pairs,
-#                 # 'num_correlated_genes': num_correlated_genes,
-#                 # 'num_correlated_enhs': num_correlated_enhs,
-#                 # 'correlated_table': correlated_table,
-#               }
-
-#     if return_cdf:
-#         output['bins'] = bins
-#         output['linked_cdf'] = cdf_shuff
-#         # output['correlated_cdf'] = cdf_shuff_cells
-#         return output
-#     else:
-#         return output
-
-
-# def get_r_threshold(bins, fdr, fdr_threshold, r_min, r_max):
-#     """given fdr function (bins, fdr) and fdr_threshold
-#     get r threshold for a given fdr_treshold
-#     """
-#     # get r_threshold
-#     # remove nan
-#     flag = 1 # default no solution
-
-#     isnan = np.isnan(fdr)
-#     _y = fdr[~isnan]
-#     _x = bins[1:][~isnan]
-
-#     # find r threshold
-#     f = lambda _x_func: np.interp(_x_func, _x, _y) - fdr_threshold
-#     if f(r_min)*f(r_max) < 0:
-#         sol = optimize.root_scalar(f, bracket=(r_min, r_max))
-#         if sol:
-#             r_threshold = sol.root
-#             flag = 0 # solution
-
-#     if flag == 1:
-#         r_threshold = np.nan
-#         print("failed to detect r_threshold:")
-#         flag = 1
-
-#     # if DEBUG_MODE and flag == 1:
-#     if DEBUG_MODE:
-#         fig, ax = plt.subplots()
-#         fig, ax = plt.subplots()
-#         ax.plot(bins, f(bins))
-#         ax2 = ax.twinx()
-#         ax2.plot(bins[1:], f(bins[1:]) - f(bins[:-1]), color='C1')
-#         plt.show()
-
-#     return r_threshold
