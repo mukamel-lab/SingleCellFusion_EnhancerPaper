@@ -11,27 +11,33 @@ Correspondence: [Eran A. Mukamel](mailto:emukamel@ucsd.edu) and [Fangming Xie](m
 # Getting started
 **System requirements**
 
-This package is tested using a Ubuntu 18.04.6 LTS (Bionic Beaver) server. However, we expect it can be operated under a wide range of systems.
-We recommend users to use a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to install dependencies.
+This package is tested using a Ubuntu 18.04.6 LTS (Bionic Beaver) server. However, we expect it can be operated under a wide range of systems, with some tweaking of dependencies.
+We recommend users to use a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to install dependencies. This requires users to pre-install [Anaconda](https://www.anaconda.com/products/individual).
 
 **Installation**
 
-After pre-installing Anaconda, run the following command to clone this repo and install dependencies.
+Run the following command to clone this repo and install dependencies.
 ```bash
 
 # clone this repo
 git clone https://github.com/FangmingXie/scf_enhancer_paper.git
 
 # create an conda env and install dependancies.
-cd scf_enhancer_paper
-conda env create -f environment_enhancer.yml
+cd SingleCellFusion_EnhancerPaper
+conda env create -f env.yml
 ```
+The installation of the conda environment takes less than 20 minutes. After installation, activate the environment using
+```bash
+conda activate conda_enhancer
+```
+
 **Demo**
 
-TBD
-
+`demo/data`
+`demo/script`
+The whole demo takes about xx minutes to run through.
 
 
 **Instructions for use**
 
-TBD
+- how to run your data
