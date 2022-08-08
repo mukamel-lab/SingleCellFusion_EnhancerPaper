@@ -55,7 +55,6 @@ To visualize the results, then run through the `visualize_correlation.ipynb` jup
 
 The whole demo takes about 5 minutes to run through.
 
-
 **Run your data**
 
 You need to replace our example data folder `demo/data` with your own data. As in `demo/data`, you would need:
